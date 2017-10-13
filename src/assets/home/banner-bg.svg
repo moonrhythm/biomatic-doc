@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="643" viewBox="0 0 1440 643">
+  <defs>
+    <linearGradient id="bannerbg-a" x1="100%" x2="0%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#50C1E3"/>
+      <stop offset="100%" stop-color="#657EFA"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#bannerbg-a)" fill-rule="nonzero" d="M0,0 L1440,0 L1440,643 C1200,643 960,643 720,643 C480,643 240,643 0,643 L0,0 Z"/>
+    <path fill="#2A2A2A" fill-opacity=".23" fill-rule="nonzero" d="M0,0 L1440,0 L1440,377.587227 C1200,554.529076 960,643 720,643 C480,643 240,608.94704 0,540.841121 L0,0 Z" opacity=".281"/>
+  </g>
+</svg>

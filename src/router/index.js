@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/containers/Home'
-import Document from '@/containers/Document'
+import Home from '@/containers/home/Home'
+import Document from '@/containers/document/Document'
 import Border from '@/components/atomic/Border'
 import BoxPosition from '@/components/atomic/BoxPosition'
 

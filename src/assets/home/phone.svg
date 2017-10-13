@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="509" viewBox="0 0 420 509">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="420" height="529" fill="#FFF" fill-rule="nonzero" rx="25"/>
+    <rect width="339" height="485" x="39" y="44" fill="#F0F0F0" fill-rule="nonzero"/>
+    <rect width="294" height="62" x="64" y="462" fill="#E1E1E1" fill-rule="nonzero" rx="1"/>
+    <rect width="292" height="60" x="62" y="460" stroke="#000" stroke-width="2" rx="2"/>
+    <rect width="296" height="37" x="64" y="368" fill="#FFF" fill-rule="nonzero"/>
+    <rect width="273" height="6" x="75" y="374" fill="#F3F3F3" fill-rule="nonzero"/>
+    <rect width="229" height="6" x="75" y="387" fill="#F3F3F3" fill-rule="nonzero"/>
+    <rect width="52" height="6" x="89" y="428" fill="#CECECE" fill-rule="nonzero"/>
+    <rect width="294" height="35" x="62" y="366" stroke="#333554" stroke-width="2" rx="2"/>
+    <rect width="124" height="31" x="234" y="417" fill="#9AFFBD" fill-rule="nonzero" rx="1"/>
+    <rect width="122" height="29" x="232" y="415" stroke="#333554" stroke-width="2" rx="3"/>
+    <rect width="296" height="90" x="64" y="268" fill="#FFF" fill-rule="nonzero" rx="2"/>
+    <rect width="229" height="7" x="119" y="276" fill="#F3F3F3" fill-rule="nonzero"/>
+    <rect width="273" height="6" x="75" y="322" fill="#F3F3F3" fill-rule="nonzero"/>
+    <rect width="229" height="6" x="75" y="336" fill="#F3F3F3" fill-rule="nonzero"/>
+    <rect width="100" height="7" x="119" y="291" fill="#F3F3F3" fill-rule="nonzero"/>
+    <rect width="32" height="31" x="75" y="275" fill="#B3D8F8" fill-rule="nonzero" rx="2"/>
+    <rect width="294" height="88" x="62" y="266" stroke="#333554" stroke-width="2" rx="2"/>
+    <rect width="339" height="207" x="39" y="44" fill="#FFF" fill-rule="nonzero"/>
+    <rect width="18" height="18" x="63" y="424" fill="#FFF" fill-rule="nonzero" rx="1"/>
+    <path stroke="#333554" stroke-linecap="round" d="M79,431.529412 L79,437.882353 L79,437.882353 C79,439.051897 78.0518971,440 76.8823529,440 L63.1176471,440 L63.1176471,440 C61.9481029,440 61,439.051897 61,437.882353 L61,424.117647 L61,424.117647 C61,422.948103 61.9481029,422 63.1176471,422 L63.1176471,422 L76.8823529,422 L76.8823529,422 C78.0518971,422 79,422.948103 79,424.117647 L79,424.117647"/>
+    <polyline stroke="#333554" stroke-linecap="round" stroke-width="2" points="65 428.792 71.137 435 83 423"/>
+    <rect width="339" height="20" x="39" y="43" fill="#CAD3FF" fill-opacity=".514" fill-rule="nonzero"/>
+    <rect width="339" height="485" x="39" y="43" stroke="#333554" stroke-width="2" rx="3"/>
+    <rect width="417" height="526" x="1.5" y="1.5" stroke="#000" stroke-width="3" rx="21"/>
+    <polygon fill="#CCCBFF" fill-opacity=".439" fill-rule="nonzero" points="144 200.207 173.196 170.869 194.31 192.087 239.179 147 280 186.831 280 209 144 208.587"/>
+    <circle cx="165.5" cy="132.5" r="14.5" fill="#CCCBFF" fill-opacity=".439" fill-rule="nonzero"/>
+  </g>
+</svg>
