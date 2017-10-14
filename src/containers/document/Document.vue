@@ -1,10 +1,7 @@
 <template>
   <div>
-    <header class="_bgcl-primary _cl-white _dp-f _fdrt-row _alit-ct">
-      <div class="_fs-4">Biomatic UI</div>
-    </header>
 
-    <div class="_dp-f _fdrt-r">
+    <div class="_dp-f _fdrt-r" style="padding-top: 60px">
 
       <div class="_pd-16px _bgcl-neutral-100 _w-256px">
         <div class="bio-accordion _mgbt-8px">
@@ -93,7 +90,7 @@
 </template>
 
 <script>
-export default {
-  name: 'Document'
-}
+  export default {
+    name: 'Document'
+  }
 </script>

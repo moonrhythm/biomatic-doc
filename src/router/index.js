@@ -21,7 +21,7 @@ export default new Router({
       component: Document,
       children: [
         {
-          path: '/atomic/border',
+          path: 'atomic/border',
           name: 'AtomicBorder',
           component: Border
         }

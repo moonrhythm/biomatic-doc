@@ -2,12 +2,7 @@
   <div>
     <HomeBanner class="_mgbt-64px" />
     <HomeBenefits class="_mgbt-64px" />
-    <div class="lo-container _mgbt-64px">
-      <div>Home</div>
-      <router-link :to="{ name: 'Document' }" class="bio-link -fancy">Document</router-link>
-      <router-link :to="{ name: 'AtomicBorder' }" class="bio-link -fancy">Border</router-link>
-      <div>World</div>
-    </div>
+    <HomeGettingStart />
   </div>
 
 </template>
@@ -15,12 +10,14 @@
 <script>
   import HomeBanner from './HomeBanner'
   import HomeBenefits from './HomeBenefits'
+  import HomeGettingStart from './HomeGettingStart'
   export default {
     name: 'Home',
 
     components: {
       HomeBanner,
-      HomeBenefits
+      HomeBenefits,
+      HomeGettingStart
     }
   }
 </script>

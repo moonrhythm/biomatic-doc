@@ -1,37 +1,60 @@
 <template>
   <div id="app">
-    <nav>
-      <div class="lo-container">
-        <div class="_dp-f _jtfct-spbtw">
-          <img class="logo" src="~@/assets/logo.svg" height="50" alt="logo">
-          <div>Hello</div>
-        </div>
-      </div>
-    </nav>
+
+    <TheNavbar
+      ref="TheNavBar"
+      :is-color="isNavbarColor"
+    />
     <router-view></router-view>
+    <TheFooter />
+
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
-</script>
+  import TheNavbar from '@/components/TheNavbar'
+  import TheFooter from '@/components/TheFooter'
 
-<style lang="scss" scoped>
-  nav {
-    position: fixed;
-    width: 100%;
-    height: 60px;
-    background-color: transparent;
-    z-index: 1;
+  export default {
+    name: 'App',
 
-    > .logo {
+    components: {
+      TheNavbar,
+      TheFooter
+    },
 
+    data () {
+      return {
+        isNavbarColor: false
+      }
+    },
+
+    watch: {
+      $route () {
+        this.initialNavbar()
+      }
+    },
+
+    mounted () {
+      this.initialNavbar()
+    },
+
+    methods: {
+      initialNavbar () {
+        window.removeEventListener('scroll', this.checkNavbarColor)
+        if (this.$route.path.indexOf('doc') !== -1) {
+          this.isNavbarColor = true
+        } else {
+          this.checkNavbarColor()
+          window.addEventListener('scroll', this.checkNavbarColor)
+        }
+      },
+      checkNavbarColor () {
+        this.isNavbarColor = (window.scrollY > 15)
+      }
     }
-
   }
-</style>
+</script>
 
 <style lang="scss">
 
