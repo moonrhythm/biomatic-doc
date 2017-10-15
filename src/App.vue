@@ -58,6 +58,10 @@
 
 <style lang="scss">
 
+  html {
+    touch-action: manipulation;
+  }
+
   ._font-main {
     font-family: 'Kanit', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   }

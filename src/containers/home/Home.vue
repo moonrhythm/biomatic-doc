@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HomeBanner class="_mgbt-64px" />
+    <HomeBanner class="_mgbt-32px _mgbt-64px-sm" />
     <HomeBenefits class="_mgbt-64px" />
     <HomeGettingStart />
   </div>

@@ -6,10 +6,10 @@
 
         <div class="_tal-ct _mgbt-24px">
           <h2 class="_cl-primary _lh-100pct _mgbt-8px">Quick Start</h2>
-          <p class="_fs-5 _opct-60">เริ่มต้นใช้งาน</p>
+          <p class="_fs-5 _opct-60">เริ่มต้นใช้งาน Biomatic</p>
         </div>
 
-        <div class="_bgcl-white _bdrd-8px u-rise _pd-8px _pd-32px-sm">
+        <div class="_bgcl-white _bdrd-4px u-rise _pdh-8px _pdv-32px _pd-32px-sm">
           <HomeGettingStartSetup />
           <HomeGettingStartBasic />
         </div>
