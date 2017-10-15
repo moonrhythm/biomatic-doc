@@ -46,7 +46,7 @@ export default {
     position: fixed;
     width: 100%;
     height: 60px;
-    z-index: 1;
+    z-index: 2;
     will-change: background-color;
     transition: all .6s ease;
     &.drop-shadow {
