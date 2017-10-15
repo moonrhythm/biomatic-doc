@@ -1,3 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1037" preserveAspectRatio="none" viewBox="0 0 1440 1037">
-  <polygon fill="#FFF" fill-rule="evenodd" points="1440 0 1440 413 0 1037 0 0"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="332" preserveAspectRatio="none" viewBox="0 0 1440 332">
+  <path fill="#FFF" fill-rule="evenodd" d="M1440,-6.82121026e-13 L1440,332 C1200,221.333333 960,166 720,166 C480,166 240,221.333333 0,332 L0,-6.82121026e-13 C190.488378,-6.82121026e-13 328.155044,-6.82121026e-13 413,-6.82121026e-13 C497.844956,-6.82121026e-13 840.178289,-6.82121026e-13 1440,-6.82121026e-13 Z" transform="rotate(-180 720 166)"/>
 </svg>

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <HomeBanner class="_mgbt-64px" /> -->
-    <!-- <HomeBenefits class="_mgbt-64px" /> -->
+    <HomeBanner class="_mgbt-64px" />
+    <HomeBenefits class="_mgbt-64px" />
     <HomeGettingStart />
   </div>
 

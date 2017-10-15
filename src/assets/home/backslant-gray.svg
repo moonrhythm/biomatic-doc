@@ -1,1 +1,9 @@
-<svg width="1440" height="1039" preserveAspectRatio="none" viewBox="0 0 1440 1039" xmlns="http://www.w3.org/2000/svg"><path d="M1440 0v413L0 1037V0z" fill="#FAFAFA" fill-rule="evenodd"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1037" preserveAspectRatio="none" viewBox="0 0 1440 1037">
+  <defs>
+    <linearGradient id="shape-a" x1="50%" x2="50%" y1="30.336%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="50%" stop-color="#ECF2FA"/>
+    </linearGradient>
+  </defs>
+  <polygon fill="url(#shape-a)" fill-rule="evenodd" points="1440 0 1440 413 0 1037 0 0"/>
+</svg>
