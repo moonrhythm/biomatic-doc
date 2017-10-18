@@ -1,18 +1,22 @@
 <template>
   <div class="home-banner lo-container">
-    <div class="lo-xs-12 lo-sm-6 _h-100pct _pdt-0px-sm">
+    <div class="lo-12 lo-6-sm _h-100pct _pdt-0px-sm">
 
       <div class="_als-ct _jtfs-ct _cl-white _tal-ct _tal-l-sm">
         <h1>Biomatic UI</h1>
         <p class="_mgbt-16px _fs-4">
-          CSS Framework ที่เขียนสนุกที่สุด <br>
+          CSS Framework ที่คล่องตัว และสนุกที่สุด <br>
           สำหรับทุกโปรเจคของคุณ
         </p>
-        <div class="bio-button -accent _fw-700 _w-256px _mgbt-8px _dp-ilb _dp-b-sm">
-          Download
-        </div>
+
+        <router-link :to="{ name: 'Document' }">
+          <div class="bio-button -accent _w-256px _mgbt-8px _dp-ilb _dp-b-sm">
+            <strong>เริ่มใช้งาน</strong>
+          </div>
+        </router-link>
+
         <div>
-          <small><strong>เวอร์ชั่นล่าสุด v0.5</strong></small>
+          <small>เวอร์ชั่นล่าสุด v0.5</small>
         </div>
       </div>
 

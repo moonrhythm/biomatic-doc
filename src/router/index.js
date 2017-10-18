@@ -16,7 +16,7 @@ export default new Router({
       component: Home
     },
     {
-      path: '/doc',
+      path: '/document',
       name: 'Document',
       component: Document,
       children: [
