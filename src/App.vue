@@ -2,18 +2,28 @@
   <div id="app">
 
     <TheNavbar
+      v-if="isShowNavbar"
       ref="TheNavBar"
       :is-color="isNavbarColor"
     />
-    <router-view></router-view>
-    <TheFooter />
+
+    <router-view
+      id="app-content"
+    ></router-view>
+
+    <TheFooter
+      v-if="isShowFooter"
+      ref="TheFooter"
+    />
 
   </div>
 </template>
 
 <script>
-  import TheNavbar from '@/components/TheNavbar'
-  import TheFooter from '@/components/TheFooter'
+  import {
+    TheNavbar,
+    TheFooter
+  } from '@/components/common'
 
   export default {
     name: 'App',
@@ -25,41 +35,84 @@
 
     data () {
       return {
-        isNavbarColor: false
+        isNavbarColor: false,
+        isShowNavbar: true,
+        isShowFooter: true
       }
     },
 
     watch: {
       $route () {
         this.initialNavbar()
+        this.initialFooter()
       }
     },
 
     mounted () {
       this.initialNavbar()
+      this.initialFooter()
     },
 
     methods: {
       initialNavbar () {
         window.removeEventListener('scroll', this.checkNavbarColor)
-        if (this.$route.path.indexOf('doc') !== -1) {
+        if (this.isDocumentPage()) {
           this.isNavbarColor = true
         } else {
           this.checkNavbarColor()
           window.addEventListener('scroll', this.checkNavbarColor)
         }
       },
+      initialFooter () {
+        this.isDocumentPage() ? this.footerHide() : this.footerShow()
+      },
       checkNavbarColor () {
         this.isNavbarColor = (window.scrollY > 15)
+      },
+      getFooterHeight () {
+        if (this.$refs.TheFooter) {
+          return this.$refs.TheFooter.$el.clientHeight
+        }
+      },
+      isDocumentPage () {
+        return this.$route.matched.filter(x => x.name === 'Document').length === 1
+      },
+      navbarShow () {
+        this.isShowNavbar = true
+      },
+      navbarHide () {
+        this.isShowNavbar = false
+      },
+      footerShow () {
+        this.isShowFooter = true
+      },
+      footerHide () {
+        this.isShowFooter = false
       }
     }
   }
 </script>
 
+<style lang="scss" scope>
+
+  // #app-content {
+  //   min-height: calc(100vh - 200px);
+  // }
+
+</style>
+
 <style lang="scss">
 
   html {
     touch-action: manipulation;
+  }
+
+  ::selection {
+    background: hsla(350, 100%, 60%, 0.5);
+  }
+
+  #app {
+    min-height: 100vh;
   }
 
   ._font-main {

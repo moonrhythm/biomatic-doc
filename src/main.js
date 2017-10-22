@@ -6,6 +6,12 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+// router.beforeEach((to, from, next) => {
+//   window.scrollTo(0, 0)
+//   console.log('%%%')
+//   next()
+// })
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -46,7 +46,7 @@
         • Responsive grid ใช้ Grid 12
       </p>
       <p class="_pdl-8px _mgbt-8px">
-        • มีสาม Breakpoints คือใช้เป็น Suffix คือ <code class="language-markup">-sm</code>, <code class="language-markup">-md</code> และ <code class="language-markup">-lg</code>
+        • Breakpoints มีสามขนาดใ ช้ Suffix เป็น <code class="language-markup">-sm</code>, <code class="language-markup">-md</code> และ <code class="language-markup">-lg</code>
       </p>
       <p class="_pdl-8px _mgbt-8px">
         • ใช้ Prefix <code class="language-markup">lo-</code> เช่น <code class="language-markup">lo-container</code>, <code class="language-markup">lo-4</code>, <code class="language-markup">lo-8-2</code> <code class="language-markup">lo-7-5-sm</code>
@@ -104,20 +104,45 @@
       <p class="_pdl-8px _mgbt-8px _cl-accent">
         <strong>Atomic Class</strong> <code class="language-markup">_*</code>
       </p>
-      <p class="_pdl-16px _mgbt-16px">
-        Work in progress <br>
-        <!-- ใช้สำหรับกำหนด Atomic Style ใส่ได้ทั่วไปกับทุก Element หรือ Components<br>
-
-        Class จะใช้ Prefix <code class="language-markup">_</code>
-        ตามด้วย คู่ของ ตัวย่อ Style และ Value เช่น <code class="language-markup">border-radius: 8px</code>
-        จะเป็น Atomic Class <code class="language-markup">_bdrd-8px</code> -->
+      <p class="_pdl-16px _mgbt-8px">
+        • ใช้กำหนดค่า Style ต่างๆ เพื่อสร้างการแสดงผลที่ต้องการ
       </p>
-      <!-- <div class="_tal-ct _pdl-16px">
-        <div class="_dp-f _fdrt-r _mgbt-8px">
-          <div class="bio-button _mgr-8px">bio-button</div>
-          <div class="bio-button _bdrd-8px">bio-button _bdrd-8px</div>
+      <p class="_pdl-16px _mgbt-8px">
+        • ใช้ Prefix <code class="language-markup">_*</code> และชื่อเป็นคู่ของ KEY-VALUE เช่น <code class="language-markup">_mgl-8px</code>
+      </p>
+      <p class="_pdl-16px _mgbt-8px">
+        • KEY จะเป็นตัวย่อตามพยางเสียงของชื่อ Style และ VALUE จะเป็นตัวย่อตามพยางเสียงของค่าของมัน <br>
+        <code class="language-markup">margin-left: 8px</code> เป็น <code class="language-markup">_mgr-8px</code> <br>
+        <code class="language-markup">padding-bottom: auto</code> เป็น <code class="language-markup">_pdbt-at</code> <br>
+        <code class="language-markup">width: 100%</code> เป็น <code class="language-markup">_w-100pct</code> <br>
+        <code class="language-markup">text-align: center</code> เป็น <code class="language-markup">_tal-ct</code>
+      </p>
+      <p class="_pdl-16px _mgbt-8px">
+        • สามารถใส่ Suffix ด่วยชื่อ Breakpoint <code class="language-markup">-sm</code>, <code class="language-markup">-md</code> และ <code class="language-markup">-lg</code>
+        เพื่อกำหนดการแสดงผลแบบ Responsive ได้ เช่น จอขนาดเล็กมี Margin 8px แต่จอขนาดใหญ่มี Margin 32px จะเป็น <code class="language-markup">_mg-8px _mg-32px-lg</code>
+      </p>
+      <div class="_pdl-24px-sm _mgbt-8px">
+        <pre>
+          <pre class="_mgbt-16px"><code class="language-markup">&lt;!--
+Text-align Left,
+Text-align Center on SMALL size or upper,
+Text-align Right on MEDIUM size or upper,
+Height of 32pixel,
+Positive background color,
+Warning background color on SMALL size or upper,
+--&gt;
+&lt;div class="_tal-l _tal-ct-sm _tal-r-md _h-32px _bgcl-positive _bgcl-warning-md"&gt;
+  item
+&lt;/div&gt;
+</code></pre>
+        </pre>
+        <div class="lo-12">
+          <div class="_tal-l _tal-ct-sm _tal-r-md _h-32px _bgcl-positive _bgcl-warning-sm">
+            item
+          </div>
         </div>
-      </div> -->
+      </div>
+
     </div>
   </div>
 </template>

@@ -9,14 +9,14 @@
           สำหรับทุกโปรเจคของคุณ
         </p>
 
-        <router-link :to="{ name: 'Document' }">
-          <div class="bio-button -accent _w-256px _mgbt-8px _dp-ilb _dp-b-sm">
+        <router-link :to="{ name: 'GettingStart' }">
+          <div class="bio-button -accent u-rise _w-256px _mgbt-8px _dp-ilb _dp-b-sm">
             <strong>เริ่มใช้งาน</strong>
           </div>
         </router-link>
 
         <div>
-          <small>เวอร์ชั่นล่าสุด v0.5</small>
+          <small>เวอร์ชั่นล่าสุด 0.0.2 (beta)</small>
         </div>
       </div>
 

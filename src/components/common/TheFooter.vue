@@ -1,5 +1,5 @@
 <template>
-  <div class="_bgcl-neutral-800">
+  <div class="_bgcl-neutral-800 _pst-rlt _zid-0">
     <div class="lo-container _cl-white">
       <div class="_pdv-32px _opct-80">
         <div class="_mgbt-8px">Made with &nbsp;<i class="fa fa-heart _cl-negative u-animation-pulse"></i>&nbsp; by BioMaRu</div>

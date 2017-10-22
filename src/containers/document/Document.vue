@@ -3,34 +3,44 @@
 
     <div class="_dp-f _fdrt-r" style="padding-top: 60px">
 
-      <div class="_pd-16px _bgcl-neutral-100 _w-256px">
+      <!-- Menu -->
+      <div id="menu" class="_dp-n _dp-b-sm _pst-f _pdh-16px _pdv-32px _bgcl-neutral-100 _w-256px _ovf-at">
         <div class="bio-accordion _mgbt-8px">
           <input id="accordion-getting-start" type="checkbox" checked>
-          <label for="accordion-getting-start"><strong>Getting Start</strong></label>
+          <label for="accordion-getting-start" class="_fs-5">
+            <strong>Getting Start</strong>
+          </label>
           <div class="bio-accordion-content _pdv-8px">
-            <a href="#" class="bio-link -item">Getting Start</a>
-            <a href="#" class="bio-link -item">Installation</a>
-            <a href="#" class="bio-link -item">SCSS Variables</a>
+            <router-link :to="{ name: 'Introduction' }" class="bio-link -item" :active-class="'-active'" exact>
+              เกี่ยวกับ Biomatic
+            </router-link>
+            <router-link :to="{ name: 'Installation' }" class="bio-link -item" :active-class="'-active'" exact>
+              วิธีติดตั้ง
+            </router-link>
+            <router-link :to="{ name: 'GettingStart' }" class="bio-link -item" :active-class="'-active'" exact>
+              เริ้มต้นใช้งาน
+            </router-link>
+            <!-- <a href="#" class="bio-link -item">SCSS Variables</a> -->
           </div>
         </div>
 
         <div class="bio-accordion _mgbt-8px">
           <input id="accordion-components" type="checkbox" checked>
-          <label for="accordion-components" class="_fw-500"><strong>Atomic</strong></label>
+          <label for="accordion-components" class="_fw-500 _fs-5"><strong>Atomic</strong></label>
           <div class="bio-accordion-content _pdv-8px">
             <a href="./doc/atomic/atomic.html" class="bio-link -item">About Atomic</a>
-            <router-link
+            <!-- <router-link
               :to="{ name: 'AtomicBorder' }"
               class="bio-link -item"
-              :active-class="'-active'">
+              :active-class="'-active'" exact>
               Border
-            </router-link>
-            <router-link
+            </router-link> -->
+            <!-- <router-link
               :to="{ name: 'AtomicBoxPosition' }"
               class="bio-link -item"
-              :active-class="'-active'">
+              :active-class="'-active'" exact>
               Box Position
-            </router-link>
+            </router-link> -->
             <a href="./doc/atomic/box-size.html" class="bio-link -item">Box Size</a>
             <a href="./doc/atomic/color.html" class="bio-link -item">Color</a>
             <a href="./doc/atomic/margin.html" class="bio-link -item">Margin</a>
@@ -50,7 +60,7 @@
 
         <div class="bio-accordion _mgbt-8px">
           <input id="accordion-components" type="checkbox" checked>
-          <label for="accordion-components" class="_fw-500"><strong>Components</strong></label>
+          <label for="accordion-components" class="_fw-500 _fs-5"><strong>Components</strong></label>
           <div class="bio-accordion-content _pdv-8px">
             <a href="./doc/components/component.html" class="bio-link -item">About Component</a>
             <a href="./doc/components/accordion.html" class="bio-link -item">Accordion</a>
@@ -65,7 +75,7 @@
 
         <div class="bio-accordion _mgbt-8px">
           <input id="accordion-layouts" type="checkbox" checked>
-          <label for="accordion-layouts" class="_fw-500"><strong>Layouts</strong></label>
+          <label for="accordion-layouts" class="_fw-500 _fs-5"><strong>Layouts</strong></label>
           <div class="bio-accordion-content _pdv-8px">
             <a href="./doc/layouts/layout.html" class="bio-link -item">About Layout</a>
             <a href="#" class="bio-link -item">Container</a>
@@ -75,14 +85,16 @@
 
         <div class="bio-accordion _mgbt-8px">
           <input id="accordion-utilities" type="checkbox" checked>
-          <label for="accordion-utilities" class="_fw-500"><strong>Utilities</strong></label>
+          <label for="accordion-utilities" class="_fw-500 _fs-5"><strong>Utilities</strong></label>
           <div class="bio-accordion-content _pdv-8px">
             <a href="./doc/utilities/utility.html" class="bio-link -item">About Utility</a>
             <a href="#" class="bio-link -item">Rise</a>
           </div>
         </div>
       </div>
-      <div class="_pdh-64px _pdv-32px _f-1">
+
+      <!-- Content -->
+      <div class="_pdh-16px _pdh-64px-sm _pdv-0px _mgl-0px _mgl-256px-sm _f-1">
         <router-view style="max-width: 800px"></router-view>
       </div>
     </div>
@@ -94,3 +106,11 @@
     name: 'Document'
   }
 </script>
+
+<style scoped>
+  #menu {
+    top: 60px;
+    height: calc(100vh - 50px);
+  }
+</style>
+
