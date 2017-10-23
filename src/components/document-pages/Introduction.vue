@@ -52,8 +52,8 @@
 
     <div class="_dp-f _jtfct-fe">
       <div>
-        <h6 class="_mgbt-4px">หัวข้อต่อไป</h6>
-        <router-link :to="{ name: 'Installation' }" class="bio-link -fancy">
+        <h6 class="_mgbt-8px">หัวข้อต่อไป</h6>
+        <router-link :to="{ name: 'Installation' }" class="bio-link -fancy _pd-8px _bdrd-2px">
           การติดตั้ง &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-6"></i>
         </router-link>
       </div>

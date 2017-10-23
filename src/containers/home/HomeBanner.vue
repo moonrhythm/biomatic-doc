@@ -9,7 +9,7 @@
           สำหรับทุกโปรเจคของคุณ
         </p>
 
-        <router-link :to="{ name: 'GettingStart' }">
+        <router-link :to="{ name: 'Introduction' }">
           <div class="bio-button -accent u-rise _w-256px _mgbt-8px _dp-ilb _dp-b-sm">
             <strong>เริ่มใช้งาน</strong>
           </div>
