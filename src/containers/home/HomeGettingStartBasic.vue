@@ -1,6 +1,10 @@
 <template>
   <div>
-    <div class="_mgbt-16px _fs-5 _tal-ct _tal-l-sm"><strong>Biomatic เบื้องต้น</strong></div>
+
+    <div class="_mgbt-16px _fs-5 _tal-ct _tal-l-sm">
+      <strong>Biomatic เบื้องต้น</strong>
+    </div>
+
     <div class="_bgcl-neutral-300 _bdrd-2px _pdh-16px _pdv-16px">
 
       <p class="_mgbt-16px _mgt-8px">

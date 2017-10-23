@@ -13,7 +13,7 @@
             <strong>Getting Start</strong>
           </router-link> -->
 
-          <router-link :to="{ name: 'GettingStart' }" class="bio-link -white _pdh-16px _mgr-32px">
+          <router-link :to="{ name: 'Introduction' }" class="bio-link -white _pdh-16px _mgr-32px">
             <strong>Document</strong>
           </router-link>
 
@@ -65,7 +65,7 @@
                     วิธีติดตั้ง
                   </router-link>
                   <router-link :to="{ name: 'GettingStart' }" class="bio-link -item _mgbt-4px" :active-class="'-active'" exact>
-                    เริ้มต้นใช้งาน
+                    เริ่มต้นใช้งาน
                   </router-link>
                 </div>
               </div>

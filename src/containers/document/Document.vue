@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <div class="_dp-f _fdrt-r" style="padding-top: 60px">
+    <div class="_dp-f _fdrt-r" style="padding-top: 60px;">
 
       <!-- Menu -->
       <div id="menu" class="_dp-n _dp-b-sm _pst-f _pdh-16px _pdv-32px _bgcl-neutral-100 _w-256px _ovf-at">
@@ -18,7 +18,10 @@
               วิธีติดตั้ง
             </router-link>
             <router-link :to="{ name: 'GettingStart' }" class="bio-link -item" :active-class="'-active'" exact>
-              เริ้มต้นใช้งาน
+              วิธีใช้งาน
+            </router-link>
+            <router-link :to="{ name: 'GettingStart' }" class="bio-link -item" :active-class="'-active'" exact>
+              คำถามที่พบบ่อย
             </router-link>
             <!-- <a href="#" class="bio-link -item">SCSS Variables</a> -->
           </div>
@@ -94,7 +97,7 @@
       </div>
 
       <!-- Content -->
-      <div class="_pdh-16px _pdh-64px-sm _pdv-0px _mgl-0px _mgl-256px-sm _f-1">
+      <div class="_pdh-16px _pdh-64px-sm _pdv-0px _mgl-0px _mgl-256px-sm _f-1 _ovf-at">
         <router-view style="max-width: 800px"></router-view>
       </div>
     </div>
