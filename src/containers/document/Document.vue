@@ -20,9 +20,9 @@
             <router-link :to="{ name: 'GettingStart' }" class="bio-link -item" :active-class="'-active'" exact>
               วิธีใช้งาน
             </router-link>
-            <router-link :to="{ name: 'GettingStart' }" class="bio-link -item" :active-class="'-active'" exact>
+            <!-- <router-link :to="{ name: 'GettingStart' }" class="bio-link -item" :active-class="'-active'" exact>
               คำถามที่พบบ่อย
-            </router-link>
+            </router-link> -->
             <!-- <a href="#" class="bio-link -item">SCSS Variables</a> -->
           </div>
         </div>

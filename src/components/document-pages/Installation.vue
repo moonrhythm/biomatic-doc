@@ -1,5 +1,5 @@
 <template>
-  <div class="_pdt-24px _pdbt-48px">
+  <div class="_pdv-48px">
 
     <div class="_fs-2 _fw-600 _lh-150pct _mgbt-16px">
       <a href="#getting-start" class="bio-link -primary"><strong>#</strong></a> การติดตั้ง
@@ -34,7 +34,7 @@
     </p>
 
 
-    <hr class="_opct-30 __mgbt-64px">
+    <hr class="_opct-30 _mgbt-32px">
 
     <div class="_dp-f _jtfct-spbtw">
       <div>

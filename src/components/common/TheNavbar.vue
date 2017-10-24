@@ -17,9 +17,9 @@
             <strong>Document</strong>
           </router-link>
 
-          <router-link to="https://github.com/BioMaRu/biomatic" target="_blank">
+          <a href="https://github.com/BioMaRu/biomatic" target="_blank">
             <i class="fa _fs-3 fa-github bio-link -white"></i>
-          </router-link>
+          </a>
 
         </div>
 
