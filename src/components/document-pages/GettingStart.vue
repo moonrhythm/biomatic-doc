@@ -9,13 +9,16 @@
       การใช้งาน Biomatic
     </div>
     <p class="_mgbt-64px _fs-6">
-      คุณสามารถใช้งาน Biomatic ได้หลากหลายรูปแบบ
+      คุณสามารถใช้งาน Biomatic ได้หลากหลายรูปแบบ <br>
+      <a class="bio-link -fancy" href="#getting-start-component">ใช้งาน Component Class</a> <br>
+      <a class="bio-link -fancy" href="#getting-start-layout">ใช้งาน Layout Class</a> <br>
+      <a class="bio-link -fancy" href="#getting-start-atomic">ใช้งาน Atomic Class</a> <br>
     </p>
 
     <!--
     *  1
     **************************-->
-
+    <div class="anchor" id="getting-start-component"></div>
     <div class="_fs-4 _fw-600 _lh-150pct _mgbt-16px">
       1.) ใช้งาน Component Class 🙂
     </div>
@@ -65,7 +68,7 @@
     <!--
     *  2
     **************************-->
-
+    <div class="anchor" id="getting-start-layout"></div>
     <div class="_fs-4 _fw-600 _lh-150pct _mgbt-16px">
       2.) การใช้งาน Layout Class 🙂
     </div>
@@ -170,7 +173,7 @@
     <!--
     *  3
     **************************-->
-
+    <div class="anchor" id="getting-start-atomic"></div>
     <div class="_fs-4 _fw-600 _lh-150pct _mgbt-16px">
       3.) การใช้งาน Layout Class
     </div>
@@ -209,4 +212,12 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  .anchor {
+    position: relative;
+    top: -86px;
+  }
+</style>
+
 
