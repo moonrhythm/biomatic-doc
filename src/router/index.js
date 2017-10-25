@@ -9,7 +9,8 @@ import Document from '@/containers/document/Document'
 import {
   Introduction,
   Installation,
-  GettingStart
+  GettingStart,
+  AtomicBorder
 } from '@/components/document-pages'
 
 Vue.use(Router)
@@ -47,12 +48,12 @@ export default new Router({
           path: 'getting-start',
           name: 'GettingStart',
           component: GettingStart
+        },
+        {
+          path: 'atomic/border',
+          name: 'AtomicBorder',
+          component: AtomicBorder
         }
-        // {
-        //   path: 'atomic/border',
-        //   name: 'AtomicBorder',
-        //   component: Border
-        // }
       ]
     }
   ]

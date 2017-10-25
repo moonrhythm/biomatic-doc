@@ -11,14 +11,14 @@
             <strong>Getting Start</strong>
           </label>
           <div class="bio-accordion-content _pdv-8px">
-            <router-link :to="{ name: 'Introduction' }" class="bio-link -item" :active-class="'-active'" exact>
+            <router-link :to="{ name: 'Introduction' }" class="bio-link -item" :active-class="'-active'">
               เกี่ยวกับ Biomatic
             </router-link>
-            <router-link :to="{ name: 'Installation' }" class="bio-link -item" :active-class="'-active'" exact>
+            <router-link :to="{ name: 'Installation' }" class="bio-link -item" :active-class="'-active'">
               วิธีติดตั้ง
             </router-link>
-            <router-link :to="{ name: 'GettingStart' }" class="bio-link -item" :active-class="'-active'" exact>
-              วิธีใช้งาน
+            <router-link :to="{ name: 'GettingStart' }" class="bio-link -item" :active-class="'-active'">
+              การใช้งาน
             </router-link>
             <!-- <router-link :to="{ name: 'GettingStart' }" class="bio-link -item" :active-class="'-active'" exact>
               คำถามที่พบบ่อย
@@ -31,13 +31,12 @@
           <input id="accordion-components" type="checkbox" checked>
           <label for="accordion-components" class="_fw-500 _fs-5"><strong>Atomic</strong></label>
           <div class="bio-accordion-content _pdv-8px">
-            <a href="./doc/atomic/atomic.html" class="bio-link -item">About Atomic</a>
-            <!-- <router-link
+            <router-link
               :to="{ name: 'AtomicBorder' }"
               class="bio-link -item"
               :active-class="'-active'" exact>
               Border
-            </router-link> -->
+            </router-link>
             <!-- <router-link
               :to="{ name: 'AtomicBoxPosition' }"
               class="bio-link -item"
