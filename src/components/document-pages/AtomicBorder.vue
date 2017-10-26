@@ -3,8 +3,8 @@
     <div class="_pdv-48px">
 
       <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
-      <a href="#getting-start" class="bio-link -primary"><strong>#</strong></a> Border
-    </div>
+        <a href="#atomic-border" class="bio-link -primary"><strong>#</strong></a> Border
+      </div>
 
       <p class="_mgbt-8px _fs-5">
         เป็น Atomic Class ที่ใช้จัดการ Style ที่เกี่ยวกับ Border
@@ -195,7 +195,7 @@
             </td>
             <td>
               <p>
-                <strong>Biomatic's variable Value: </strong> <br>
+                <strong>Biomatic's Color Value: </strong> <br>
                 <code class="_cl-accent">primary</code>
                 <code class="_cl-accent">accent</code>
                 <code class="_cl-accent">neutral</code>
@@ -370,7 +370,7 @@
                 <code class="_cl-accent">50pct</code>
               </p>
               <p>
-                <strong>Biomatic's variable Value: </strong> <br>
+                <strong>Biomatic's Color Value: </strong> <br>
                 <code class="_cl-accent">max</code> (9999px)
               </p>
             </td>

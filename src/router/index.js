@@ -13,7 +13,14 @@ import {
   AtomicBorder,
   AtomicBoxPosition,
   AtomicBoxSize,
-  AtomicColor
+  AtomicColor,
+  AtomicCursor,
+  AtomicDisplay,
+  AtomicFloat,
+  AtomicMargin,
+  AtomicOpacity,
+  AtomicPadding,
+  AtomicTypography
 } from '@/components/document-pages'
 
 Vue.use(Router)
@@ -71,6 +78,41 @@ export default new Router({
           path: 'atomic/color',
           name: 'AtomicColor',
           component: AtomicColor
+        },
+        {
+          path: 'atomic/cursor',
+          name: 'AtomicCursor',
+          component: AtomicCursor
+        },
+        {
+          path: 'atomic/display',
+          name: 'AtomicDisplay',
+          component: AtomicDisplay
+        },
+        {
+          path: 'atomic/float',
+          name: 'AtomicFloat',
+          component: AtomicFloat
+        },
+        {
+          path: 'atomic/margin',
+          name: 'AtomicMargin',
+          component: AtomicMargin
+        },
+        {
+          path: 'atomic/opacity',
+          name: 'AtomicOpacity',
+          component: AtomicOpacity
+        },
+        {
+          path: 'atomic/padding',
+          name: 'AtomicPadding',
+          component: AtomicPadding
+        },
+        {
+          path: 'atomic/typography',
+          name: 'AtomicTypography',
+          component: AtomicTypography
         }
       ]
     }

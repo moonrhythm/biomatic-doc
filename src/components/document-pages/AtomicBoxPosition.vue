@@ -3,7 +3,7 @@
     <div class="_pdv-48px">
 
       <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
-        <a href="#getting-start" class="bio-link -primary"><strong>#</strong></a> Box Position
+        <a href="#atomic-box-position" class="bio-link -primary"><strong>#</strong></a> Box Position
       </div>
 
       <p class="_mgbt-8px _fs-5">

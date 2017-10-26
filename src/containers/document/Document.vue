@@ -55,17 +55,53 @@
               :active-class="'-active'">
               Color
             </router-link>
-            <!-- <a href="./doc/atomic/margin.html" class="bio-link -item">Margin</a>
-            <a href="./doc/atomic/padding.html" class="bio-link -item">Padding</a>
-            <a href="./doc/atomic/typography.html" class="bio-link -item">Typography</a>
-            <a href="./doc/atomic/float.html" class="bio-link -item">Float</a>
-            <a href="./doc/atomic/cursor.html" class="bio-link -item">Cursor</a>
-            <a href="./doc/atomic/display.html" class="bio-link -item">Display</a>
+            <router-link
+              :to="{ name: 'AtomicCursor' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Cursor
+            </router-link>
+            <router-link
+              :to="{ name: 'AtomicDisplay' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Display
+            </router-link>
+            <router-link
+              :to="{ name: 'AtomicFloat' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Float
+            </router-link>
+            <router-link
+              :to="{ name: 'AtomicMargin' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Margin
+            </router-link>
+            <router-link
+              :to="{ name: 'AtomicOpacity' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Opacity
+            </router-link>
+            <router-link
+              :to="{ name: 'AtomicPadding' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Padding
+            </router-link>
+            <router-link
+              :to="{ name: 'AtomicTypography' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Typography
+            </router-link>
+            <!-- <a href="./doc/atomic/cursor.html" class="bio-link -item">Cursor</a>
             <a href="./doc/atomic/background.html" class="bio-link -item">Background[WIP]</a> -->
             <!-- <a href="./doc/atomic/typography.html" class="bio-link -item">Flexbox</a> -->
             <!-- <a href="./doc/atomic/typography.html" class="bio-link -item">Image (อัน object fit อ่ะ)</a> -->
-            <!-- <a href="./doc/atomic/opacity.html" class="bio-link -item">Opacity</a>
-            <a href="./doc/atomic/image.html" class="bio-link -item">Image[WIP]</a>
+            <!-- <a href="./doc/atomic/image.html" class="bio-link -item">Image[WIP]</a>
             <a href="./doc/atomic/alignment.html" class="bio-link -item">Alignment[WIP]</a> -->
           </div>
         </div>

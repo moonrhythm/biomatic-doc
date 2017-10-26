@@ -6,6 +6,13 @@ import AtomicBorder from './AtomicBorder'
 import AtomicBoxPosition from './AtomicBoxPosition'
 import AtomicBoxSize from './AtomicBoxSize'
 import AtomicColor from './AtomicColor'
+import AtomicCursor from './AtomicCursor'
+import AtomicDisplay from './AtomicDisplay'
+import AtomicFloat from './AtomicFloat'
+import AtomicMargin from './AtomicMargin'
+import AtomicOpacity from './AtomicOpacity'
+import AtomicPadding from './AtomicPadding'
+import AtomicTypography from './AtomicTypography'
 
 export {
   Introduction,
@@ -15,5 +22,12 @@ export {
   AtomicBorder,
   AtomicBoxPosition,
   AtomicBoxSize,
-  AtomicColor
+  AtomicColor,
+  AtomicCursor,
+  AtomicDisplay,
+  AtomicFloat,
+  AtomicMargin,
+  AtomicOpacity,
+  AtomicPadding,
+  AtomicTypography
 }
