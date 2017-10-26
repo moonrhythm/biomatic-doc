@@ -28,8 +28,8 @@
         </div>
 
         <div class="bio-accordion _mgbt-8px">
-          <input id="accordion-components" type="checkbox" checked>
-          <label for="accordion-components" class="_fw-500 _fs-5"><strong>Atomic</strong></label>
+          <input id="accordion-atomic" type="checkbox" checked>
+          <label for="accordion-atomic" class="_fw-500 _fs-5"><strong>Atomic</strong></label>
           <div class="bio-accordion-content _pdv-8px">
             <router-link
               :to="{ name: 'AtomicBorder' }"
@@ -49,19 +49,24 @@
               :active-class="'-active'">
               Box Size
             </router-link>
-            <a href="./doc/atomic/color.html" class="bio-link -item">Color</a>
-            <a href="./doc/atomic/margin.html" class="bio-link -item">Margin</a>
+            <router-link
+              :to="{ name: 'AtomicColor' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Color
+            </router-link>
+            <!-- <a href="./doc/atomic/margin.html" class="bio-link -item">Margin</a>
             <a href="./doc/atomic/padding.html" class="bio-link -item">Padding</a>
             <a href="./doc/atomic/typography.html" class="bio-link -item">Typography</a>
             <a href="./doc/atomic/float.html" class="bio-link -item">Float</a>
             <a href="./doc/atomic/cursor.html" class="bio-link -item">Cursor</a>
             <a href="./doc/atomic/display.html" class="bio-link -item">Display</a>
-            <a href="./doc/atomic/background.html" class="bio-link -item">Background[WIP]</a>
+            <a href="./doc/atomic/background.html" class="bio-link -item">Background[WIP]</a> -->
             <!-- <a href="./doc/atomic/typography.html" class="bio-link -item">Flexbox</a> -->
             <!-- <a href="./doc/atomic/typography.html" class="bio-link -item">Image (อัน object fit อ่ะ)</a> -->
-            <a href="./doc/atomic/opacity.html" class="bio-link -item">Opacity</a>
+            <!-- <a href="./doc/atomic/opacity.html" class="bio-link -item">Opacity</a>
             <a href="./doc/atomic/image.html" class="bio-link -item">Image[WIP]</a>
-            <a href="./doc/atomic/alignment.html" class="bio-link -item">Alignment[WIP]</a>
+            <a href="./doc/atomic/alignment.html" class="bio-link -item">Alignment[WIP]</a> -->
           </div>
         </div>
 
@@ -69,14 +74,14 @@
           <input id="accordion-components" type="checkbox" checked>
           <label for="accordion-components" class="_fw-500 _fs-5"><strong>Components</strong></label>
           <div class="bio-accordion-content _pdv-8px">
-            <a href="./doc/components/component.html" class="bio-link -item">About Component</a>
+            <!-- <a href="./doc/components/component.html" class="bio-link -item">About Component</a>
             <a href="./doc/components/accordion.html" class="bio-link -item">Accordion</a>
             <a href="./doc/components/breadcrumb.html" class="bio-link -item">Breadcrumb</a>
             <a href="./doc/components/button.html" class="bio-link -item">Button</a>
             <a href="./doc/components/card.html" class="bio-link -item">Card</a>
             <a href="./doc/components/form.html" class="bio-link -item">Form</a>
             <a href="./doc/components/message.html" class="bio-link -item">Message</a>
-            <a href="./doc/components/progress.html" class="bio-link -item">Progress</a>
+            <a href="./doc/components/progress.html" class="bio-link -item">Progress</a> -->
           </div>
         </div>
 
@@ -84,9 +89,9 @@
           <input id="accordion-layouts" type="checkbox" checked>
           <label for="accordion-layouts" class="_fw-500 _fs-5"><strong>Layouts</strong></label>
           <div class="bio-accordion-content _pdv-8px">
-            <a href="./doc/layouts/layout.html" class="bio-link -item">About Layout</a>
+            <!-- <a href="./doc/layouts/layout.html" class="bio-link -item">About Layout</a>
             <a href="#" class="bio-link -item">Container</a>
-            <a href="#" class="bio-link -item">Responsive Grid</a>
+            <a href="#" class="bio-link -item">Responsive Grid</a> -->
           </div>
         </div>
 
@@ -94,8 +99,8 @@
           <input id="accordion-utilities" type="checkbox" checked>
           <label for="accordion-utilities" class="_fw-500 _fs-5"><strong>Utilities</strong></label>
           <div class="bio-accordion-content _pdv-8px">
-            <a href="./doc/utilities/utility.html" class="bio-link -item">About Utility</a>
-            <a href="#" class="bio-link -item">Rise</a>
+            <!-- <a href="./doc/utilities/utility.html" class="bio-link -item">About Utility</a>
+            <a href="#" class="bio-link -item">Rise</a> -->
           </div>
         </div>
       </div>

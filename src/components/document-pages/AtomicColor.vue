@@ -2,7 +2,7 @@
   <div>
     <div class="_pdv-48px">
 
-      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
+      <!-- <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
         <a href="#getting-start" class="bio-link -primary"><strong>#</strong></a> Box Size
       </div>
 
@@ -180,7 +180,7 @@
             Color &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
           </router-link>
         </div>
-      </div>
+      </div> -->
 
     </div>
 
@@ -191,7 +191,7 @@
 import Prism from 'prismjs'
 
 export default {
-  name: 'AtomicBoxSize',
+  name: 'AtomicColor',
 
   mounted () {
     Prism.highlightAll()

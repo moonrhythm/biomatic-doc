@@ -12,7 +12,8 @@ import {
   GettingStart,
   AtomicBorder,
   AtomicBoxPosition,
-  AtomicBoxSize
+  AtomicBoxSize,
+  AtomicColor
 } from '@/components/document-pages'
 
 Vue.use(Router)
@@ -65,6 +66,11 @@ export default new Router({
           path: 'atomic/box-size',
           name: 'AtomicBoxSize',
           component: AtomicBoxSize
+        },
+        {
+          path: 'atomic/color',
+          name: 'AtomicColor',
+          component: AtomicColor
         }
       ]
     }
