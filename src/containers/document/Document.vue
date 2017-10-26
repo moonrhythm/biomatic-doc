@@ -32,6 +32,12 @@
           <label for="accordion-atomic" class="_fw-500 _fs-5"><strong>Atomic</strong></label>
           <div class="bio-accordion-content _pdv-8px">
             <router-link
+              :to="{ name: 'AtomicAlignment' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Alignment
+            </router-link>
+            <router-link
               :to="{ name: 'AtomicBorder' }"
               class="bio-link -item"
               :active-class="'-active'">
@@ -97,8 +103,8 @@
               :active-class="'-active'">
               Typography
             </router-link>
-            <!-- <a href="./doc/atomic/cursor.html" class="bio-link -item">Cursor</a>
-            <a href="./doc/atomic/background.html" class="bio-link -item">Background[WIP]</a> -->
+
+            <!-- <a href="./doc/atomic/background.html" class="bio-link -item">Background[WIP]</a> -->
             <!-- <a href="./doc/atomic/typography.html" class="bio-link -item">Flexbox</a> -->
             <!-- <a href="./doc/atomic/typography.html" class="bio-link -item">Image (อัน object fit อ่ะ)</a> -->
             <!-- <a href="./doc/atomic/image.html" class="bio-link -item">Image[WIP]</a>

@@ -2,6 +2,7 @@ import Introduction from './Introduction'
 import Installation from './Installation'
 import GettingStart from './GettingStart'
 
+import AtomicAlignment from './AtomicAlignment'
 import AtomicBorder from './AtomicBorder'
 import AtomicBoxPosition from './AtomicBoxPosition'
 import AtomicBoxSize from './AtomicBoxSize'
@@ -19,6 +20,7 @@ export {
   Installation,
   GettingStart,
 
+  AtomicAlignment,
   AtomicBorder,
   AtomicBoxPosition,
   AtomicBoxSize,

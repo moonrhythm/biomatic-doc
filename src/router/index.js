@@ -10,6 +10,7 @@ import {
   Introduction,
   Installation,
   GettingStart,
+  AtomicAlignment,
   AtomicBorder,
   AtomicBoxPosition,
   AtomicBoxSize,
@@ -58,6 +59,11 @@ export default new Router({
           path: 'getting-start',
           name: 'GettingStart',
           component: GettingStart
+        },
+        {
+          path: 'atomic/alignment',
+          name: 'AtomicAlignment',
+          component: AtomicAlignment
         },
         {
           path: 'atomic/border',

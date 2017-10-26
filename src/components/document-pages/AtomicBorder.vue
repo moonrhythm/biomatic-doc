@@ -425,14 +425,14 @@
       <div class="_dp-f _jtfct-spbtw">
         <div>
           <h5 class="_mgbt-16px">ก่อนหน้า</h5>
-          <router-link :to="{ name: 'GettingStart' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
-            <i class="fa fa-long-arrow-left _fs-5"></i>&nbsp;&nbsp;การใช้งาน
+          <router-link :to="{ name: 'AtomicAlignment' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
+            <i class="fa fa-long-arrow-left _fs-5"></i>&nbsp;&nbsp; Alignment
           </router-link>
         </div>
         <div>
           <h5 class="_mgbt-16px _tal-r">ต่อไป</h5>
-          <router-link :to="{ name: 'AtomicBoxSizing' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
-            Box Size &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
+          <router-link :to="{ name: 'AtomicBoxPosition' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
+            Box Position &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
           </router-link>
         </div>
       </div>
