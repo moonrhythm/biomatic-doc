@@ -23,7 +23,7 @@
     **************************-->
     <div class="anchor" id="getting-start-component"></div>
     <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
-      1.) ใช้งาน Component Class ✨✨
+      <a href="#getting-start-component" class="bio-link -primary"><strong>#</strong></a> ใช้งาน Component Class ✨✨
     </div>
     <p class="_mgbt-16px _fs-5">
       Component Class ใช้แสดงผล Elements พื้นฐาน เช่น
@@ -82,7 +82,7 @@
     **************************-->
     <div class="anchor" id="getting-start-layout"></div>
     <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
-      2.) การใช้งาน Layout Class ✨✨
+      <a href="#getting-start-layout" class="bio-link -primary"><strong>#</strong></a> การใช้งาน Layout Class ✨✨
     </div>
     <p class="_mgbt-16px _fs-5">
       Responsive Grid Layout เป็นเทคนิคพื้นฐานที่ใช้จัดการ Layout สำหรับหลายขนาดหน้าจอ
@@ -223,7 +223,7 @@
     **************************-->
     <div class="anchor" id="getting-start-atomic"></div>
     <div class="_fs-4 _fw-600 _lh-150pct _mgbt-16px">
-      3.) การใช้งาน Atomic Class ✨✨
+      <a href="#getting-start-atomic" class="bio-link -primary"><strong>#</strong></a> การใช้งาน Atomic Class ✨✨
     </div>
     <p class="_mgbt-16px _fs-5">
       Atomic Class เปรียบเสมือนกล่องเครื่องมือที่คุณใช้งานบ่อยใน Biomatic เป็น Class ที่ใช้กำหนด Style เพียงอย่างใดอย่างหนึ่ง
@@ -318,7 +318,7 @@ border-radius: 0px (When medium breakpoint or upper)
     **************************-->
     <div class="anchor" id="getting-start-utility"></div>
     <div class="_fs-4 _fw-600 _lh-150pct _mgbt-16px">
-      3.) การใช้งาน Utility Class ✨✨
+      <a href="#getting-start-utility" class="bio-link -primary"><strong>#</strong></a> การใช้งาน Utility Class ✨✨
     </div>
     <p class="_mgbt-16px _fs-5">
       Utility Class ใช้สำหรับกำหนดลักษณะต่างๆ ที่ Biomatic เตรียมไว้ เช่น Animation, Hover behavior
@@ -334,8 +334,6 @@ border-radius: 0px (When medium breakpoint or upper)
     </div>
 
     <hr class="_opct-30 _mgbt-32px">
-
-
 
     <div class="_dp-f _jtfct-spbtw">
       <div>
@@ -366,12 +364,5 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-  .anchor {
-    position: relative;
-    top: -86px;
-  }
-</style>
 
 

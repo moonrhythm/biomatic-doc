@@ -3,8 +3,8 @@
     <div class="_pdv-48px">
 
       <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
-      <a href="#getting-start" class="bio-link -primary"><strong>#</strong></a> Border
-    </div>
+        <a href="#getting-start" class="bio-link -primary"><strong>#</strong></a> Border
+      </div>
 
       <p class="_mgbt-8px _fs-5">
         เป็น Atomic Class ที่ใช้จัดการ Style ที่เกี่ยวกับ Border
@@ -446,7 +446,7 @@
 import Prism from 'prismjs'
 
 export default {
-  name: 'AtomicBorder',
+  name: 'AtomicBoxSize',
 
   mounted () {
     Prism.highlightAll()

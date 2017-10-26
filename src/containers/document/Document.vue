@@ -34,16 +34,21 @@
             <router-link
               :to="{ name: 'AtomicBorder' }"
               class="bio-link -item"
-              :active-class="'-active'" exact>
+              :active-class="'-active'">
               Border
             </router-link>
-            <!-- <router-link
+            <router-link
               :to="{ name: 'AtomicBoxPosition' }"
               class="bio-link -item"
-              :active-class="'-active'" exact>
+              :active-class="'-active'">
               Box Position
-            </router-link> -->
-            <a href="./doc/atomic/box-size.html" class="bio-link -item">Box Size</a>
+            </router-link>
+            <router-link
+              :to="{ name: 'AtomicBoxSize' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Box Size
+            </router-link>
             <a href="./doc/atomic/color.html" class="bio-link -item">Color</a>
             <a href="./doc/atomic/margin.html" class="bio-link -item">Margin</a>
             <a href="./doc/atomic/padding.html" class="bio-link -item">Padding</a>

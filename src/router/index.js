@@ -5,12 +5,14 @@ import Router from 'vue-router'
 import Home from '@/containers/home/Home'
 import Document from '@/containers/document/Document'
 
-// Document Fragment
+// Document
 import {
   Introduction,
   Installation,
   GettingStart,
-  AtomicBorder
+  AtomicBorder,
+  AtomicBoxPosition,
+  AtomicBoxSize
 } from '@/components/document-pages'
 
 Vue.use(Router)
@@ -53,6 +55,16 @@ export default new Router({
           path: 'atomic/border',
           name: 'AtomicBorder',
           component: AtomicBorder
+        },
+        {
+          path: 'atomic/box-position',
+          name: 'AtomicBoxPosition',
+          component: AtomicBoxPosition
+        },
+        {
+          path: 'atomic/box-size',
+          name: 'AtomicBoxSize',
+          component: AtomicBoxSize
         }
       ]
     }
