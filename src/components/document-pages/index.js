@@ -2,6 +2,10 @@ import Introduction from './Introduction'
 import Installation from './Installation'
 import GettingStart from './GettingStart'
 
+import ComponentAccordion from './ComponentAccordion'
+import ComponentBreadcrumb from './ComponentBreadcrumb'
+import ComponentButton from './ComponentButton'
+
 import AtomicAlignment from './AtomicAlignment'
 import AtomicBorder from './AtomicBorder'
 import AtomicBoxPosition from './AtomicBoxPosition'
@@ -19,6 +23,10 @@ export {
   Introduction,
   Installation,
   GettingStart,
+
+  ComponentAccordion,
+  ComponentBreadcrumb,
+  ComponentButton,
 
   AtomicAlignment,
   AtomicBorder,

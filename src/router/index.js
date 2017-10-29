@@ -10,6 +10,11 @@ import {
   Introduction,
   Installation,
   GettingStart,
+
+  ComponentAccordion,
+  ComponentBreadcrumb,
+  ComponentButton,
+
   AtomicAlignment,
   AtomicBorder,
   AtomicBoxPosition,
@@ -60,6 +65,25 @@ export default new Router({
           name: 'GettingStart',
           component: GettingStart
         },
+
+        // Component
+        {
+          path: 'component/accordion',
+          name: 'ComponentAccordion',
+          component: ComponentAccordion
+        },
+        {
+          path: 'component/breadcrumb',
+          name: 'ComponentBreadcrumb',
+          component: ComponentBreadcrumb
+        },
+        {
+          path: 'component/button',
+          name: 'ComponentButton',
+          component: ComponentButton
+        },
+
+        // Atomic
         {
           path: 'atomic/alignment',
           name: 'AtomicAlignment',
