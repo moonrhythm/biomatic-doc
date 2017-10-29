@@ -5,7 +5,7 @@
 
       <!-- Menu -->
       <div id="menu" class="_dp-n _dp-b-sm _pst-f _pdh-16px _pdv-32px _bgcl-neutral-100 _w-256px _ovf-at">
-        <div class="bio-accordion _mgbt-8px">
+        <div class="bio-accordion _mgbt-24px">
           <input id="accordion-getting-start" type="checkbox" checked>
           <label for="accordion-getting-start" class="_fs-5">
             <strong>Getting Start</strong>
@@ -27,7 +27,7 @@
           </div>
         </div>
 
-        <div class="bio-accordion _mgbt-8px">
+        <div class="bio-accordion _mgbt-24px">
           <input id="accordion-components" type="checkbox" checked>
           <label for="accordion-components" class="_fw-500 _fs-5"><strong>Components</strong></label>
           <div class="bio-accordion-content _pdv-8px">
@@ -49,16 +49,19 @@
               :active-class="'-active'">
               Button
             </router-link>
-            <!-- <a href="./doc/components/breadcrumb.html" class="bio-link -item">Breadcrumb</a>
-            <a href="./doc/components/button.html" class="bio-link -item">Button</a>
-            <a href="./doc/components/card.html" class="bio-link -item">Card</a>
-            <a href="./doc/components/form.html" class="bio-link -item">Form</a>
+            <router-link
+              :to="{ name: 'ComponentCard' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Card
+            </router-link>
+            <!-- <a href="./doc/components/form.html" class="bio-link -item">Form</a>
             <a href="./doc/components/message.html" class="bio-link -item">Message</a>
             <a href="./doc/components/progress.html" class="bio-link -item">Progress</a> -->
           </div>
         </div>
 
-        <div class="bio-accordion _mgbt-8px">
+        <div class="bio-accordion _mgbt-24px">
           <input id="accordion-atomic" type="checkbox" checked>
           <label for="accordion-atomic" class="_fw-500 _fs-5"><strong>Atomic</strong></label>
           <div class="bio-accordion-content _pdv-8px">

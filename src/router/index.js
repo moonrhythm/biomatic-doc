@@ -14,6 +14,7 @@ import {
   ComponentAccordion,
   ComponentBreadcrumb,
   ComponentButton,
+  ComponentCard,
 
   AtomicAlignment,
   AtomicBorder,
@@ -81,6 +82,11 @@ export default new Router({
           path: 'component/button',
           name: 'ComponentButton',
           component: ComponentButton
+        },
+        {
+          path: 'component/card',
+          name: 'ComponentCard',
+          component: ComponentCard
         },
 
         // Atomic

@@ -5,6 +5,7 @@ import GettingStart from './GettingStart'
 import ComponentAccordion from './ComponentAccordion'
 import ComponentBreadcrumb from './ComponentBreadcrumb'
 import ComponentButton from './ComponentButton'
+import ComponentCard from './ComponentCard'
 
 import AtomicAlignment from './AtomicAlignment'
 import AtomicBorder from './AtomicBorder'
@@ -27,6 +28,7 @@ export {
   ComponentAccordion,
   ComponentBreadcrumb,
   ComponentButton,
+  ComponentCard,
 
   AtomicAlignment,
   AtomicBorder,
