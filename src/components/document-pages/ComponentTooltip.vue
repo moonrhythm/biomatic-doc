@@ -32,7 +32,7 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">.bio-message</code>
+                <code class="_cl-accent">.bio-tooltip</code>
               </p>
             </td>
             <td>
