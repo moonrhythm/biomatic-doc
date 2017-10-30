@@ -9,6 +9,9 @@ import ComponentCard from './ComponentCard'
 import ComponentForm from './ComponentForm'
 import ComponentMessage from './ComponentMessage'
 import ComponentProgress from './ComponentProgress'
+import ComponentTooltip from './ComponentTooltip'
+
+import LayoutResponsiveGrid from './LayoutResponsiveGrid'
 
 import AtomicAlignment from './AtomicAlignment'
 import AtomicBorder from './AtomicBorder'
@@ -35,6 +38,9 @@ export {
   ComponentForm,
   ComponentMessage,
   ComponentProgress,
+  ComponentTooltip,
+
+  LayoutResponsiveGrid,
 
   AtomicAlignment,
   AtomicBorder,

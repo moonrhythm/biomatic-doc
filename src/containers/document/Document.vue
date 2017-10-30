@@ -73,6 +73,12 @@
               :active-class="'-active'">
               Progress
             </router-link>
+            <router-link
+              :to="{ name: 'ComponentTooltip' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Tooltip
+            </router-link>
           </div>
         </div>
 
@@ -165,6 +171,13 @@
           <input id="accordion-layouts" type="checkbox" checked>
           <label for="accordion-layouts" class="_fw-500 _fs-5"><strong>Layouts</strong></label>
           <div class="bio-accordion-content _pdv-8px">
+
+            <router-link
+              :to="{ name: 'LayoutResponsiveGrid' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Responsive Grid
+            </router-link>
             <!-- <a href="./doc/layouts/layout.html" class="bio-link -item">About Layout</a>
             <a href="#" class="bio-link -item">Container</a>
             <a href="#" class="bio-link -item">Responsive Grid</a> -->

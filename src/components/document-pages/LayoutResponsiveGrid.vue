@@ -2,13 +2,13 @@
     <div class="_pdv-48px">
 
       <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
-        <a href="#component-progress" class="bio-link -primary"><strong>#</strong></a> Progress
+        <a href="#layout-responsive-grid" class="bio-link -primary"><strong>#</strong></a> Responsive Grid
       </div>
 
-      <p class="_mgbt-16px _fs-5">
-        Progress ใช้สำหรับแสดงปริมาณการกำเนินการ
+      <p class="_mgbt-ๅุpx _fs-5">
+        Responsive Grid
       </p>
-      <p class="_mgbt-64px _fs-5">
+      <!-- <p class="_mgbt-64px _fs-5">
         Progress ใช้งาน Class <code class="_cl-accent">.bio-progress</code>
         บน Element <code class="_cl-accent">&lt;progress&gt;</code> เพียงอย่างเดียว
       </p>
@@ -17,9 +17,9 @@
       </p>
       <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
         <li>• <code class="_cl-accent">.bio-progress</code></li>
-      </ul>
+      </ul> -->
 
-      <p class="_mgbt-8px _fs-5">
+      <!-- <p class="_mgbt-8px _fs-5">
         <strong>Options</strong>
       </p>
       <table class="bio-table _mgbt-64px">
@@ -51,9 +51,9 @@
             </td>
           </tr>
         </tbody>
-      </table>
+      </table> -->
 
-      <p class="_mgbt-8px _fs-5">
+      <!-- <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน</strong>
       </p>
       <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Progress --&gt;
@@ -64,9 +64,9 @@
 &lt;progress class="bio-progress -warning" value="50" max="100"&gt;&lt;/progress&gt;
 &lt;progress class="bio-progress -info" value="60" max="100"&gt;&lt;/progress&gt;
 &lt;progress class="bio-progress -dark" value="70" max="100"&gt;&lt;/progress&gt;
-&lt;progress class="bio-progress -black" value="80" max="100"&gt;&lt;/progress&gt;</code></pre>
+&lt;progress class="bio-progress -black" value="80" max="100"&gt;&lt;/progress&gt;</code></pre> -->
 
-      <div class="u-panel _mgbt-64px">
+      <!-- <div class="u-panel _mgbt-64px">
         <progress class="bio-progress -primary _mgbt-8px" value="10" max="100"></progress>
         <progress class="bio-progress -accent _mgbt-8px" value="20" max="100"></progress>
         <progress class="bio-progress -positive _mgbt-8px" value="30" max="100"></progress>
@@ -75,9 +75,9 @@
         <progress class="bio-progress -info _mgbt-8px" value="60" max="100"></progress>
         <progress class="bio-progress -dark _mgbt-8px" value="70" max="100"></progress>
         <progress class="bio-progress -black" value="80" max="100"></progress>
-      </div>
+      </div> -->
 
-      <p class="_mgbt-8px _fs-5">
+      <!-- <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน รูปแบบอื่น</strong>
       </p>
       <pre class="_mgbt-16px"><code class="language-markup">&lt;progress class="bio-progress _h-1px" value="20" max="100"&gt;&lt;/progress&gt;
@@ -86,9 +86,9 @@
 &lt;progress class="bio-progress _h-8px" value="20" max="100"&gt;&lt;/progress&gt;
 &lt;progress class="bio-progress _h-16px" value="20" max="100"&gt;&lt;/progress&gt;
 &lt;progress class="bio-progress _h-32px" value="20" max="100"&gt;&lt;/progress&gt;
-&lt;progress class="bio-progress _h-64px" value="20" max="100"&gt;&lt;/progress&gt;</code></pre>
+&lt;progress class="bio-progress _h-64px" value="20" max="100"&gt;&lt;/progress&gt;</code></pre> -->
 
-      <div class="u-panel _mgbt-64px">
+      <!-- <div class="u-panel _mgbt-64px">
         <progress class="bio-progress _mgbt-8px _h-1px" value="20" max="100"></progress>
         <progress class="bio-progress _mgbt-8px _h-2px" value="20" max="100"></progress>
         <progress class="bio-progress _mgbt-8px _h-4px" value="20" max="100"></progress>
@@ -96,7 +96,7 @@
         <progress class="bio-progress _mgbt-8px _h-16px" value="20" max="100"></progress>
         <progress class="bio-progress _mgbt-8px _h-32px" value="20" max="100"></progress>
         <progress class="bio-progress _h-64px" value="20" max="100"></progress>
-      </div>
+      </div> -->
 
 
       <hr class="_opct-30 _mgbt-32px">
@@ -125,7 +125,7 @@
 import Prism from 'prismjs'
 
 export default {
-  name: 'ComponentProgress',
+  name: 'LayoutResponsiveGrid',
 
   mounted () {
     Prism.highlightAll()

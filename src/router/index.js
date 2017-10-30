@@ -18,6 +18,9 @@ import {
   ComponentForm,
   ComponentMessage,
   ComponentProgress,
+  ComponentTooltip,
+
+  LayoutResponsiveGrid,
 
   AtomicAlignment,
   AtomicBorder,
@@ -105,6 +108,18 @@ export default new Router({
           path: 'component/progress',
           name: 'ComponentProgress',
           component: ComponentProgress
+        },
+        {
+          path: 'component/tooltip',
+          name: 'ComponentTooltip',
+          component: ComponentTooltip
+        },
+
+        // Layout
+        {
+          path: 'layout/responsive-grid',
+          name: 'LayoutResponsiveGrid',
+          component: LayoutResponsiveGrid
         },
 
         // Atomic
