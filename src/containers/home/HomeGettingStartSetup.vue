@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="_mgbt-16px _fs-5 _tal-ct _tal-l-sm"><strong>วิธีติดตั้ง Biomatic</strong></div>
+    <div class="_mgbt-16px _fs-3 _tal-ct _tal-l-sm"><strong>วิธีติดตั้ง Biomatic</strong></div>
     <div class="_bgcl-neutral-300 _bdrd-2px _pdh-16px _pdv-16px _mgbt-64px">
 
       <p class="_mgbt-16px _mgt-8px"><strong>วิธีที่หนึ่ง – </strong> <a class="bio-link -fancy" href="https://github.com/BioMaRu/biomatic/releases/download/0.0.2/biomatic.css.zip">ดาวน์โหลด CSS</a> และลิงค์ไปยัง Project ของของคุณด้วย</p>
