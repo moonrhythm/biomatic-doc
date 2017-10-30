@@ -16,14 +16,6 @@
         <li>• <code class="_cl-accent">.bio-button</code></li>
       </ul>
 
-      <!-- <div class="bio-message -info _fs-6 _mgbt-64px">
-        <p>
-          <strong>คำแนะนำ</strong> – เพื่อความเหมาะสม เราแนะนำให้คุณใช้ <code class="_cl-accent">.bio-button</code>
-          ที่ <code class="_cl-accent">&lt;div&gt;</code> หรือ
-          <code class="_cl-accent">&lt;input type="submit"&gt;</code>
-        </p>
-      </div> -->
-
       <p class="_mgbt-8px _fs-5">
         <strong>Options</strong>
       </p>

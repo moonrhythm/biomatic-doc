@@ -15,6 +15,9 @@ import {
   ComponentBreadcrumb,
   ComponentButton,
   ComponentCard,
+  ComponentForm,
+  ComponentMessage,
+  ComponentProgress,
 
   AtomicAlignment,
   AtomicBorder,
@@ -87,6 +90,21 @@ export default new Router({
           path: 'component/card',
           name: 'ComponentCard',
           component: ComponentCard
+        },
+        {
+          path: 'component/input',
+          name: 'ComponentForm',
+          component: ComponentForm
+        },
+        {
+          path: 'component/message',
+          name: 'ComponentMessage',
+          component: ComponentMessage
+        },
+        {
+          path: 'component/progress',
+          name: 'ComponentProgress',
+          component: ComponentProgress
         },
 
         // Atomic

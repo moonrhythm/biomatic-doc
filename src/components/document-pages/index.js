@@ -6,6 +6,9 @@ import ComponentAccordion from './ComponentAccordion'
 import ComponentBreadcrumb from './ComponentBreadcrumb'
 import ComponentButton from './ComponentButton'
 import ComponentCard from './ComponentCard'
+import ComponentForm from './ComponentForm'
+import ComponentMessage from './ComponentMessage'
+import ComponentProgress from './ComponentProgress'
 
 import AtomicAlignment from './AtomicAlignment'
 import AtomicBorder from './AtomicBorder'
@@ -29,6 +32,9 @@ export {
   ComponentBreadcrumb,
   ComponentButton,
   ComponentCard,
+  ComponentForm,
+  ComponentMessage,
+  ComponentProgress,
 
   AtomicAlignment,
   AtomicBorder,

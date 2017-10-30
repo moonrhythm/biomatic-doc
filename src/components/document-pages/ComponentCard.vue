@@ -6,28 +6,26 @@
       </div>
 
       <p class="_mgbt-64px _fs-5">
-        Card ใช้สำหรับแสดงผลกลุ่มของ Content ในลักษณะ Card
+        Card ใช้สำหรับแสดงผลกลุ่มของ Content ในลักษณะ Card รูปแบบต่างๆ
       </p>
+
+      <div class="bio-message -warning _fs-6 _mgbt-64px">
+        <p>
+          <strong>ข้อควรระวัง</strong> – Card สร้างโดยใช้ CSS Grid จึง Support เฉพาะ <a class="bio-link -fancy" href="https://caniuse.com/#feat=css-grid" target="_blank">Modern Browser</a> เท่านั้น 😖
+        </p>
+      </div>
 
       <p class="_mgbt-8px _fs-5">
         <strong>Class ที่เกี่ยวข้อง</strong>
       </p>
       <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <code class="_cl-accent">.bio-card</code></li>
+        <li>• <code class="_cl-accent">.bio-card</code> <small class="_opct-60">(Container)</small></li>
         <li>• <code class="_cl-accent">.bio-card-cover</code></li>
         <li>• <code class="_cl-accent">.bio-card-title</code></li>
         <li>• <code class="_cl-accent">.bio-card-subtitle</code></li>
         <li>• <code class="_cl-accent">.bio-card-content</code></li>
-        <li>• <code class="_cl-accent">.bio-card-action</code></li>
+        <li>• <code class="_cl-accent">.bio-card-actions</code></li>
       </ul>
-
-      <!-- <div class="bio-message -info _fs-6 _mgbt-64px">
-        <p>
-          <strong>คำแนะนำ</strong> – เพื่อความเหมาะสม เราแนะนำให้คุณใช้ <code class="_cl-accent">.bio-button</code>
-          ที่ <code class="_cl-accent">&lt;div&gt;</code> หรือ
-          <code class="_cl-accent">&lt;input type="submit"&gt;</code>
-        </p>
-      </div> -->
 
       <p class="_mgbt-8px _fs-5">
         <strong>Options</strong>
@@ -121,79 +119,218 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">
-</code></pre>
+      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Basic Card --&gt;
+&lt;div class="bio-card"&gt;
+  &lt;div class="bio-card-content"&gt;
+    ...
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Basic Card with Title / Subtitle --&gt;
+&lt;div class="bio-card"&gt;
+  &lt;div class="bio-card-title"&gt;&lt;strong&gt;Hello World&lt;/strong&gt;&lt;/div&gt;
+  &lt;div class="bio-card-subtitle"&gt;@BioMaRu&lt;/div&gt;
+  &lt;div class="bio-card-content"&gt;
+    ...
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Basic Card with Cover --&gt;
+&lt;div class="bio-card"&gt;
+  &lt;img class="bio-card-cover" src="https://placeimg.com/640/480/animals" alt="image"&gt;
+  &lt;div class="bio-card-title"&gt;&lt;strong&gt;Hello Kitty&lt;/strong&gt;&lt;/div&gt;
+  &lt;div class="bio-card-subtitle"&gt;@BioMaRu&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="bio-card"&gt;
+  &lt;img class="bio-card-cover" src="https://placeimg.com/640/480/animals" alt="image"&gt;
+  &lt;div class="bio-card-title"&gt;&lt;strong&gt;Hello Kitty&lt;/strong&gt;&lt;/div&gt;
+  &lt;div class="bio-card-subtitle"&gt;@BioMaRu&lt;/div&gt;
+  &lt;div class="bio-card-content"&gt;
+    ...
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
       <div class="u-panel _mgbt-64px">
-        <!-- <div class="bio-card">Card</div> -->
+        <div class="bio-card _mgbt-16px">
+          <div class="bio-card-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aenean efficitur sit amet massa fringilla egestas.
+            Nullam condimentum luctus turpis.
+          </div>
+        </div>
+
+        <div class="bio-card _mgbt-16px">
+          <div class="bio-card-title"><strong>Hello World</strong></div>
+          <div class="bio-card-subtitle">@BioMaRu</div>
+          <div class="bio-card-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aenean efficitur sit amet massa fringilla egestas.
+            Nullam condimentum luctus turpis.
+          </div>
+        </div>
+
+        <div class="lo-12 lo-6-sm -gap-16px">
+
+          <div class="bio-card _ovf-hd _als-st _mgbt-16px">
+            <img class="bio-card-cover" src="https://placeimg.com/360/128/animals" alt="image">
+            <div class="bio-card-title"><strong>Hello Kitty</strong></div>
+            <div class="bio-card-subtitle">@BioMaRu</div>
+          </div>
+
+          <div class="bio-card _ovf-hd  _mgbt-16px">
+            <img class="bio-card-cover" src="https://placeimg.com/360/128/animals" alt="image">
+            <div class="bio-card-title"><strong>Hello Kitty</strong></div>
+            <div class="bio-card-subtitle">@BioMaRu</div>
+            <div class="bio-card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aenean efficitur sit amet massa fringilla egestas.
+              Nullam condimentum luctus turpis.
+            </div>
+          </div>
+
+        </div>
       </div>
 
       <p class="_mgbt-8px _fs-5">
-        <strong>ตัวอย่างการใช้งาน อื่นๆ</strong>
+        <strong>ตัวอย่างการใช้งาน Card แบบ </strong> <code class="_cl-accent">-horizontal</code>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-button"&gt;.bio-button&lt;/div&gt;
-&lt;div class="bio-button -accent"&gt;bio-button -accent&lt;/div&gt;
-&lt;div class="bio-button -positive"&gt;bio-button -positive&lt;/div&gt;
-&lt;div class="bio-button -negative"&gt;bio-button -negative&lt;/div&gt;
-&lt;div class="bio-button -info"&gt;bio-button -info&lt;/div&gt;
-&lt;div class="bio-button -warning"&gt;bio-button -warning&lt;/div&gt;
-&lt;div class="bio-button -white"&gt;bio-button -white&lt;/div&gt;
-&lt;div class="bio-button -gray"&gt;bio-button -gray&lt;/div&gt;
-&lt;div class="bio-button -dark"&gt;bio-button -dark&lt;/div&gt;
-&lt;div class="bio-button -black"&gt;bio-button -black&lt;/div&gt;</code></pre>
+<pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-card -horizontal"&gt;
+  &lt;img class="bio-card-cover" src="https://placeimg.com/360/360/animals" alt="image"&gt;
+  &lt;div class="bio-card-title"&gt;&lt;strong&gt;Hello Kitty&lt;/strong&gt;&lt;/div&gt;
+  &lt;div class="bio-card-subtitle"&gt;@BioMaRu&lt;/div&gt;
+  &lt;div class="bio-card-content"&gt;
+    ...
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
       <div class="u-panel _mgbt-64px">
-        <div class="bio-button -outline _dp-ilb _mgbt-8px">.bio-button</div>
-        <div class="bio-button -accent -outline _dp-ilb _mgbt-8px">bio-button -accent</div>
-        <div class="bio-button -positive -outline _dp-ilb _mgbt-8px">bio-button -positive</div>
-        <div class="bio-button -negative -outline _dp-ilb _mgbt-8px">bio-button -negative</div>
-        <div class="bio-button -info -outline _dp-ilb _mgbt-8px">bio-button -info</div>
-        <div class="bio-button -warning -outline _dp-ilb _mgbt-8px">bio-button -warning</div>
-        <div class="bio-button -white -outline _dp-ilb _mgbt-8px">bio-button -white</div>
-        <div class="bio-button -gray -outline _dp-ilb _mgbt-8px">bio-button -gray</div>
-        <div class="bio-button -dark -outline _dp-ilb _mgbt-8px">bio-button -dark</div>
-        <div class="bio-button -black -outline _dp-ilb _mgbt-8px">bio-button -black</div>
+
+        <div class="bio-card -horizontal">
+          <img class="bio-card-cover" src="https://placeimg.com/360/360/animals" alt="image">
+          <div class="bio-card-title"><strong>Hello Kitty</strong></div>
+          <div class="bio-card-subtitle">@BioMaRu</div>
+          <div class="bio-card-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aenean efficitur sit amet massa fringilla egestas.
+            Nullam condimentum luctus turpis.
+          </div>
+        </div>
+
       </div>
 
       <p class="_mgbt-8px _fs-5">
-        <strong>ตัวอย่างการใช้งาน อื่นๆ</strong>
+        <strong>ตัวอย่างการใช้งาน Card ที่มี Actions รูบแบบต่างๆ</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-button -accent"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -positive -loading"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -positive -disabled"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -positive -loading -disabled"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -positive -outline"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -positive -outline -loading"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -positive -outline -disabled"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -positive -outline -loading -disabled"&gt;Hello Button&lt;/div&gt;
+<pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Basic Actions --&gt;
+&lt;div class="bio-card"&gt;
+  &lt;div class="bio-card-title"&gt;&lt;strong&gt;Hello Kitty&lt;/strong&gt;&lt;/div&gt;
+  &lt;div class="bio-card-content"&gt;
+    ...
+  &lt;/div&gt;
+  &lt;div class="bio-card-actions"&gt;
+    &lt;a class="bio-link _pdh-8px" href="#"&gt;Cancel&lt;/a&gt;
+    &lt;a class="bio-link _pdh-8px" href="#"&gt;OK&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;div class="bio-button -negative"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -negative -loading"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -negative -disabled"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -negative -loading -disabled"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -negative -outline"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -negative -outline -loading"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -negative -outline -disabled"&gt;Hello Button&lt;/div&gt;
-&lt;div class="bio-button -negative -outline -loading -disabled"&gt;Hello Button&lt;/div&gt;</code></pre>
+&lt;!-- Actions with with -push-left --&gt;
+&lt;/div&gt;
+  &lt;div class="bio-card"&gt;
+  &lt;div class="bio-card-title"&gt;&lt;strong&gt;Hello Kitty&lt;/strong&gt;&lt;/div&gt;
+  &lt;div class="bio-card-content"&gt;
+    ...
+  &lt;/div&gt;
+  &lt;div class="bio-card-actions -push-left"&gt;
+    &lt;a class="bio-link" href="#"&gt;&lt;i class="fa fa-facebook _fs-5"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="bio-link" href="#"&gt;&lt;i class="fa fa-google _fs-5"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="bio-link" href="#"&gt;&lt;i class="fa fa-twitter _fs-5"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="bio-link" href="#"&gt;&lt;i class="fa fa-instagram _fs-5"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Actions with with -attached --&gt;
+&lt;div class="bio-card"&gt;
+  &lt;div class="bio-card-title"&gt;&lt;strong&gt;Hello Kitty&lt;/strong&gt;&lt;/div&gt;
+  &lt;div class="bio-card-content"&gt;
+    ...
+  &lt;/div&gt;
+  &lt;div class="bio-card-actions -attached"&gt;
+    &lt;a class="bio-link" href="#"&gt;&lt;i class="fa fa-facebook _fs-5"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="bio-link" href="#"&gt;&lt;i class="fa fa-google _fs-5"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="bio-link" href="#"&gt;&lt;i class="fa fa-twitter _fs-5"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="bio-link" href="#"&gt;&lt;i class="fa fa-instagram _fs-5"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Actions with with -attached --&gt;
+&lt;div class="bio-card"&gt;
+  &lt;div class="bio-card-title"&gt;&lt;strong&gt;Hello Kitty&lt;/strong&gt;&lt;/div&gt;
+  &lt;div class="bio-card-content"&gt;
+    ...
+  &lt;/div&gt;
+  &lt;div class="bio-card-actions -attached"&gt;
+    &lt;a class="bio-link _pdh-8px" href="#"&gt;Cancel&lt;/a&gt;
+    &lt;a class="bio-link _pdh-8px" href="#"&gt;OK&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
       <div class="u-panel _mgbt-64px">
-        <div class="bio-button -positive _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -positive -loading _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -positive -disabled _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -positive -loading -disabled _dp-ilb _mgbt-8px">Hello Button</div> <br>
-        <div class="bio-button -positive -outline _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -positive -outline -loading _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -positive -outline -disabled _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -positive -outline -loading -disabled _dp-ilb _mgbt-32px">Hello Button</div> <br>
+        <div class="lo-12 lo-6-sm -gap-16px">
+          <div class="bio-card">
+            <div class="bio-card-title"><strong>Hello Kitty</strong></div>
+            <div class="bio-card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aenean efficitur sit amet massa fringilla egestas.
+              Nullam condimentum luctus turpis.
+            </div>
+            <div class="bio-card-actions">
+              <a class="bio-link _pdh-8px" href="#">Cancel</a>
+              <a class="bio-link _pdh-8px" href="#">OK</a>
+            </div>
+          </div>
 
-        <div class="bio-button -negative _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -negative -loading _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -negative -disabled _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -negative -loading -disabled _dp-ilb _mgbt-8px">Hello Button</div> <br>
-        <div class="bio-button -negative -outline _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -negative -outline -loading _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -negative -outline -disabled _dp-ilb _mgbt-8px">Hello Button</div>
-        <div class="bio-button -negative -outline -loading -disabled _dp-ilb _mgbt-32px">Hello Button</div>
+          <div class="bio-card _als-st">
+            <div class="bio-card-title"><strong>Hello Kitty</strong></div>
+            <div class="bio-card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aenean efficitur sit amet massa fringilla egestas.
+              Nullam condimentum luctus turpis.
+            </div>
+            <div class="bio-card-actions -push-left">
+              <a class="bio-link" href="#"><i class="fa fa-facebook _fs-5"></i></a>
+              <a class="bio-link" href="#"><i class="fa fa-google _fs-5"></i></a>
+              <a class="bio-link" href="#"><i class="fa fa-twitter _fs-5"></i></a>
+              <a class="bio-link" href="#"><i class="fa fa-instagram _fs-5"></i></a>
+            </div>
+          </div>
+          <div class="bio-card _als-st">
+            <div class="bio-card-title"><strong>Hello Kitty</strong></div>
+            <div class="bio-card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aenean efficitur sit amet massa fringilla egestas.
+              Nullam condimentum luctus turpis.
+            </div>
+            <div class="bio-card-actions -attached">
+              <a class="bio-link" href="#"><i class="fa fa-facebook _fs-5"></i></a>
+              <a class="bio-link" href="#"><i class="fa fa-google _fs-5"></i></a>
+              <a class="bio-link" href="#"><i class="fa fa-twitter _fs-5"></i></a>
+              <a class="bio-link" href="#"><i class="fa fa-instagram _fs-5"></i></a>
+            </div>
+          </div>
+          <div class="bio-card _als-st">
+            <div class="bio-card-title"><strong>Hello Kitty</strong></div>
+            <div class="bio-card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aenean efficitur sit amet massa fringilla egestas.
+              Nullam condimentum luctus turpis.
+            </div>
+            <div class="bio-card-actions -attached">
+              <a class="bio-link _pdh-8px" href="#">Cancel</a>
+              <a class="bio-link _pdh-8px" href="#">OK</a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <hr class="_opct-30 _mgbt-32px">

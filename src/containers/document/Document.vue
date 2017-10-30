@@ -55,9 +55,24 @@
               :active-class="'-active'">
               Card
             </router-link>
-            <!-- <a href="./doc/components/form.html" class="bio-link -item">Form</a>
-            <a href="./doc/components/message.html" class="bio-link -item">Message</a>
-            <a href="./doc/components/progress.html" class="bio-link -item">Progress</a> -->
+            <router-link
+              :to="{ name: 'ComponentForm' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Form
+            </router-link>
+            <router-link
+              :to="{ name: 'ComponentMessage' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Message
+            </router-link>
+            <router-link
+              :to="{ name: 'ComponentProgress' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Progress
+            </router-link>
           </div>
         </div>
 
