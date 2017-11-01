@@ -5,7 +5,7 @@
       <div class="_als-ct _jtfs-ct _cl-white _tal-ct _tal-l-sm">
         <h1>Biomatic UI</h1>
         <p class="_mgbt-16px _fs-4">
-          CSS Framework ที่คล่องตัว และสนุกที่สุด <br>
+          CSS Framework ที่ง่าย และคล่องตัวที่สุด <br>
           สำหรับทุกโปรเจคของคุณ
         </p>
 
@@ -16,7 +16,7 @@
         </router-link>
 
         <div>
-          <small>เวอร์ชั่นล่าสุด 0.0.2 (beta)</small>
+          <small>เวอร์ชั่นล่าสุด 0.0.4 (beta)</small>
         </div>
       </div>
 

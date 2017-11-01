@@ -2,16 +2,19 @@
   <div id="home-getting-start" class="background-gradient _pdv-32px">
 
     <div class="lo-container">
-      <div id="content">
+      <div id="content" class="">
 
         <div class="_tal-ct _mgbt-24px">
           <h2 class="_cl-primary _lh-100pct _mgbt-8px">Quick Start</h2>
-          <p class="_fs-5 _opct-60">เริ่มต้นใช้งาน Biomatic</p>
+          <p class="_fs-5 _opct-60">เริ่มต้นกับ Biomatic</p>
         </div>
 
         <div class="_bgcl-white _bdrd-1px u-rise-1 _pdh-8px _pdv-32px _pd-32px-sm">
-          <HomeGettingStartSetup />
-          <HomeGettingStartBasic />
+          <HomeGettingStartSetup class="_mgbt-32px"/>
+          <!-- <HomeGettingStartBasic /> -->
+          <div class="_tal-ct _dp-f _jtfct-ct">
+            <div class="bio-button -accent _w-256px u-hover-rise"><strong>อ่านวิธีใช้งาน</strong></div>
+          </div>
         </div>
 
       </div>

@@ -14,7 +14,7 @@
           </router-link> -->
 
           <router-link :to="{ name: 'Introduction' }" class="bio-link -white _pdh-16px _mgr-32px">
-            <strong>Document</strong>
+            <strong>วิธีใช้งาน</strong>
           </router-link>
 
           <a href="https://github.com/BioMaRu/biomatic" target="_blank">

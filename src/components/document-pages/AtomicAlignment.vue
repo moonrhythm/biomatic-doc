@@ -7,7 +7,7 @@
       </div>
 
       <p class="_mgbt-8px _fs-5">
-        เป็น Atomic Class ที่ใช้จัดการ Alignment สำหรับ Flex Layout และ Grid Layout
+        Alignment คือ Atomic Class ที่ใช้จัดการ Alignment สำหรับ Flex Layout และ Grid Layout ประกอบไปด้วย
       </p>
       <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
         <li>• <a class="bio-link" href="#atomic-flex-direction">Flex Direction</a></li>

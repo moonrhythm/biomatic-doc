@@ -18,7 +18,7 @@
               วิธีติดตั้ง
             </router-link>
             <router-link :to="{ name: 'GettingStart' }" class="bio-link -item" :active-class="'-active'">
-              การใช้งาน
+              การใช้งาน ⭐️
             </router-link>
             <!-- <router-link :to="{ name: 'GettingStart' }" class="bio-link -item" :active-class="'-active'" exact>
               คำถามที่พบบ่อย
