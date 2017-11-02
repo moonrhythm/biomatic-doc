@@ -86,7 +86,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Basic Message --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Basic Message --&gt;
 &lt;div class="bio-message"&gt;
   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 &lt;/div&gt;
@@ -134,7 +134,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน รูปแบบอื่น</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Positive --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Positive --&gt;
 &lt;div class="bio-message -positive"&gt;
   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 &lt;/div&gt;

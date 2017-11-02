@@ -64,7 +64,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-button"&gt;.bio-button&lt;/div&gt;
+      <pre class="example"><code class="language-markup">&lt;div class="bio-button"&gt;.bio-button&lt;/div&gt;
 &lt;div class="bio-button -accent"&gt;bio-button -accent&lt;/div&gt;
 &lt;div class="bio-button -positive"&gt;bio-button -positive&lt;/div&gt;
 &lt;div class="bio-button -negative"&gt;bio-button -negative&lt;/div&gt;
@@ -91,7 +91,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน อื่นๆ</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-button"&gt;.bio-button&lt;/div&gt;
+      <pre class="example"><code class="language-markup">&lt;div class="bio-button"&gt;.bio-button&lt;/div&gt;
 &lt;div class="bio-button -accent"&gt;bio-button -accent&lt;/div&gt;
 &lt;div class="bio-button -positive"&gt;bio-button -positive&lt;/div&gt;
 &lt;div class="bio-button -negative"&gt;bio-button -negative&lt;/div&gt;
@@ -118,7 +118,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน อื่นๆ</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-button -accent"&gt;Hello Button&lt;/div&gt;
+      <pre class="example"><code class="language-markup">&lt;div class="bio-button -accent"&gt;Hello Button&lt;/div&gt;
 &lt;div class="bio-button -positive -loading"&gt;Hello Button&lt;/div&gt;
 &lt;div class="bio-button -positive -disabled"&gt;Hello Button&lt;/div&gt;
 &lt;div class="bio-button -positive -loading -disabled"&gt;Hello Button&lt;/div&gt;

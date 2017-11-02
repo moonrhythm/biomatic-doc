@@ -47,7 +47,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Breadcrumb</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;ul class="bio-breadcrumb"&gt;
+      <pre class="example"><code class="language-markup">&lt;ul class="bio-breadcrumb"&gt;
   &lt;li&gt;Home&lt;/li&gt;
   &lt;li&gt;item&lt;/li&gt;
 &lt;/ul&gt;</code></pre>
@@ -62,7 +62,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งานร่วมกับ</strong> <code class="language-markup _cl-accent">.bio-link</code>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;ul class="bio-breadcrumb"&gt;
+      <pre class="example"><code class="language-markup">&lt;ul class="bio-breadcrumb"&gt;
   &lt;li&gt;&lt;a class="bio-link" href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a class="bio-link -primary" href="#"&gt;Category&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a class="bio-link -primary -fancy" href="#"&gt;Category&lt;/a&gt;&lt;/li&gt;

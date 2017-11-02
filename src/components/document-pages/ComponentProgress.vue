@@ -56,7 +56,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Progress --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Progress --&gt;
 &lt;progress class="bio-progress -primary" value="10" max="100"&gt;&lt;/progress&gt;
 &lt;progress class="bio-progress -accent" value="20" max="100"&gt;&lt;/progress&gt;
 &lt;progress class="bio-progress -positive" value="30" max="100"&gt;&lt;/progress&gt;
@@ -80,7 +80,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน รูปแบบอื่น</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;progress class="bio-progress _h-1px" value="20" max="100"&gt;&lt;/progress&gt;
+      <pre class="example"><code class="language-markup">&lt;progress class="bio-progress _h-1px" value="20" max="100"&gt;&lt;/progress&gt;
 &lt;progress class="bio-progress _h-2px" value="20" max="100"&gt;&lt;/progress&gt;
 &lt;progress class="bio-progress _h-4px" value="20" max="100"&gt;&lt;/progress&gt;
 &lt;progress class="bio-progress _h-8px" value="20" max="100"&gt;&lt;/progress&gt;

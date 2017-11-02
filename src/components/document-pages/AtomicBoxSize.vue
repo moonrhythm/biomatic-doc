@@ -6,31 +6,39 @@
         <a href="#atomic-box-size" class="bio-link -primary"><strong>#</strong></a> Box Size
       </div>
 
-      <p class="_mgbt-8px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         เป็น Atomic Class ที่ใช้จัดการ Style ที่เกี่ยวกับ Size ของ Box Model ประกอบด้วย
       </p>
-      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+      <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
         <li>• <a class="bio-link" href="#atomic-border-width">Width</a></li>
         <li>• <a class="bio-link" href="#atomic-border-color">Height</a></li>
         <li>• <a class="bio-link" href="#atomic-border-radius">Max Width</a></li>
       </ul>
 
-      <p class="_mgbt-16px _fs-5">
-        <strong>Name</strong>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
       </p>
       <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <code class="_cl-accent">w</code> สำหรับ <code class="_cl-accent">width</code></li>
-        <li>• <code class="_cl-accent">h</code> สำหรับ <code class="_cl-accent">height</code></li>
-        <li>• <code class="_cl-accent">mxw</code> สำหรับ <code class="_cl-accent">max-width</code></li>
+        <li>• <code class="_cl-accent">_w-*</code> สำหรับ <code class="_cl-accent">width</code></li>
+        <li>• <code class="_cl-accent">_h-*</code> สำหรับ <code class="_cl-accent">height</code></li>
+        <li>• <code class="_cl-accent">_mxw-*</code> สำหรับ <code class="_cl-accent">max-width</code></li>
       </ul>
+      <div class="bio-message -primary _fs-6 _mgbt-32px">
+        <p>
+          <strong>คำแนะนำ</strong> – สำหรับ <code class="_cl-accent">max-width</code> นั้น เราตัดสินใจที่จะใช้
+          <code class="_cl-accent">_mxw-*</code> แทนที่จะเป็น <code class="_cl-accent">_mw-*</code>
+          นั่นก็เราต้องการจะมั่นใจว่าในกรณีที่เราเพิ่ม <code class="_cl-accent">min-width</code> Class เข้ามาใน อนาคต
+          จะไม่มี Breaking Change ในส่วนนี้ 🙇
+        </p>
+      </div>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -38,9 +46,9 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">w</code>,
-                <code class="_cl-accent">h</code>,
-                <code class="_cl-accent">mxh</code>
+                <code class="_cl-accent">_w-*</code>,
+                <code class="_cl-accent">_h-*</code>,
+                <code class="_cl-accent">_mxh-*</code>
               </p>
             </td>
             <td>
@@ -75,18 +83,29 @@
                 <code class="_cl-accent">100pct</code>
               </p>
               <p>
-                <strong>String Value: </strong> <br>
+                <strong>Keyword Value: </strong> <br>
                 <code class="_cl-accent">at</code> สำหรับ "auto"
               </p>
             </td>
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Box Size</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Width --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Width --&gt;
 &lt;div class="_w-1px"&gt;&lt;/div&gt;
 &lt;div class="_w-2px"&gt;&lt;/div&gt;
 &lt;div class="_w-4px"&gt;&lt;/div&gt;

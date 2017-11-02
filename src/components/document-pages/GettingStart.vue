@@ -11,7 +11,7 @@
     <p class="_mgbt-8px _fs-5">
       Biomatic แบ่งการใช้งานเป็นดังต่อไปนี้ <br>
     </p>
-    <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
+    <ul class="_mgbt-128px _fs-5 _lh-175pct _pdl-16px">
       <li>• <a class="bio-link" href="#getting-start-atomic">ใช้งาน Atomic Class</a></li>
       <li>• <a class="bio-link" href="#getting-start-component">ใช้งาน Component Class</a></li>
       <li>• <a class="bio-link" href="#getting-start-layout">ใช้งาน Layout Class</a></li>
@@ -84,7 +84,7 @@
     <p class="_mgbt-8px _fs-5">
       <strong>ตัวอย่างการใช้งาน Atomic Class</strong>
     </p>
-    <pre class="_mgbt-16px"><code class="language-markup">&lt;!--
+    <pre class="example"><code class="language-markup">&lt;!--
 text-align: center,
 padding: 16px,
 color: white (เป็นค่าคงที่ของ Biomatic),
@@ -95,7 +95,7 @@ font-size: 4 (เป็นค่าคงที่ของ Biomatic)
 &lt;div class="_tal-ct _pd-16px _cl-accent _fs-4 _cl-white _bgcl-primary _bdrd-4px"&gt;
   Content
 &lt;/div&gt;</code></pre>
-    <div class="_mgbt-64px _pd-8px _bgcl-neutral-300">
+    <div class="u-panel _mgbt-64px _pd-8px">
       <div class="_tal-ct _pd-16px _cl-accent _fs-4 _cl-white _bgcl-primary _bdrd-4px">Content</div>
     </div>
 
@@ -113,7 +113,7 @@ font-size: 4 (เป็นค่าคงที่ของ Biomatic)
     <p class="_mgbt-8px _fs-5">
       <strong>ตัวอย่างการใช้งาน Breakoint ใน Atomic Class</strong>
     </p>
-    <pre class="_mgbt-16px"><code class="language-markup">&lt;!--
+    <pre class="example"><code class="language-markup">&lt;!--
 Container
 text-align: center,
 text-align: left when small size screen,
@@ -129,7 +129,7 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
 &lt;div class="_tal-ct _tal-l-sm _tal-r-md"&gt;
   &lt;div class="_dp-ilb _w-32px _h-32px _bgcl-negative _bgcl-positive-sm"&gt;&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-    <div class="_mgbt-64px _pd-8px _bgcl-neutral-300">
+    <div class="u-panel _mgbt-64px _pd-8px">
       <div class="_tal-ct _tal-l-sm _tal-r-md">
         <div class="_dp-ilb _w-32px _h-32px _bgcl-negative _bgcl-positive-sm"></div>
       </div>
@@ -147,10 +147,10 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
     <p class="_mgbt-8px _fs-5">
       <strong>ตัวอย่างการใช้งาน Hover ใน Atomic Class</strong>
     </p>
-    <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="_h-32px _bgcl-positive _bgcl-negative-hover _cl-white _cl-black-hover"&gt;
+    <pre class="example"><code class="language-markup">&lt;div class="_h-32px _bgcl-positive _bgcl-negative-hover _cl-white _cl-black-hover"&gt;
   &lt;strong&gt;Hello&lt;/strong&gt;
 &lt;/div&gt;</code></pre>
-    <div class="_mgbt-128px _pd-8px _bgcl-neutral-300">
+    <div class="u-panel  _mgbt-128px _pd-8px">
       <div class="_h-32px _bgcl-positive _bgcl-negative-hover _cl-white _cl-black-hover"><strong>Hello</strong></div>
     </div>
 
@@ -187,14 +187,14 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
     <p class="_mgbt-8px _fs-5">
       <strong>ตัวอย่างการใช้งาน bio-button รูปแบบต่างๆ</strong>
     </p>
-    <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-button"&gt;&lt;/div&gt;
+    <pre class="example"><code class="language-markup">&lt;div class="bio-button"&gt;&lt;/div&gt;
 &lt;div class="bio-button -positive"&gt;&lt;/div&gt;
 &lt;div class="bio-button -negative"&gt;&lt;/div&gt;
 &lt;div class="bio-button -negative -outline"&gt;&lt;/div&gt;
 &lt;div class="bio-button -loading"&gt;&lt;/div&gt;
 &lt;div class="bio-button -disabled"&gt;&lt;/div&gt;
 &lt;div class="bio-button -negative -disabled -loading"&gt;&lt;/div&gt;</code></pre>
-    <div class="_mgbt-48px">
+    <div class="_mgbt-48px u-panel">
       <div class="bio-button _dp-ilb _mgbt-4px">bio-button</div>
       <div class="bio-button -positive _dp-ilb _mgbt-4px">bio-button -positive</div>
       <div class="bio-button -negative _dp-ilb _mgbt-4px">bio-button -negative</div>
@@ -206,7 +206,7 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
     <p class="_mgbt-32px _fs-5">
       จะสังเกตว่ารูปแบบการเขียนลักษณะนี้ จะหมือนกับ Switched ใน UNIX commandline เช่น <code class="language-markup _cl-accent">ls -a</code> เป็นต้น 🤔
     </p>
-    <div class="bio-message -info _fs-6 _mgbt-128px">
+    <div class="bio-message -primary _fs-6 _mgbt-128px">
       <p>
         <strong>คำแนะนำ</strong> – คุณ<u>ไม่</u>ควรใส่ Component Class มากกว่าหนึ่ง Class
         ที่ Element เดียวกัน เพราะ Element แต่ละอันควรทำหน้าที่เพียงอย่างเดียวเท่านั้น
@@ -258,7 +258,7 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-    <div class="bio-message -info _mgbt-48px">
+    <div class="bio-message -primary _mgbt-48px">
       <p class="_fs-6">
         <strong>คำแนะนำ</strong> – Biomatic แนะนำให้คุณใช้ <a class="bio-link -fancy" href="http://learncssgrid.com/" target="_blank">CSS Grid</a> สำหรับ Layout ที่มีซับซ้อน 👍 <br>
         (ปัจจุบัน <a class="bio-link -fancy" href="https://caniuse.com/#feat=css-grid" target="_blank">Support Modern Browser</a> แล้ว)
@@ -289,7 +289,7 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
     <p class="_mgbt-8px _fs-5">
       <strong>ตัวอย่างการใช้งาน Layout Class</strong>
     </p>
-    <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="lo-4 -gap-8px"&gt;
+    <pre class="example"><code class="language-markup">&lt;div class="lo-4 -gap-8px"&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
@@ -302,7 +302,7 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-    <div class="_mgbt-48px _pd-8px _bgcl-neutral-300">
+    <div class="_mgbt-48px _pd-8px u-panel ">
       <div class="_mgbt-4px">.lo-4</div>
       <div class="lo-4 -gap-8px">
         <div class="_bgcl-neutral _bdrd-2px _tal-ct _pd-4px">item</div>
@@ -327,7 +327,7 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
       <code class="language-markup _cl-accent">-lg</code>
       ที่ Class เพื่อแสดงผลที่ขนาดหน้าจอใดๆ เพื่อใช้ในการทำ Responsive Grid
     </p>
-    <div class="bio-message -info _fs-6 _mgbt-48px">
+    <div class="bio-message -primary _fs-6 _mgbt-48px">
       <p>
         <strong>คำแนะนำ</strong> – Biomatic ไม่มี Breakpoint <code class="language-markup _cl-accent">-xs</code>
         เพราะเรายึดหลักแนวคิดของ Progressive Enhancement หรือ Mobile First นั่นคือเรากำหนด Interface ของ
@@ -338,13 +338,13 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
     <p class="_mgbt-8px _fs-5">
       <strong>ตัวอย่างการใช้งาน Breakpoint ใน Layout Class</strong>
     </p>
-    <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="lo-12 lo-9-3-sm lo-3-lg -gap-8px"&gt;
+    <pre class="example"><code class="language-markup">&lt;div class="lo-12 lo-9-3-sm lo-3-lg -gap-8px"&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-    <div class="_mgbt-128px _pd-8px _bgcl-neutral-300">
+    <div class="_mgbt-128px _pd-8px u-panel ">
       <div class="_mgbt-4px">lo-12 lo-9-3-sm lo-3-lg</div>
       <div class="lo-12 lo-9-3-sm lo-3-lg -gap-8px">
         <div class="_bgcl-neutral _bdrd-2px _tal-ct _pd-4px">item</div>
@@ -358,7 +358,7 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
     *  4 Utility
     **************************-->
     <div class="anchor" id="getting-start-utility"></div>
-    <div class="_fs-4 _fw-600 _lh-150pct _mgbt-16px">
+    <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
       <a href="#getting-start-utility" class="bio-link -primary"><strong>#</strong></a> การใช้งาน Utility Class ✨✨
     </div>
     <p class="_mgbt-16px _fs-5">
@@ -369,7 +369,9 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
       ใช้ Prefix <code class="language-markup _cl-accent">u-</code> แล้วตามด้วย Value เป็นชื่อ Utility ของ Biomatic
       เช่น <code class="language-markup _cl-accent">u-animation-pulse</code>, <code class="language-markup _cl-accent">u-hover-rise</code>
     </p>
-    <div class="_mgbt-48px _pd-8px _bgcl-neutral-300">
+    <pre class="example"><code class="language-markup">&lt;div class="bio-button u-animation-pulse"&gt;bio-button u-animation-pulse&lt;/div&gt;
+&lt;div class="bio-button u-hover-rise"&gt;bio-button u-hover-rise&lt;/div&gt;</code></pre>
+    <div class="_mgbt-48px _pd-8px u-panel">
       <div class="bio-button _mgbt-24px u-animation-pulse">bio-button u-animation-pulse</div>
       <div class="bio-button u-hover-rise">bio-button u-hover-rise</div>
     </div>
@@ -385,8 +387,8 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
       </div>
       <div>
         <h5 class="_mgbt-16px _tal-r">ต่อไป</h5>
-        <router-link :to="{ name: 'AtomicBorder' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
-          Border &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
+        <router-link :to="{ name: 'AtomicAlignment' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
+          Alignment &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
         </router-link>
       </div>
     </div>

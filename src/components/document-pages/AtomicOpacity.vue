@@ -6,27 +6,27 @@
         <a href="#atomic-opacity" class="bio-link -primary"><strong>#</strong></a> Opacity
       </div>
 
-      <p class="_mgbt-8px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         เป็น Atomic Class ที่ใช้จัดการ Style ที่เกี่ยวกับ Opacity ประกอบด้วย
       </p>
-      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+      <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
         <li>• Opacity</li>
       </ul>
 
-      <p class="_mgbt-16px _fs-5">
-        <strong>Name</strong>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
       </p>
       <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <code class="_cl-accent">opct</code> สำหรับ <code class="_cl-accent">opacity</code></li>
+        <li>• <code class="_cl-accent">_opct-*</code> สำหรับ <code class="_cl-accent">opacity</code></li>
       </ul>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -34,12 +34,12 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">opct</code>
+                <code class="_cl-accent">_opct-*</code>
               </p>
             </td>
             <td>
               <p>
-                <strong>String Value: </strong> <br>
+                <strong>Keyword Value: </strong> <br>
                 <code class="_cl-accent">100</code> สำหรับ "1" <br>
                 <code class="_cl-accent">90</code> สำหรับ "0.9" <br>
                 <code class="_cl-accent">80</code> สำหรับ "0.8" <br>
@@ -56,11 +56,22 @@
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Display</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Opacity --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Opacity --&gt;
 &lt;div class="_bgcl-primary-900 _opct-100"&gt;&lt;/div&gt;
 &lt;div class="_bgcl-primary-900 _opct-90"&gt;&lt;/div&gt;
 &lt;div class="_bgcl-primary-900 _opct-80"&gt;&lt;/div&gt;

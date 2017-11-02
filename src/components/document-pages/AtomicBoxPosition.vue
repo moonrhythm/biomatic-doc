@@ -6,10 +6,10 @@
         <a href="#atomic-box-position" class="bio-link -primary"><strong>#</strong></a> Box Position
       </div>
 
-      <p class="_mgbt-8px _fs-5">
-        เป็น Atomic Class ที่ใช้จัดการ Style ที่เกี่ยวกับ Position
+      <p class="_mgbt-4px _fs-5">
+        เป็น Atomic Class ที่ใช้จัดการ Style ที่เกี่ยวกับ การกำหนดรูปแบบการวาง และ ตำแหน่งของ Element ประกอบด้วย
       </p>
-      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+      <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
         <li>• Position</li>
         <li>• Left</li>
         <li>• Right</li>
@@ -17,21 +17,18 @@
         <li>• Bottom</li>
       </ul>
 
-      <!--
-      *  Border Width
-      **************************-->
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Name</strong>
       </p>
       <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <code class="_cl-accent">pst</code> สำหรับ <code class="_cl-accent">position</code></li>
-        <li>• <code class="_cl-accent">l</code> สำหรับ <code class="_cl-accent">left</code></li>
-        <li>• <code class="_cl-accent">r</code> สำหรับ <code class="_cl-accent">right</code></li>
-        <li>• <code class="_cl-accent">t</code> สำหรับ <code class="_cl-accent">top</code></li>
-        <li>• <code class="_cl-accent">bt</code> สำหรับ <code class="_cl-accent">bottom</code></li>
+        <li>• <code class="_cl-accent">_pst-*</code> สำหรับ <code class="_cl-accent">position</code></li>
+        <li>• <code class="_cl-accent">_l-*</code> สำหรับ <code class="_cl-accent">left</code></li>
+        <li>• <code class="_cl-accent">_r-*</code> สำหรับ <code class="_cl-accent">right</code></li>
+        <li>• <code class="_cl-accent">_t-*</code> สำหรับ <code class="_cl-accent">top</code></li>
+        <li>• <code class="_cl-accent">_bt-*</code> สำหรับ <code class="_cl-accent">bottom</code></li>
       </ul>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
@@ -45,10 +42,10 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">l</code>,
-                <code class="_cl-accent">r</code>,
-                <code class="_cl-accent">t</code>,
-                <code class="_cl-accent">bt</code>
+                <code class="_cl-accent">_l-*</code>,
+                <code class="_cl-accent">_r-*</code>,
+                <code class="_cl-accent">_t-*</code>,
+                <code class="_cl-accent">_bt-*</code>
               </p>
             </td>
             <td>
@@ -74,7 +71,7 @@
                 <code class="_cl-accent">50pct</code>
               </p>
               <p>
-                <strong>String Value: </strong> <br>
+                <strong>Keyword Value: </strong> <br>
                 <code class="_cl-accent">at</code> สำหรับ "auto"
               </p>
             </td>
@@ -82,12 +79,12 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">pst</code>
+                <code class="_cl-accent">_pst-*</code>
               </p>
             </td>
             <td>
               <p>
-                <strong>String Value: </strong> <br>
+                <strong>Keyword Value: </strong> <br>
                 <code class="_cl-accent">stt</code> สำหรับ "static" <br>
                 <code class="_cl-accent">rlt</code> สำหรับ "relative" <br>
                 <code class="_cl-accent">asl</code> สำหรับ "absolute" <br>
@@ -97,11 +94,22 @@
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Position</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Position --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Position --&gt;
 &lt;!-- Left --&gt;
 &lt;div class="_pst-rlt _l-1px"&gt;&lt;/div&gt;
 &lt;div class="_pst-rlt _l-2px"&gt;&lt;/div&gt;

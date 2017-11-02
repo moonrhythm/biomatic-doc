@@ -107,7 +107,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Symmetry Grid</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Grid 1 --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Grid 1 --&gt;
 &lt;div class="lo-1 -gap-8px"&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
@@ -164,7 +164,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Unsymmetry Grid</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Grid 8-4 --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Grid 8-4 --&gt;
 &lt;div class="lo-8-4 -gap-8px"&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
@@ -213,7 +213,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการเปลี่ยนขนาด Gutter </strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- All Gutter 32px --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- All Gutter 32px --&gt;
 &lt;div class="lo-8-4 -gap-32px"&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
@@ -246,7 +246,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการ Alignment Item ใน Grid </strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- ยืด Grid Item ให้เต็ม Cell ในแนวนอน --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- ยืด Grid Item ให้เต็ม Cell ในแนวนอน --&gt;
 &lt;div class="lo-8-4 -gap-8px -row-stretch"&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
@@ -307,7 +307,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการร่วมกับ Responsive Breakpoint</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!--
+      <pre class="example"><code class="language-markup">&lt;!--
 Grid 12,
 Grid 6 when Small width,
 Grid 8-5 when Medium whdth

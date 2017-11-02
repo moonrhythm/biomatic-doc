@@ -28,61 +28,6 @@
         </div>
 
         <div class="bio-accordion _mgbt-24px">
-          <input id="accordion-components" type="checkbox" checked>
-          <label for="accordion-components" class="_fw-500 _fs-5"><strong>Components</strong></label>
-          <div class="bio-accordion-content _pdv-8px">
-            <router-link
-              :to="{ name: 'ComponentAccordion' }"
-              class="bio-link -item"
-              :active-class="'-active'">
-              Accordion
-            </router-link>
-            <router-link
-              :to="{ name: 'ComponentBreadcrumb' }"
-              class="bio-link -item"
-              :active-class="'-active'">
-              Breadcrumb
-            </router-link>
-            <router-link
-              :to="{ name: 'ComponentButton' }"
-              class="bio-link -item"
-              :active-class="'-active'">
-              Button
-            </router-link>
-            <router-link
-              :to="{ name: 'ComponentCard' }"
-              class="bio-link -item"
-              :active-class="'-active'">
-              Card
-            </router-link>
-            <router-link
-              :to="{ name: 'ComponentForm' }"
-              class="bio-link -item"
-              :active-class="'-active'">
-              Form
-            </router-link>
-            <router-link
-              :to="{ name: 'ComponentMessage' }"
-              class="bio-link -item"
-              :active-class="'-active'">
-              Message
-            </router-link>
-            <router-link
-              :to="{ name: 'ComponentProgress' }"
-              class="bio-link -item"
-              :active-class="'-active'">
-              Progress
-            </router-link>
-            <router-link
-              :to="{ name: 'ComponentTooltip' }"
-              class="bio-link -item"
-              :active-class="'-active'">
-              Tooltip
-            </router-link>
-          </div>
-        </div>
-
-        <div class="bio-accordion _mgbt-24px">
           <input id="accordion-atomic" type="checkbox" checked>
           <label for="accordion-atomic" class="_fw-500 _fs-5"><strong>Atomic</strong></label>
           <div class="bio-accordion-content _pdv-8px">
@@ -91,6 +36,12 @@
               class="bio-link -item"
               :active-class="'-active'">
               Alignment
+            </router-link>
+            <router-link
+              :to="{ name: 'AtomicBackground' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Background
             </router-link>
             <router-link
               :to="{ name: 'AtomicBorder' }"
@@ -164,6 +115,61 @@
             <!-- <a href="./doc/atomic/typography.html" class="bio-link -item">Image (อัน object fit อ่ะ)</a> -->
             <!-- <a href="./doc/atomic/image.html" class="bio-link -item">Image[WIP]</a>
             <a href="./doc/atomic/alignment.html" class="bio-link -item">Alignment[WIP]</a> -->
+          </div>
+        </div>
+
+        <div class="bio-accordion _mgbt-24px">
+          <input id="accordion-components" type="checkbox" checked>
+          <label for="accordion-components" class="_fw-500 _fs-5"><strong>Components</strong></label>
+          <div class="bio-accordion-content _pdv-8px">
+            <router-link
+              :to="{ name: 'ComponentAccordion' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Accordion
+            </router-link>
+            <router-link
+              :to="{ name: 'ComponentBreadcrumb' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Breadcrumb
+            </router-link>
+            <router-link
+              :to="{ name: 'ComponentButton' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Button
+            </router-link>
+            <router-link
+              :to="{ name: 'ComponentCard' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Card
+            </router-link>
+            <router-link
+              :to="{ name: 'ComponentForm' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Form
+            </router-link>
+            <router-link
+              :to="{ name: 'ComponentMessage' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Message
+            </router-link>
+            <router-link
+              :to="{ name: 'ComponentProgress' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Progress
+            </router-link>
+            <router-link
+              :to="{ name: 'ComponentTooltip' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Tooltip
+            </router-link>
           </div>
         </div>
 

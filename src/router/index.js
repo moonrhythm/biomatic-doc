@@ -23,6 +23,7 @@ import {
   LayoutResponsiveGrid,
 
   AtomicAlignment,
+  AtomicBackground,
   AtomicBorder,
   AtomicBoxPosition,
   AtomicBoxSize,
@@ -127,6 +128,11 @@ export default new Router({
           path: 'atomic/alignment',
           name: 'AtomicAlignment',
           component: AtomicAlignment
+        },
+        {
+          path: 'atomic/background',
+          name: 'AtomicBackground',
+          component: AtomicBackground
         },
         {
           path: 'atomic/border',

@@ -128,4 +128,20 @@
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   }
 
+  .u-panel {
+    padding: 16px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 2px solid #e9e9e9;
+    border-top-width: 0px;
+    border-color: hsla(0, 0%, 90%, 0.8);
+  }
+
+  pre.example.language-markup {
+    border: 2px solid #e9e9e9;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
 </style>

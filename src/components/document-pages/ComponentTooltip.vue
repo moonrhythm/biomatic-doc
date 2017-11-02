@@ -51,7 +51,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Top --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Top --&gt;
 &lt;div class="bio-tooltip" data-tooltip="Hello there!!!">
   Hover ME!! Top
 &lt;/div&gt;
@@ -81,7 +81,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน รูปแบบอื่น</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-tooltip" data-tooltip="I'm a button"&gt;
+      <pre class="example"><code class="language-markup">&lt;div class="bio-tooltip" data-tooltip="I'm a button"&gt;
   &lt;div class="bio-button"&gt;Button&lt;/div&gt;
 &lt;/div&gt;
 

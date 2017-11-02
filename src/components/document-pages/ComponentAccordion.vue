@@ -63,7 +63,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Accordion แบบ Checkbox</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-accordion"&gt;
+      <pre class="example"><code class="language-markup">&lt;div class="bio-accordion"&gt;
   &lt;input id="ac1" type="checkbox"&gt;
   &lt;label for="ac1"&gt;&lt;strong&gt;Accordion checkbox 1&lt;/strong&gt;&lt;/label&gt;
   &lt;div class="bio-accordion-content"&gt;
@@ -88,7 +88,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่าง Accordion ที่ใช้ </strong> <code class="_cl-accent">.-has-icon</code>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Accordion – With Icon --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Accordion – With Icon --&gt;
 &lt;div class="bio-accordion -has-icon _mgbt-32px"&gt;
   &lt;input id="ac2" type="checkbox" class="_dp-n"&gt;
   &lt;label for="ac2"&gt;&lt;strong&gt;Accordion checkbox 2&lt;/strong&gt;&lt;/label&gt;
@@ -114,7 +114,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่าง Accordion แบบ Radio</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Accordion – With Icon --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Accordion – With Icon --&gt;
 &lt;div class="bio-accordion"&gt;
   &lt;input id="ar1" type="radio" name="ar" class="_dp-n"&gt;
   &lt;label for="ar1"&gt;&lt;strong&gt;Accordion radio 1&lt;/strong&gt;&lt;/label&gt;

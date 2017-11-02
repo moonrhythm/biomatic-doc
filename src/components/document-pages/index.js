@@ -14,6 +14,7 @@ import ComponentTooltip from './ComponentTooltip'
 import LayoutResponsiveGrid from './LayoutResponsiveGrid'
 
 import AtomicAlignment from './AtomicAlignment'
+import AtomicBackground from './AtomicBackground'
 import AtomicBorder from './AtomicBorder'
 import AtomicBoxPosition from './AtomicBoxPosition'
 import AtomicBoxSize from './AtomicBoxSize'
@@ -43,6 +44,7 @@ export {
   LayoutResponsiveGrid,
 
   AtomicAlignment,
+  AtomicBackground,
   AtomicBorder,
   AtomicBoxPosition,
   AtomicBoxSize,

@@ -30,7 +30,7 @@
       </p>
       <div class="_pdl-24px-sm _mgbt-8px">
         <pre>
-          <pre class="_mgbt-16px"><code class="language-markup">&lt;!--
+          <pre class="example"><code class="language-markup">&lt;!--
 Text-align Left,
 Text-align Center on SMALL size or upper,
 Text-align Right on MEDIUM size or upper,
@@ -99,7 +99,7 @@ Warning background color on SMALL size or upper,
       </p>
       <div class="_pdl-24px-sm _mgbt-32px">
         <pre>
-          <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="lo-4 -gap-8px"&gt;
+          <pre class="example"><code class="language-markup">&lt;div class="lo-4 -gap-8px"&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
@@ -113,7 +113,7 @@ Warning background color on SMALL size or upper,
       </div>
       <div class="_pdl-24px-sm _mgbt-64px">
         <pre>
-          <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="lo-12 lo-8-4-sm -gapv-12px -gaph-2px"&gt;
+          <pre class="example"><code class="language-markup">&lt;div class="lo-12 lo-8-4-sm -gapv-12px -gaph-2px"&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;
   &lt;div&gt;item&lt;/div&gt;

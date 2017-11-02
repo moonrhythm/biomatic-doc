@@ -119,7 +119,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Basic Card --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Basic Card --&gt;
 &lt;div class="bio-card"&gt;
   &lt;div class="bio-card-content"&gt;
     ...
@@ -195,7 +195,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Card แบบ </strong> <code class="_cl-accent">-horizontal</code>
       </p>
-<pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-card -horizontal"&gt;
+<pre class="example"><code class="language-markup">&lt;div class="bio-card -horizontal"&gt;
   &lt;img class="bio-card-cover" src="https://placeimg.com/360/360/animals" alt="image"&gt;
   &lt;div class="bio-card-title"&gt;&lt;strong&gt;Hello Kitty&lt;/strong&gt;&lt;/div&gt;
   &lt;div class="bio-card-subtitle"&gt;@BioMaRu&lt;/div&gt;
@@ -222,7 +222,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Card ที่มี Actions รูบแบบต่างๆ</strong>
       </p>
-<pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Basic Actions --&gt;
+<pre class="example"><code class="language-markup">&lt;!-- Basic Actions --&gt;
 &lt;div class="bio-card"&gt;
   &lt;div class="bio-card-title"&gt;&lt;strong&gt;Hello Kitty&lt;/strong&gt;&lt;/div&gt;
   &lt;div class="bio-card-content"&gt;

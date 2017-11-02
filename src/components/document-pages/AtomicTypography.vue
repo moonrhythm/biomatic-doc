@@ -6,10 +6,10 @@
         <a href="#atomic-typography" class="bio-link -primary"><strong>#</strong></a> Typography
       </div>
 
-      <p class="_mgbt-8px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         เป็น Atomic Class ที่ใช้จัดการ Typography ประกอบด้วย
       </p>
-      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+      <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
         <li>• <a class="bio-link" href="#atomic-font-size">Font Size</a></li>
         <li>• <a class="bio-link" href="#atomic-font-weight">Font Weight</a></li>
         <li>• <a class="bio-link" href="#atomic-line-height">Line Height</a></li>
@@ -19,17 +19,17 @@
         <li>• <a class="bio-link" href="#atomic-white-space">White Space</a></li>
       </ul>
 
-      <p class="_mgbt-16px _fs-5">
-        <strong>Name</strong>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
       </p>
       <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <code class="_cl-accent">fs</code> สำหรับ <code class="_cl-accent">font-size</code></li>
-        <li>• <code class="_cl-accent">fw</code> สำหรับ <code class="_cl-accent">font-weight</code></li>
-        <li>• <code class="_cl-accent">lh</code> สำหรับ <code class="_cl-accent">line-height</code></li>
-        <li>• <code class="_cl-accent">tal</code> สำหรับ <code class="_cl-accent">text-align</code></li>
-        <li>• <code class="_cl-accent">ttf</code> สำหรับ <code class="_cl-accent">text-transform</code></li>
-        <li>• <code class="_cl-accent">ws</code> สำหรับ <code class="_cl-accent">white-space</code></li>
-        <li>• <code class="_cl-accent">ltspc</code> สำหรับ <code class="_cl-accent">letter-spacing</code></li>
+        <li>• <code class="_cl-accent">_fs-*</code> สำหรับ <code class="_cl-accent">font-size</code></li>
+        <li>• <code class="_cl-accent">_fw-*</code> สำหรับ <code class="_cl-accent">font-weight</code></li>
+        <li>• <code class="_cl-accent">_lh-*</code> สำหรับ <code class="_cl-accent">line-height</code></li>
+        <li>• <code class="_cl-accent">_tal-*</code> สำหรับ <code class="_cl-accent">text-align</code></li>
+        <li>• <code class="_cl-accent">_ttf-*</code> สำหรับ <code class="_cl-accent">text-transform</code></li>
+        <li>• <code class="_cl-accent">_ws-*</code> สำหรับ <code class="_cl-accent">white-space</code></li>
+        <li>• <code class="_cl-accent">_ltspc-*</code> สำหรับ <code class="_cl-accent">letter-spacing</code></li>
       </ul>
 
       <!--
@@ -44,7 +44,7 @@
         <code class="_cl-accent">1</code> ถึง <code class="_cl-accent">8</code>
       </p>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
@@ -89,11 +89,22 @@
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Font Size</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Font Size --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Font Size --&gt;
 &lt;p class="_fs-1"&gt;Hello World&lt;/p&gt;
 &lt;p class="_fs-2"&gt;Hello World&lt;/p&gt;
 &lt;p class="_fs-3"&gt;Hello World&lt;/p&gt;
@@ -121,18 +132,18 @@
       <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-font-weight" class="bio-link -primary"><strong>#</strong></a> Font Weight
       </div>
-      <p class="_mgbt-32px _fs-5">
+      <p class="_mgbt-64px _fs-5">
         ใช้สำหรับกำหนดความหนาของ Font โดย Value จะเป็นค่าที่กำหนดใน <code class="_cl-accent">font-weight</code> ระดับตั้งแต่
         <code class="_cl-accent">100</code> ถึง <code class="_cl-accent">900</code>
       </p>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -140,12 +151,12 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">fw</code>
+                <code class="_cl-accent">_fw-*</code>
               </p>
             </td>
             <td>
               <p>
-                <strong>String Value: </strong> <br>
+                <strong>Keyword Value: </strong> <br>
                 <code class="_cl-accent">100</code>
                 <code class="_cl-accent">200</code>
                 <code class="_cl-accent">300</code>
@@ -160,11 +171,22 @@
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Font Weight</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Font Weight --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Font Weight --&gt;
 &lt;p class="_fw-100"&gt;Hello World&lt;/p&gt;
 &lt;p class="_fw-200"&gt;Hello World&lt;/p&gt;
 &lt;p class="_fw-300"&gt;Hello World&lt;/p&gt;
@@ -191,17 +213,17 @@
       *  Line Height
       **************************-->
       <div class="anchor" id="atomic-line-height"></div>
-      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
+      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-64px">
         <a href="#atomic-line-height" class="bio-link -primary"><strong>#</strong></a> Line Height
       </div>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -209,7 +231,7 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">lh</code>
+                <code class="_cl-accent">_lh-*</code>
               </p>
             </td>
             <td>
@@ -229,11 +251,22 @@
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Line Height</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Line Height --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Line Height --&gt;
 &lt;p class="_lh-100pct"&gt;._lh-100pct&lt;/p&gt;
 &lt;p class="_lh-125pct"&gt;._lh-125pct&lt;/p&gt;
 &lt;p class="_lh-150pct"&gt;._lh-150pct&lt;/p&gt;
@@ -260,17 +293,17 @@
       *  Text Align
       **************************-->
       <div class="anchor" id="atomic-text-align"></div>
-      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
+      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-64px">
         <a href="#atomic-text-align" class="bio-link -primary"><strong>#</strong></a> Text Align
       </div>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -278,12 +311,12 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">tal</code>
+                <code class="_cl-accent">_tal-*</code>
               </p>
             </td>
             <td>
               <p>
-                <strong>String Value: </strong> <br>
+                <strong>Keyword Value: </strong> <br>
                 <code class="_cl-accent">l</code> สำหรับ "left"<br>
                 <code class="_cl-accent">r</code> สำหรับ "right"<br>
                 <code class="_cl-accent">ct</code> สำหรับ "center"<br>
@@ -293,11 +326,22 @@
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Text Align</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Text Align --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Text Align --&gt;
 &lt;p class="_tal-l"&gt;
   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Pellentesque sit amet vel velit finibus ullamcorper.
@@ -346,17 +390,17 @@
       *  Letter Spacing
       **************************-->
       <div class="anchor" id="atomic-letter-spacing"></div>
-      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
+      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-64px">
         <a href="#atomic-letter-spacing" class="bio-link -primary"><strong>#</strong></a> Letter Spacing
       </div>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-14px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -364,7 +408,7 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">ltspc</code>
+                <code class="_cl-accent">_ltspc-*</code>
               </p>
             </td>
             <td>
@@ -381,11 +425,22 @@
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Letter Spacing</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Line Height --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Line Height --&gt;
 &lt;p class="_ltspc-1px"&gt;Meowwloo&lt;/p&gt;
 &lt;p class="_ltspc-2px"&gt;Meowwloo&lt;/p&gt;
 &lt;p class="_ltspc-4px"&gt;Meowwloo&lt;/p&gt;
@@ -406,17 +461,17 @@
       *  White Space
       **************************-->
       <div class="anchor" id="atomic-white-space"></div>
-      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
+      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-64px">
         <a href="#atomic-white-space" class="bio-link -primary"><strong>#</strong></a> White Space
       </div>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -424,12 +479,12 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">wsp</code>
+                <code class="_cl-accent">_wsp-*</code>
               </p>
             </td>
             <td>
               <p>
-                <strong>String Value: </strong> <br>
+                <strong>Keyword Value: </strong> <br>
                 <code class="_cl-accent">nm</code> สำหรับ "normal" <br>
                 <code class="_cl-accent">nw</code> สำหรับ "no-wrap" <br>
                 <code class="_cl-accent">p</code> สำหรับ "pre" <br>
@@ -440,11 +495,22 @@
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน White Space</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- White Space --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- White Space --&gt;
 &lt;div class="_wsp-nm"&gt;   A B C D E F&lt;/div&gt;
 &lt;div class="_wsp-nw"&gt;   A B C D E F&lt;/div&gt;
 &lt;div class="_wsp-p"&gt;   A B C D E F&lt;/div&gt;
@@ -470,8 +536,8 @@
         </div>
         <div>
           <h5 class="_mgbt-16px _tal-r">ต่อไป</h5>
-          <router-link :to="{ name: 'AtomicOpacity' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
-            Opacity &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
+          <router-link :to="{ name: 'ComponentAccordion' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
+            Accordion &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
           </router-link>
         </div>
       </div>

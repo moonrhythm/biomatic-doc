@@ -6,10 +6,10 @@
         <a href="#atomic-border" class="bio-link -primary"><strong>#</strong></a> Border
       </div>
 
-      <p class="_mgbt-8px _fs-5">
-        เป็น Atomic Class ที่ใช้จัดการ Style ที่เกี่ยวกับ Border
+      <p class="_mgbt-4px _fs-5">
+        เป็น Atomic Class ที่ใช้จัดการ Style ที่เกี่ยวกับ Border ประกอบด้วย
       </p>
-      <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
+      <ul class="_mgbt-128px _fs-5 _lh-175pct _pdl-16px">
         <li>• <a class="bio-link" href="#atomic-border-width">Border Width</a></li>
         <li>• <a class="bio-link" href="#atomic-border-color">Border Color</a></li>
         <li>• <a class="bio-link" href="#atomic-border-radius">Border Radius</a></li>
@@ -27,26 +27,33 @@
         <code class="_cl-accent">border-style</code> เป็น
         <code class="_cl-accent">solid</code>
       </p>
-      <p class="_mgbt-16px _fs-5">
-        <strong>Name</strong>
+
+      <div class="bio-message -primary _fs-6 _mgbt-64px">
+        <p>
+          <strong>คำแนะนำ</strong> – ตอนนี้ Biomatic ยังไม่มี Class ที่ใช้กำหนด Border Style เป็นแบบอื่น
+          เพราะ Border Style อื่น นอกจาก solid มักไม่ค่อยมีการใช้งาน
+        </p>
+      </div>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
       </p>
       <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <code class="_cl-accent">bdw</code> สำหรับ <code class="_cl-accent">border-width</code></li>
-        <li>• <code class="_cl-accent">bdlw</code> สำหรับ <code class="_cl-accent">border-left-width</code></li>
-        <li>• <code class="_cl-accent">bdrw</code> สำหรับ <code class="_cl-accent">border-right-width</code></li>
-        <li>• <code class="_cl-accent">bdtw</code> สำหรับ <code class="_cl-accent">border-top-width</code></li>
-        <li>• <code class="_cl-accent">bdbtw</code> สำหรับ <code class="_cl-accent">border-bottom-width</code></li>
-        <li>• <code class="_cl-accent">bdvw</code> สำหรับ <code class="_cl-accent">border-top-width</code> และ <code class="_cl-accent">border-bottom-width</code> (Vertical)</li>
-        <li>• <code class="_cl-accent">bdhw</code> สำหรับ <code class="_cl-accent">border-left-width</code> และ <code class="_cl-accent">border-right-width</code> (Horizontal)</li>
+        <li>• <code class="_cl-accent">_bdw-*</code> สำหรับ <code class="_cl-accent">border-width</code></li>
+        <li>• <code class="_cl-accent">_bdlw-*</code> สำหรับ <code class="_cl-accent">border-left-width</code></li>
+        <li>• <code class="_cl-accent">_bdrw-*</code> สำหรับ <code class="_cl-accent">border-right-width</code></li>
+        <li>• <code class="_cl-accent">_bdtw-*</code> สำหรับ <code class="_cl-accent">border-top-width</code></li>
+        <li>• <code class="_cl-accent">_bdbtw-*</code> สำหรับ <code class="_cl-accent">border-bottom-width</code></li>
+        <li>• <code class="_cl-accent">_bdvw-*</code> สำหรับ <code class="_cl-accent">border-top-width</code> และ <code class="_cl-accent">border-bottom-width</code> <small class="_opct-50">(Vertical)</small></li>
+        <li>• <code class="_cl-accent">_bdhw-*</code> สำหรับ <code class="_cl-accent">border-left-width</code> และ <code class="_cl-accent">border-right-width</code> <small class="_opct-50">(Horizontal)</small></li>
       </ul>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -54,13 +61,13 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">bdw</code>,
-                <code class="_cl-accent">bdlw</code>,
-                <code class="_cl-accent">bdrw</code>,
-                <code class="_cl-accent">bdtw</code>,
-                <code class="_cl-accent">bdbtw</code>,
-                <code class="_cl-accent">bdvw</code>,
-                <code class="_cl-accent">bdhw</code>
+                <code class="_cl-accent">_bdw-*</code>,
+                <code class="_cl-accent">_bdlw-*</code>,
+                <code class="_cl-accent">_bdrw-*</code>,
+                <code class="_cl-accent">_bdtw-*</code>,
+                <code class="_cl-accent">_bdbtw-*</code>,
+                <code class="_cl-accent">_bdvw-*</code>,
+                <code class="_cl-accent">_bdhw-*</code>
               </p>
             </td>
             <td>
@@ -85,11 +92,22 @@
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Border Width</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Border Width--&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Border Width--&gt;
 &lt;div class="_bdw-4px"&gt;&lt;/div&gt;
 &lt;div class="_bdw-8px"&gt;&lt;/div&gt;
 &lt;div class="_bdw-16px"&gt;&lt;/div&gt;
@@ -124,38 +142,38 @@
 &lt;div class="_bdlw-0px _bdlw-32px-md"&gt;&lt;/div&gt;
 &lt;div class="_bdlw-0px _bdlw-32px-lg"&gt;&lt;/div&gt;</code></pre>
 
-      <div class="u-panel _mgbt-64px">
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdw-4px _mgbt-8px">._bdw-4px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdw-8px _mgbt-8px">._bdw-8px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdw-16px _mgbt-32px">._bdw-16px</div>
+      <div class="u-panel _mgbt-128px">
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdw-4px _mgbt-8px">_bdw-4px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdw-8px _mgbt-8px">_bdw-8px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdw-16px _mgbt-32px">_bdw-16px</div>
 
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-4px _mgbt-8px">._bdlw-4px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-8px _mgbt-8px">._bdlw-8px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-16px _mgbt-32px">._bdlw-16px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-4px _mgbt-8px">_bdlw-4px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-8px _mgbt-8px">_bdlw-8px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-16px _mgbt-32px">_bdlw-16px</div>
 
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdrw-4px _mgbt-8px">._bdrw-4px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdrw-8px _mgbt-8px">._bdrw-8px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdrw-16px _mgbt-32px">._bdrw-16px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdrw-4px _mgbt-8px">_bdrw-4px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdrw-8px _mgbt-8px">_bdrw-8px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdrw-16px _mgbt-32px">_bdrw-16px</div>
 
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdtw-4px _mgbt-8px">._bdtw-4px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdtw-8px _mgbt-8px">._bdtw-8px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdtw-16px _mgbt-32px">._bdtw-16px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdtw-4px _mgbt-8px">_bdtw-4px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdtw-8px _mgbt-8px">_bdtw-8px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdtw-16px _mgbt-32px">_bdtw-16px</div>
 
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdbtw-4px _mgbt-8px">._bdbtw-4px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdbtw-8px _mgbt-8px">._bdbtw-8px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdbtw-16px _mgbt-32px">._bdbtw-16px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdbtw-4px _mgbt-8px">_bdbtw-4px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdbtw-8px _mgbt-8px">_bdbtw-8px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdbtw-16px _mgbt-32px">_bdbtw-16px</div>
 
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdvw-4px _mgbt-8px">._bdvw-4px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdvw-8px _mgbt-8px">._bdvw-8px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdvw-16px _mgbt-32px">._bdvw-16px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdvw-4px _mgbt-8px">_bdvw-4px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdvw-8px _mgbt-8px">_bdvw-8px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdvw-16px _mgbt-32px">_bdvw-16px</div>
 
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdhw-4px _mgbt-8px">._bdhw-4px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdhw-8px _mgbt-8px">._bdhw-8px</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdhw-16px _mgbt-32px">._bdhw-16px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdhw-4px _mgbt-8px">_bdhw-4px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdhw-8px _mgbt-8px">_bdhw-8px</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdhw-16px _mgbt-32px">_bdhw-16px</div>
 
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-0px _bdlw-32px-sm _mgbt-8px">._bdlw-0px ._bdlw-32px-sm</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-0px _bdlw-32px-md _mgbt-8px">._bdlw-0px ._bdlw-32px-md</div>
-        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-0px _bdlw-32px-lg _mgbt-8px">._bdlw-0px ._bdlw-32px-lg</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-0px _bdlw-32px-sm _mgbt-8px">_bdlw-0px _bdlw-32px-sm</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-0px _bdlw-32px-md _mgbt-8px">_bdlw-0px _bdlw-32px-md</div>
+        <div class="_bgcl-neutral-300 _bdcl-neutral-700 _wsp-nw _bdlw-0px _bdlw-32px-lg _mgbt-8px">_bdlw-0px _bdlw-32px-lg</div>
       </div>
 
       <!--
@@ -170,10 +188,10 @@
         ใช้กำหนดสีของ Border
       </p>
       <p class="_mgbt-16px _fs-5">
-        <strong>Name</strong>
+        <strong>Class Name</strong>
       </p>
       <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <code class="_cl-accent">bdcl</code> สำหรับ <code class="_cl-accent">border-color</code></li>
+        <li>• <code class="_cl-accent">_bdcl-*</code> สำหรับ <code class="_cl-accent">border-color</code></li>
       </ul>
 
       <p class="_mgbt-16px _fs-5">
@@ -182,7 +200,7 @@
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -190,12 +208,12 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">bdcl</code>
+                <code class="_cl-accent">_bdcl-*</code>
               </p>
             </td>
             <td>
               <p>
-                <strong>Biomatic's Color Value: </strong> <br>
+                <strong>Biomatic's Color Name Value: </strong> <br>
                 <code class="_cl-accent">primary</code>
                 <code class="_cl-accent">accent</code>
                 <code class="_cl-accent">neutral</code>
@@ -212,10 +230,25 @@
         </tbody>
       </table>
 
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-hover</code></li>
+      </ul>
+
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Border Color</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Border Color --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Border Color --&gt;
 &lt;div class="_bdw-2px _bdcl-primary"&gt;&lt;/div&gt;
 &lt;div class="_bdw-2px _bdcl-accent"&gt;&lt;/div&gt;
 &lt;div class="_bdw-2px _bdcl-positive"&gt;&lt;/div&gt;
@@ -263,46 +296,59 @@
 &lt;div class="_bdw-2px _bdcl-neutral-100"&gt;&lt;/div&gt;</code></pre>
 
       <div class="u-panel _mgbt-64px">
-        <div class="_wsp-nw _bdw-2px _bdcl-primary _mgbt-8px">._bdcl-primary</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-accent _mgbt-8px">._bdcl-accent</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-positive _mgbt-8px">._bdcl-positive</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-negative _mgbt-8px">._bdcl-negative</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-warning _mgbt-8px">._bdcl-warning</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-info _mgbt-32px">._bdcl-info</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-white _mgbt-8px">._bdcl-white</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-gray _mgbt-8px">._bdcl-gray</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-dark _mgbt-8px">._bdcl-dark</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-black _mgbt-32px">._bdcl-black</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-primary _mgbt-8px">_bdcl-primary</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-accent _mgbt-8px">_bdcl-accent</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-positive _mgbt-8px">_bdcl-positive</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-negative _mgbt-8px">_bdcl-negative</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-warning _mgbt-8px">_bdcl-warning</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-info _mgbt-32px">_bdcl-info</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-white _mgbt-8px">_bdcl-white</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-gray _mgbt-8px">_bdcl-gray</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-dark _mgbt-8px">_bdcl-dark</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-black _mgbt-32px">_bdcl-black</div>
 
-        <div class="_wsp-nw _bdw-2px _bdcl-primary-900 _mgbt-8px">._bdcl-primary-900</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-primary-800 _mgbt-8px">._bdcl-primary-800</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-primary-700 _mgbt-8px">._bdcl-primary-700</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-primary-600 _mgbt-8px">._bdcl-primary-600</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-primary-500 _mgbt-8px">._bdcl-primary-500</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-primary-400 _mgbt-8px">._bdcl-primary-400</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-primary-300 _mgbt-8px">._bdcl-primary-300</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-primary-200 _mgbt-8px">._bdcl-primary-200</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-primary-100 _mgbt-32px">._bdcl-primary-100</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-primary-900 _mgbt-8px">_bdcl-primary-900</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-primary-800 _mgbt-8px">_bdcl-primary-800</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-primary-700 _mgbt-8px">_bdcl-primary-700</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-primary-600 _mgbt-8px">_bdcl-primary-600</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-primary-500 _mgbt-8px">_bdcl-primary-500</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-primary-400 _mgbt-8px">_bdcl-primary-400</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-primary-300 _mgbt-8px">_bdcl-primary-300</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-primary-200 _mgbt-8px">_bdcl-primary-200</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-primary-100 _mgbt-32px">_bdcl-primary-100</div>
 
-        <div class="_wsp-nw _bdw-2px _bdcl-accent-900 _mgbt-8px">._bdcl-accent-900</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-accent-800 _mgbt-8px">._bdcl-accent-800</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-accent-700 _mgbt-8px">._bdcl-accent-700</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-accent-600 _mgbt-8px">._bdcl-accent-600</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-accent-500 _mgbt-8px">._bdcl-accent-500</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-accent-400 _mgbt-8px">._bdcl-accent-400</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-accent-300 _mgbt-8px">._bdcl-accent-300</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-accent-200 _mgbt-8px">._bdcl-accent-200</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-accent-100 _mgbt-32px">._bdcl-accent-100</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-accent-900 _mgbt-8px">_bdcl-accent-900</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-accent-800 _mgbt-8px">_bdcl-accent-800</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-accent-700 _mgbt-8px">_bdcl-accent-700</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-accent-600 _mgbt-8px">_bdcl-accent-600</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-accent-500 _mgbt-8px">_bdcl-accent-500</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-accent-400 _mgbt-8px">_bdcl-accent-400</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-accent-300 _mgbt-8px">_bdcl-accent-300</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-accent-200 _mgbt-8px">_bdcl-accent-200</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-accent-100 _mgbt-32px">_bdcl-accent-100</div>
 
-        <div class="_wsp-nw _bdw-2px _bdcl-neutral-900 _mgbt-8px">._bdcl-neutral-900</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-neutral-800 _mgbt-8px">._bdcl-neutral-800</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-neutral-700 _mgbt-8px">._bdcl-neutral-700</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-neutral-600 _mgbt-8px">._bdcl-neutral-600</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-neutral-500 _mgbt-8px">._bdcl-neutral-500</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-neutral-400 _mgbt-8px">._bdcl-neutral-400</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-neutral-300 _mgbt-8px">._bdcl-neutral-300</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-neutral-200 _mgbt-8px">._bdcl-neutral-200</div>
-        <div class="_wsp-nw _bdw-2px _bdcl-neutral-100">._bdcl-neutral-100</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-neutral-900 _mgbt-8px">_bdcl-neutral-900</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-neutral-800 _mgbt-8px">_bdcl-neutral-800</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-neutral-700 _mgbt-8px">_bdcl-neutral-700</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-neutral-600 _mgbt-8px">_bdcl-neutral-600</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-neutral-500 _mgbt-8px">_bdcl-neutral-500</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-neutral-400 _mgbt-8px">_bdcl-neutral-400</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-neutral-300 _mgbt-8px">_bdcl-neutral-300</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-neutral-200 _mgbt-8px">_bdcl-neutral-200</div>
+        <div class="_wsp-nw _bdw-2px _bdcl-neutral-100">_bdcl-neutral-100</div>
+      </div>
+
+
+      <p class="_mgbt-8px _fs-5">
+        <strong>ตัวอย่างการใช้งาน Border Color และ hover</strong>
+      </p>
+      <pre class="example"><code class="language-markup">&lt;!-- Border Color --&gt;
+&lt;div class="_bdw-2px _bdcl-primary"&gt;&lt;/div&gt;</code></pre>
+
+      <div class="u-panel _mgbt-128px">
+        <div class="_wsp-nw _bdw-2px _bdcl-primary _bdcl-negative-hover _mgbt-8px">
+          _bdcl-primary _bdcl-negative-hover
+        </div>
       </div>
 
       <!--
@@ -316,14 +362,14 @@
         ใช้กำหนดรัศมีของ Border
       </p>
       <p class="_mgbt-16px _fs-5">
-        <strong>Name</strong>
+        <strong>Class Name</strong>
       </p>
       <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <code class="_cl-accent">bdrd</code> สำหรับ <code class="_cl-accent">border-radius</code></li>
-        <li>• <code class="_cl-accent">bdtlrd</code> สำหรับ <code class="_cl-accent">border-top-left-radius</code></li>
-        <li>• <code class="_cl-accent">bdtrrd</code> สำหรับ <code class="_cl-accent">border-top-right-radius</code></li>
-        <li>• <code class="_cl-accent">bdbtlrd</code> สำหรับ <code class="_cl-accent">border-bottom-left-radius</code></li>
-        <li>• <code class="_cl-accent">bdbtrrd</code> สำหรับ <code class="_cl-accent">border-bottom-right-radius</code></li>
+        <li>• <code class="_cl-accent">_bdrd-*</code> สำหรับ <code class="_cl-accent">border-radius</code></li>
+        <li>• <code class="_cl-accent">_bdtlrd-*</code> สำหรับ <code class="_cl-accent">border-top-left-radius</code></li>
+        <li>• <code class="_cl-accent">_bdtrrd-*</code> สำหรับ <code class="_cl-accent">border-top-right-radius</code></li>
+        <li>• <code class="_cl-accent">_bdbtlrd-*</code> สำหรับ <code class="_cl-accent">border-bottom-left-radius</code></li>
+        <li>• <code class="_cl-accent">_bdbtrrd-*</code> สำหรับ <code class="_cl-accent">border-bottom-right-radius</code></li>
       </ul>
 
       <p class="_mgbt-16px _fs-5">
@@ -332,7 +378,7 @@
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -340,11 +386,11 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">bdrd</code>,
-                <code class="_cl-accent">bdtlrd</code>,
-                <code class="_cl-accent">bdtrrd</code>,
-                <code class="_cl-accent">bdbtlrd</code>,
-                <code class="_cl-accent">bdbtrrd</code>
+                <code class="_cl-accent">_bdrd-*</code>,
+                <code class="_cl-accent">_bdtlrd-*</code>,
+                <code class="_cl-accent">_bdtrrd-*</code>,
+                <code class="_cl-accent">_bdbtlrd-*</code>,
+                <code class="_cl-accent">_bdbtrrd-*</code>
               </p>
             </td>
             <td>
@@ -377,11 +423,22 @@
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Border Width</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Border Radius --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Border Radius --&gt;
 &lt;div class="_bdw-2px _bdrd-2px"&gt;&lt;/div&gt;
 &lt;div class="_bdw-2px _bdrd-4px"&gt;&lt;/div&gt;
 &lt;div class="_bdw-2px _bdrd-8px"&gt;&lt;/div&gt;
@@ -425,8 +482,8 @@
       <div class="_dp-f _jtfct-spbtw">
         <div>
           <h5 class="_mgbt-16px">ก่อนหน้า</h5>
-          <router-link :to="{ name: 'AtomicAlignment' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
-            <i class="fa fa-long-arrow-left _fs-5"></i>&nbsp;&nbsp; Alignment
+          <router-link :to="{ name: 'AtomicBackground' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
+            <i class="fa fa-long-arrow-left _fs-5"></i>&nbsp;&nbsp; Background
           </router-link>
         </div>
         <div>

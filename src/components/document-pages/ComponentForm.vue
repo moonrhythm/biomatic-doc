@@ -122,7 +122,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Input ต่างๆ แบบพื้นฐาน</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Normal Input --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Normal Input --&gt;
 &lt;div class="bio-input"&gt;
   &lt;input type="text" placeholder="Type Something"&gt;
 &lt;/div&gt;
@@ -203,7 +203,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Switch</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-checkbox -switch"&gt;
+      <pre class="example"><code class="language-markup">&lt;div class="bio-checkbox -switch"&gt;
   &lt;input id="checkbox2" type="checkbox"&gt;
   &lt;label for="checkbox2"&gt;&lt;/label&gt;
 &lt;/div&gt;</code></pre>
@@ -225,7 +225,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Multiple Select</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;div class="bio-select -multiple"&gt;
+      <pre class="example"><code class="language-markup">&lt;div class="bio-select -multiple"&gt;
   &lt;select multiple&gt;
     &lt;option disabled&gt;Select dropdown&lt;/option&gt;
     &lt;option&gt;Option 1&lt;/option&gt;
@@ -259,7 +259,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Field – Color</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Positive --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Positive --&gt;
 &lt;div class="bio-field -positive"&gt;
   &lt;label&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/label&gt;
   &lt;div class="bio-input -positive"&gt;
@@ -343,7 +343,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Field – State</strong>
       </p>
-       <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Disabled Input --&gt;
+       <pre class="example"><code class="language-markup">&lt;!-- Disabled Input --&gt;
 &lt;div class="bio-field -disabled"&gt;
   &lt;label&gt;&lt;strong&gt;Under Construction&lt;/strong&gt;&lt;/label&gt;
   &lt;div class="bio-input"&gt;

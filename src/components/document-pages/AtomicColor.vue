@@ -6,27 +6,27 @@
         <a href="#atomic-color" class="bio-link -primary"><strong>#</strong></a> Color
       </div>
 
-      <p class="_mgbt-8px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         เป็น Atomic Class ที่ใช้จัดการ Style ที่เกี่ยวกับ Color ประกอบด้วย
       </p>
-      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <a class="bio-link" href="#atomic-border-width">Color</a></li>
+      <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
+        <li>• Color</li>
       </ul>
 
-      <p class="_mgbt-16px _fs-5">
-        <strong>Name</strong>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
       </p>
       <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <code class="_cl-accent">cl</code> สำหรับ <code class="_cl-accent">color</code></li>
+        <li>• <code class="_cl-accent">_cl-*</code> สำหรับ <code class="_cl-accent">color</code></li>
       </ul>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -34,15 +34,15 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">cl</code>
+                <code class="_cl-accent">_cl-*</code>
               </p>
             </td>
             <td>
               <p>
                 <strong>Biomatic's Color Value: </strong> <br>
-                <code class="_cl-accent">primary</code>
-                <code class="_cl-accent">accent</code>
-                <code class="_cl-accent">neutral</code>
+                <code class="_cl-accent">primary[-{100-900}]</code>
+                <code class="_cl-accent">accent[-{100-900}]</code>
+                <code class="_cl-accent">neutral[-{100-900}]</code>
                 <code class="_cl-accent">positive</code>
                 <code class="_cl-accent">negative</code>
                 <code class="_cl-accent">warning</code>
@@ -55,11 +55,25 @@
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-hover</code></li>
+      </ul>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Color</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Main Color --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Main Color --&gt;
 &lt;p class="_cl-primary"&gt;Hello World&lt;/p&gt;
 &lt;p class="_cl-accent"&gt;Hello World&lt;/p&gt;
 &lt;p class="_cl-neutral"&gt;Hello World&lt;/p&gt;
@@ -93,7 +107,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Main Color – Primary พร้อม Weigth Modifier</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Primary Color --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Primary Color --&gt;
 &lt;p class="_cl-primary-100"&gt;Hello World&lt;/p&gt;
 &lt;p class="_cl-primary-200"&gt;Hello World&lt;/p&gt;
 &lt;p class="_cl-primary-300"&gt;Hello World&lt;/p&gt;
@@ -119,7 +133,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Main Color – Accent พร้อม Weigth Modifier</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Accent Color --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Accent Color --&gt;
 &lt;p class="_cl-accent-100"&gt;Hello World&lt;/p&gt;
 &lt;p class="_cl-accent-200"&gt;Hello World&lt;/p&gt;
 &lt;p class="_cl-accent-300"&gt;Hello World&lt;/p&gt;
@@ -145,7 +159,7 @@
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Main Color – Neutral พร้อม Weigth Modifier</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Neutral Color --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Neutral Color --&gt;
 &lt;p class="_cl-neutral-100"&gt;Hello World&lt;/p&gt;
 &lt;p class="_cl-neutral-200"&gt;Hello World&lt;/p&gt;
 &lt;p class="_cl-neutral-300"&gt;Hello World&lt;/p&gt;
@@ -166,6 +180,17 @@
         <p class="_cl-neutral-700">Hello World</p>
         <p class="_cl-neutral-800">Hello World</p>
         <p class="_cl-neutral-900">Hello World</p>
+      </div>
+
+      <p class="_mgbt-8px _fs-5">
+        <strong>ตัวอย่างการใช้งาน Color – Hover</strong>
+      </p>
+      <pre class="example"><code class="language-markup">&lt;p class="_cl-positive _cl-negative-hover"&gt;
+  Hover Me
+&lt;/p&gt;</code></pre>
+
+      <div class="u-panel _mgbt-64px">
+        <p class="_cl-positive _cl-negative-hover _dp-ilb">Hover Me</p>
       </div>
 
       <hr class="_opct-30 _mgbt-32px">

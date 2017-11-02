@@ -6,10 +6,10 @@
         <a href="#atomic-padding" class="bio-link -primary"><strong>#</strong></a> Padding
       </div>
 
-      <p class="_mgbt-8px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         เป็น Atomic Class ที่ใช้จัดการ Padding ประกอบด้วย
       </p>
-      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+      <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
         <li>• Padding</li>
         <li>• Padding Left</li>
         <li>• Padding Right</li>
@@ -19,26 +19,26 @@
         <li>• Padding Horizontal</li>
       </ul>
 
-      <p class="_mgbt-16px _fs-5">
-        <strong>Name</strong>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
       </p>
       <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <code class="_cl-accent">pd</code> สำหรับ <code class="_cl-accent">padding</code></li>
-        <li>• <code class="_cl-accent">pdl</code> สำหรับ <code class="_cl-accent">padding-left</code></li>
-        <li>• <code class="_cl-accent">pdr</code> สำหรับ <code class="_cl-accent">padding-right</code></li>
-        <li>• <code class="_cl-accent">pdt</code> สำหรับ <code class="_cl-accent">padding-top</code></li>
-        <li>• <code class="_cl-accent">pdbt</code> สำหรับ <code class="_cl-accent">padding-bottom</code></li>
-        <li>• <code class="_cl-accent">pdv</code> สำหรับ <code class="_cl-accent">padding-top</code> และ <code class="_cl-accent">padding-bottom</code> (Vertical)</li>
-        <li>• <code class="_cl-accent">pdh</code> สำหรับ <code class="_cl-accent">padding-left</code> และ <code class="_cl-accent">padding-right</code> (Horizontal)</li>
+        <li>• <code class="_cl-accent">_pd-*</code> สำหรับ <code class="_cl-accent">padding</code></li>
+        <li>• <code class="_cl-accent">_pdl-*</code> สำหรับ <code class="_cl-accent">padding-left</code></li>
+        <li>• <code class="_cl-accent">_pdr-*</code> สำหรับ <code class="_cl-accent">padding-right</code></li>
+        <li>• <code class="_cl-accent">_pdt-*</code> สำหรับ <code class="_cl-accent">padding-top</code></li>
+        <li>• <code class="_cl-accent">_pdbt-*</code> สำหรับ <code class="_cl-accent">padding-bottom</code></li>
+        <li>• <code class="_cl-accent">_pdv-*</code> สำหรับ <code class="_cl-accent">padding-top</code> และ <code class="_cl-accent">padding-bottom</code> (Vertical)</li>
+        <li>• <code class="_cl-accent">_pdh-*</code> สำหรับ <code class="_cl-accent">padding-left</code> และ <code class="_cl-accent">padding-right</code> (Horizontal)</li>
       </ul>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
       <table class="bio-table _mgbt-32px">
         <thead>
           <tr>
-            <th class="_w-1px">Name</th>
+            <th class="_w-1px">Class Name</th>
             <th>Value</th>
           </tr>
         </thead>
@@ -46,13 +46,13 @@
           <tr>
             <td>
               <p>
-                <code class="_cl-accent">pd</code>,
-                <code class="_cl-accent">pdl</code>,
-                <code class="_cl-accent">pdr</code>,
-                <code class="_cl-accent">pdt</code>,
-                <code class="_cl-accent">pdbt</code>,
-                <code class="_cl-accent">pdv</code>,
-                <code class="_cl-accent">pdh</code>
+                <code class="_cl-accent">_pd-*</code>,
+                <code class="_cl-accent">_pdl-*</code>,
+                <code class="_cl-accent">_pdr-*</code>,
+                <code class="_cl-accent">_pdt-*</code>,
+                <code class="_cl-accent">_pdbt-*</code>,
+                <code class="_cl-accent">_pdv-*</code>,
+                <code class="_cl-accent">_pdh-*</code>
               </p>
             </td>
             <td>
@@ -74,18 +74,29 @@
                 <code class="_cl-accent">512px</code>
               </p>
               <p>
-                <strong>String Value: </strong>
+                <strong>Keyword Value: </strong> <br>
                 <code class="_cl-accent">at</code> สำหรับ "auto"
               </p>
             </td>
           </tr>
         </tbody>
       </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
 
       <p class="_mgbt-8px _fs-5">
         <strong>ตัวอย่างการใช้งาน Padding</strong>
       </p>
-      <pre class="_mgbt-16px"><code class="language-markup">&lt;!-- Padding --&gt;
+      <pre class="example"><code class="language-markup">&lt;!-- Padding --&gt;
 &lt;div class="_pd-2px"&gt;&lt;/div&gt;
 &lt;div class="_pd-4px"&gt;&lt;/div&gt;
 &lt;div class="_pd-8px"&gt;&lt;/div&gt;
@@ -117,68 +128,68 @@
 
       <div class="u-panel _mgbt-64px">
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pd-2px"><small>._pd-2px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pd-2px"><small>_pd-2px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pd-4px"><small>._pd-4px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pd-4px"><small>_pd-4px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pd-8px"><small>._pd-8px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pd-8px"><small>_pd-8px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-32px">
-          <div class="_bgcl-warning _dp-ilb _pd-16px"><small>._pd-16px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pd-16px"><small>_pd-16px</small></div>
         </div>
 
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdl-2px"><small>._pdl-2px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdl-2px"><small>_pdl-2px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdl-4px"><small>._pdl-4px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdl-4px"><small>_pdl-4px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdl-8px"><small>._pdl-8px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdl-8px"><small>_pdl-8px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-32px">
-          <div class="_bgcl-warning _dp-ilb _pdl-16px"><small>._pdl-16px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdl-16px"><small>_pdl-16px</small></div>
         </div>
 
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdr-2px"><small>._pdr-2px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdr-2px"><small>_pdr-2px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdr-4px"><small>._pdr-4px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdr-4px"><small>_pdr-4px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdr-8px"><small>._pdr-8px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdr-8px"><small>_pdr-8px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-32px">
-          <div class="_bgcl-warning _dp-ilb _pdr-16px"><small>._pdr-16px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdr-16px"><small>_pdr-16px</small></div>
         </div>
 
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdv-2px"><small>._pdv-2px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdv-2px"><small>_pdv-2px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdv-4px"><small>._pdv-4px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdv-4px"><small>_pdv-4px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdv-8px"><small>._pdv-8px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdv-8px"><small>_pdv-8px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-32px">
-          <div class="_bgcl-warning _dp-ilb _pdv-16px"><small>._pdv-16px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdv-16px"><small>_pdv-16px</small></div>
         </div>
 
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdh-2px"><small>._pdh-2px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdh-2px"><small>_pdh-2px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdh-4px"><small>._pdh-4px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdh-4px"><small>_pdh-4px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdh-8px"><small>._pdh-8px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdh-8px"><small>_pdh-8px</small></div>
         </div>
         <div class="_bgcl-neutral-300 _mgbt-4px">
-          <div class="_bgcl-warning _dp-ilb _pdh-16px"><small>._pdh-16px</small></div>
+          <div class="_bgcl-warning _dp-ilb _pdh-16px"><small>_pdh-16px</small></div>
         </div>
       </div>
 
