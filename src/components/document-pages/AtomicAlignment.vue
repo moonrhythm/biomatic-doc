@@ -2,7 +2,7 @@
   <div>
     <div class="_pdv-48px">
 
-      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
+      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-alignment" class="bio-link -primary"><strong>#</strong></a> Alignment
       </div>
 
@@ -120,10 +120,10 @@
         <a href="#atomic-flex-wrap" class="bio-link -primary"><strong>#</strong></a> Flex Wrap
       </div>
       <p class="_mgbt-64px _fs-5">
-        ใช้สำหรับกำหนดทิศวิธีการ Wrap flex items
+        ใช้สำหรับกำหนดวิธีการ Wrap Flex items ด้านใน
       </p>
 
-      <p class="_mgbt-16px _fs-5">
+      <p class="_mgbt-4px _fs-5">
         <strong>Class Name</strong>
       </p>
       <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">

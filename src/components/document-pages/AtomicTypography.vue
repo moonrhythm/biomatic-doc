@@ -2,14 +2,14 @@
   <div>
     <div class="_pdv-48px">
 
-      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
+      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-typography" class="bio-link -primary"><strong>#</strong></a> Typography
       </div>
 
       <p class="_mgbt-4px _fs-5">
         เป็น Atomic Class ที่ใช้จัดการ Typography ประกอบด้วย
       </p>
-      <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
+      <ul class="_mgbt-128px _fs-5 _lh-175pct _pdl-16px">
         <li>• <a class="bio-link" href="#atomic-font-size">Font Size</a></li>
         <li>• <a class="bio-link" href="#atomic-font-weight">Font Weight</a></li>
         <li>• <a class="bio-link" href="#atomic-line-height">Line Height</a></li>
@@ -19,18 +19,6 @@
         <li>• <a class="bio-link" href="#atomic-white-space">White Space</a></li>
       </ul>
 
-      <p class="_mgbt-4px _fs-5">
-        <strong>Class Name</strong>
-      </p>
-      <ul class="_mgbt-64px _fs-5 _lh-175pct _pdl-16px">
-        <li>• <code class="_cl-accent">_fs-*</code> สำหรับ <code class="_cl-accent">font-size</code></li>
-        <li>• <code class="_cl-accent">_fw-*</code> สำหรับ <code class="_cl-accent">font-weight</code></li>
-        <li>• <code class="_cl-accent">_lh-*</code> สำหรับ <code class="_cl-accent">line-height</code></li>
-        <li>• <code class="_cl-accent">_tal-*</code> สำหรับ <code class="_cl-accent">text-align</code></li>
-        <li>• <code class="_cl-accent">_ttf-*</code> สำหรับ <code class="_cl-accent">text-transform</code></li>
-        <li>• <code class="_cl-accent">_ws-*</code> สำหรับ <code class="_cl-accent">white-space</code></li>
-        <li>• <code class="_cl-accent">_ltspc-*</code> สำหรับ <code class="_cl-accent">letter-spacing</code></li>
-      </ul>
 
       <!--
       *  Font Size
@@ -39,10 +27,18 @@
       <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-font-size" class="bio-link -primary"><strong>#</strong></a> Font Size
       </div>
-      <p class="_mgbt-32px _fs-5">
+      <p class="_mgbt-64px _fs-5">
         ใช้สำหรับกำหนดขนาดของ Font Size โดย Value จะเป็นค่าระดับขนาดของ Font ตั้งแต่
         <code class="_cl-accent">1</code> ถึง <code class="_cl-accent">8</code>
       </p>
+
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
+      </p>
+
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">_fs-*</code> สำหรับ <code class="_cl-accent">font-size</code></li>
+      </ul>
 
       <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
@@ -73,7 +69,7 @@
           </tr>
           <tr>
             <td><code class="_cl-accent">5</code></td>
-            <td><code class="_cl-accent">1.25rem</code></td>
+            <td><code class="_cl-accent">1.125rem</code></td>
           </tr>
           <tr>
             <td><code class="_cl-accent">6</code></td>
@@ -81,11 +77,11 @@
           </tr>
           <tr>
             <td><code class="_cl-accent">7</code></td>
-            <td><code class="_cl-accent">0.75rem</code></td>
+            <td><code class="_cl-accent">0.85rem</code></td>
           </tr>
           <tr>
             <td><code class="_cl-accent">8</code></td>
-            <td><code class="_cl-accent">0.5rem</code></td>
+            <td><code class="_cl-accent">0.7rem</code></td>
           </tr>
         </tbody>
       </table>
@@ -114,7 +110,7 @@
 &lt;p class="_fs-7"&gt;Hello World&lt;/p&gt;
 &lt;p class="_fs-8"&gt;Hello World&lt;/p&gt;</code></pre>
 
-      <div class="u-panel _mgbt-64px">
+      <div class="u-panel _mgbt-128px">
         <p class="_fs-1">Hello World</p>
         <p class="_fs-2">Hello World</p>
         <p class="_fs-3">Hello World</p>
@@ -136,7 +132,12 @@
         ใช้สำหรับกำหนดความหนาของ Font โดย Value จะเป็นค่าที่กำหนดใน <code class="_cl-accent">font-weight</code> ระดับตั้งแต่
         <code class="_cl-accent">100</code> ถึง <code class="_cl-accent">900</code>
       </p>
-
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">_fw-*</code> สำหรับ <code class="_cl-accent">font-weight</code></li>
+      </ul>
       <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
@@ -197,7 +198,7 @@
 &lt;p class="_fw-800"&gt;Hello World&lt;/p&gt;
 &lt;p class="_fw-900"&gt;Hello World&lt;/p&gt;</code></pre>
 
-      <div class="u-panel _mgbt-64px">
+      <div class="u-panel _mgbt-128px">
         <p class="_fw-100">Hello World</p>
         <p class="_fw-200">Hello World</p>
         <p class="_fw-300">Hello World</p>
@@ -213,10 +214,18 @@
       *  Line Height
       **************************-->
       <div class="anchor" id="atomic-line-height"></div>
-      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-64px">
+      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-line-height" class="bio-link -primary"><strong>#</strong></a> Line Height
       </div>
-
+      <p class="_mgbt-64px _fs-5">
+        ใช้สำหรับกำหนดความหนาของ Line Height
+      </p>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">_lh-*</code> สำหรับ <code class="_cl-accent">line-height</code></li>
+      </ul>
       <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
@@ -277,7 +286,7 @@
 &lt;p class="_lh-275pct"&gt;._lh-275pct&lt;/p&gt;
 &lt;p class="_lh-300pct"&gt;._lh-300pct&lt;/p&gt;</code></pre>
 
-      <div class="u-panel _mgbt-64px">
+      <div class="u-panel _mgbt-128px">
         <p class="_lh-100pct _bd-1px _bdw-2px _bdcl-neutral-500 _bdcl-neutral-400 _mgbt-8px _bgcl-white">._lh-100pct</p>
         <p class="_lh-125pct _bd-1px _bdw-2px _bdcl-neutral-500 _bdcl-neutral-400 _mgbt-8px _bgcl-white">._lh-125pct</p>
         <p class="_lh-150pct _bd-1px _bdw-2px _bdcl-neutral-500 _bdcl-neutral-400 _mgbt-8px _bgcl-white">._lh-150pct</p>
@@ -293,10 +302,18 @@
       *  Text Align
       **************************-->
       <div class="anchor" id="atomic-text-align"></div>
-      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-64px">
+      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-text-align" class="bio-link -primary"><strong>#</strong></a> Text Align
       </div>
-
+      <p class="_mgbt-64px _fs-5">
+        ใช้สำหรับกำหนดความหนาของ Alignment ของ Inline Content ด้านใน Container
+      </p>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">_tal-*</code> สำหรับ <code class="_cl-accent">text-align</code></li>
+      </ul>
       <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
@@ -363,7 +380,7 @@
   Aenean in tellus vel nibh imperdiet semper eget eu turpis
 &lt;/p&gt;</code></pre>
 
-      <div class="u-panel _mgbt-64px">
+      <div class="u-panel _mgbt-128px">
         <p class="_tal-l _mgbt-8px _bdw-2px _bdcl-neutral-500 _bd-1px _bdcl-neutral-400 _bgcl-white">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Pellentesque sit amet vel velit finibus ullamcorper.
@@ -387,13 +404,93 @@
       </div>
 
       <!--
+      *  Text Transform
+      **************************-->
+      <div class="anchor" id="atomic-text-transform"></div>
+      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
+        <a href="#atomic-text-transform" class="bio-link -primary"><strong>#</strong></a> Text Transform
+      </div>
+      <p class="_mgbt-64px _fs-5">
+        ใช้กำหนด Text Transform ให้กับ Text ของ Element
+      </p>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">_ttf-*</code> สำหรับ <code class="_cl-accent">text-transform</code></li>
+      </ul>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Value</strong>
+      </p>
+      <table class="bio-table _mgbt-32px">
+        <thead>
+          <tr>
+            <th class="_w-1px">Class Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>
+                <code class="_cl-accent">_ttf-*</code>
+              </p>
+            </td>
+            <td>
+              <p>
+                <strong>Keyword Value: </strong> <br>
+                <code class="_cl-accent">cptl</code> สำหรับ "capitalize" <br>
+                <code class="_cl-accent">lwc</code> สำหรับ "lowercase" <br>
+                <code class="_cl-accent">upc</code> สำหรับ "uppercase" <br>
+                <code class="_cl-accent">n</code> สำหรับ "none"
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Responsive:</strong> <span class="_cl-positive"><strong>Yes</strong></span>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">*-sm</code></li>
+        <li>• <code class="_cl-accent">*-md</code></li>
+        <li>• <code class="_cl-accent">*-lg</code></li>
+      </ul>
+      <p class="_mgbt-64px _fs-5">
+        <strong>Hover:</strong> <span class="_cl-negative"><strong>No</strong></span>
+      </p>
+
+      <p class="_mgbt-8px _fs-5">
+        <strong>ตัวอย่างการใช้งาน Text Transform</strong>
+      </p>
+      <pre class="example"><code class="language-markup">&lt;p class="_ttf-n"&gt;hello world&lt;/p&gt;
+&lt;p class="_ttf-cptl"&gt;hello world&lt;/p&gt;
+&lt;p class="_ttf-upc"&gt;hello world&lt;/p&gt;
+&lt;p class="_ttf-lwc"&gt;hello world&lt;/p&gt;</code></pre>
+
+      <div class="u-panel _mgbt-128px">
+        <p class="_ttf-n">hello world</p>
+        <p class="_ttf-cptl">hello world</p>
+        <p class="_ttf-upc">hello world</p>
+        <p class="_ttf-lwc">hello world</p>
+      </div>
+
+      <!--
       *  Letter Spacing
       **************************-->
       <div class="anchor" id="atomic-letter-spacing"></div>
-      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-64px">
+      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-letter-spacing" class="bio-link -primary"><strong>#</strong></a> Letter Spacing
       </div>
-
+      <p class="_mgbt-64px _fs-5">
+        ใช้สำหรับกำหนดระยะห่างระหว่างตัวอักษร
+      </p>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">_ltspc-*</code> สำหรับ <code class="_cl-accent">letter-spacing</code></li>
+      </ul>
       <p class="_mgbt-14px _fs-5">
         <strong>Value</strong>
       </p>
@@ -448,7 +545,7 @@
 &lt;p class="_ltspc-16px"&gt;Meowwloo&lt;/p&gt;
 &lt;p class="_ltspc-32px"&gt;Meowwloo&lt;/p&gt;</code></pre>
 
-      <div class="u-panel _mgbt-64px">
+      <div class="u-panel _mgbt-128px">
         <p class="_ltspc-1px _mgbt-8px">Meowwloo</p>
         <p class="_ltspc-2px _mgbt-8px">Meowwloo</p>
         <p class="_ltspc-4px _mgbt-8px">Meowwloo</p>
@@ -461,10 +558,18 @@
       *  White Space
       **************************-->
       <div class="anchor" id="atomic-white-space"></div>
-      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-64px">
+      <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-white-space" class="bio-link -primary"><strong>#</strong></a> White Space
       </div>
-
+      <p class="_mgbt-64px _fs-5">
+        ใช้สำหรับกำหนดการจัดการกับ White Space
+      </p>
+      <p class="_mgbt-4px _fs-5">
+        <strong>Class Name</strong>
+      </p>
+      <ul class="_mgbt-32px _fs-5 _lh-175pct _pdl-16px">
+        <li>• <code class="_cl-accent">_ws-*</code> สำหรับ <code class="_cl-accent">white-space</code></li>
+      </ul>
       <p class="_mgbt-4px _fs-5">
         <strong>Value</strong>
       </p>
@@ -536,8 +641,8 @@
         </div>
         <div>
           <h5 class="_mgbt-16px _tal-r">ต่อไป</h5>
-          <router-link :to="{ name: 'ComponentAccordion' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
-            Accordion &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
+          <router-link :to="{ name: 'AtomicZIndex' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
+            Z Index &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
           </router-link>
         </div>
       </div>

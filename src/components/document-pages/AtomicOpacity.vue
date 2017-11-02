@@ -2,7 +2,7 @@
   <div>
     <div class="_pdv-48px">
 
-      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
+      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-opacity" class="bio-link -primary"><strong>#</strong></a> Opacity
       </div>
 
@@ -101,14 +101,14 @@
       <div class="_dp-f _jtfct-spbtw">
         <div>
           <h5 class="_mgbt-16px">ก่อนหน้า</h5>
-          <router-link :to="{ name: 'AtomicMargin' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
-            <i class="fa fa-long-arrow-left _fs-5"></i>&nbsp;&nbsp;Margin
+          <router-link :to="{ name: 'AtomicObjectFit' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
+            <i class="fa fa-long-arrow-left _fs-5"></i>&nbsp;&nbsp;Object Fit
           </router-link>
         </div>
         <div>
           <h5 class="_mgbt-16px _tal-r">ต่อไป</h5>
-          <router-link :to="{ name: 'AtomicPadding' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
-            Padding &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
+          <router-link :to="{ name: 'AtomicOverflow' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
+            Overflow &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
           </router-link>
         </div>
       </div>

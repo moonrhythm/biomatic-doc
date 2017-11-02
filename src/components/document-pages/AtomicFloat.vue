@@ -2,7 +2,7 @@
   <div>
     <div class="_pdv-48px">
 
-      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
+      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-float" class="bio-link -primary"><strong>#</strong></a> Float
       </div>
 

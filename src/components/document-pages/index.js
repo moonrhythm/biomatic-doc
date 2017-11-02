@@ -11,6 +11,7 @@ import ComponentMessage from './ComponentMessage'
 import ComponentProgress from './ComponentProgress'
 import ComponentTooltip from './ComponentTooltip'
 
+import LayoutContainer from './LayoutContainer'
 import LayoutResponsiveGrid from './LayoutResponsiveGrid'
 
 import AtomicAlignment from './AtomicAlignment'
@@ -23,9 +24,15 @@ import AtomicCursor from './AtomicCursor'
 import AtomicDisplay from './AtomicDisplay'
 import AtomicFloat from './AtomicFloat'
 import AtomicMargin from './AtomicMargin'
+import AtomicObjectFit from './AtomicObjectFit'
 import AtomicOpacity from './AtomicOpacity'
+import AtomicOverflow from './AtomicOverflow'
 import AtomicPadding from './AtomicPadding'
 import AtomicTypography from './AtomicTypography'
+import AtomicZIndex from './AtomicZIndex'
+
+import UtilityAnimation from './UtilityAnimation'
+import UtilityRise from './UtilityRise'
 
 export {
   Introduction,
@@ -41,6 +48,7 @@ export {
   ComponentProgress,
   ComponentTooltip,
 
+  LayoutContainer,
   LayoutResponsiveGrid,
 
   AtomicAlignment,
@@ -53,7 +61,13 @@ export {
   AtomicDisplay,
   AtomicFloat,
   AtomicMargin,
+  AtomicObjectFit,
   AtomicOpacity,
+  AtomicOverflow,
   AtomicPadding,
-  AtomicTypography
+  AtomicTypography,
+  AtomicZIndex,
+
+  UtilityAnimation,
+  UtilityRise
 }

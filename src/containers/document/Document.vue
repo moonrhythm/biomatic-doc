@@ -92,10 +92,22 @@
               Margin
             </router-link>
             <router-link
+              :to="{ name: 'AtomicObjectFit' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Object Fit
+            </router-link>
+            <router-link
               :to="{ name: 'AtomicOpacity' }"
               class="bio-link -item"
               :active-class="'-active'">
               Opacity
+            </router-link>
+            <router-link
+              :to="{ name: 'AtomicOverflow' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Overflow
             </router-link>
             <router-link
               :to="{ name: 'AtomicPadding' }"
@@ -109,12 +121,14 @@
               :active-class="'-active'">
               Typography
             </router-link>
+            <router-link
+              :to="{ name: 'AtomicZIndex' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Z-Index
+            </router-link>
 
-            <!-- <a href="./doc/atomic/background.html" class="bio-link -item">Background[WIP]</a> -->
-            <!-- <a href="./doc/atomic/typography.html" class="bio-link -item">Flexbox</a> -->
-            <!-- <a href="./doc/atomic/typography.html" class="bio-link -item">Image (อัน object fit อ่ะ)</a> -->
-            <!-- <a href="./doc/atomic/image.html" class="bio-link -item">Image[WIP]</a>
-            <a href="./doc/atomic/alignment.html" class="bio-link -item">Alignment[WIP]</a> -->
+            <!-- <a href="./doc/atomic/image.html" class="bio-link -item">Image[WIP]</a> -->
           </div>
         </div>
 
@@ -179,14 +193,17 @@
           <div class="bio-accordion-content _pdv-8px">
 
             <router-link
+              :to="{ name: 'LayoutContainer' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Container
+            </router-link>
+            <router-link
               :to="{ name: 'LayoutResponsiveGrid' }"
               class="bio-link -item"
               :active-class="'-active'">
               Responsive Grid
             </router-link>
-            <!-- <a href="./doc/layouts/layout.html" class="bio-link -item">About Layout</a>
-            <a href="#" class="bio-link -item">Container</a>
-            <a href="#" class="bio-link -item">Responsive Grid</a> -->
           </div>
         </div>
 
@@ -194,8 +211,18 @@
           <input id="accordion-utilities" type="checkbox" checked>
           <label for="accordion-utilities" class="_fw-500 _fs-5"><strong>Utilities</strong></label>
           <div class="bio-accordion-content _pdv-8px">
-            <!-- <a href="./doc/utilities/utility.html" class="bio-link -item">About Utility</a>
-            <a href="#" class="bio-link -item">Rise</a> -->
+            <router-link
+              :to="{ name: 'UtilityAnimation' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Animation
+            </router-link>
+            <router-link
+              :to="{ name: 'UtilityRise' }"
+              class="bio-link -item"
+              :active-class="'-active'">
+              Rise
+            </router-link>
           </div>
         </div>
       </div>

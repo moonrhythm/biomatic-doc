@@ -2,7 +2,7 @@
   <div>
     <div class="_pdv-48px">
 
-      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
+      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-margin" class="bio-link -primary"><strong>#</strong></a> Margin
       </div>
 
@@ -234,8 +234,8 @@
         </div>
         <div>
           <h5 class="_mgbt-16px _tal-r">ต่อไป</h5>
-          <router-link :to="{ name: 'AtomicOpacity' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
-            Opacity &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
+          <router-link :to="{ name: 'AtomicObjectFit' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
+            Object Fit &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
           </router-link>
         </div>
       </div>

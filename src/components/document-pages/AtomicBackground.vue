@@ -2,7 +2,7 @@
   <div>
     <div class="_pdv-48px">
 
-      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
+      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#atomic-border" class="bio-link -primary"><strong>#</strong></a> Background
       </div>
 
@@ -417,7 +417,7 @@
         <a href="#atomic-background-position" class="bio-link -primary"><strong>#</strong></a> Background Position
       </div>
       <p class="_mgbt-64px _fs-5">
-        ใช้กำหนดรูปแบบการตำแหน่งของ Background
+        ใช้กำหนดตำแหน่งการจัดวางของ Background
       </p>
 
       <p class="_mgbt-4px _fs-5">

@@ -13,7 +13,7 @@
           <HomeGettingStartSetup class="_mgbt-32px"/>
           <!-- <HomeGettingStartBasic /> -->
           <div class="_tal-ct _dp-f _jtfct-ct">
-            <router-link :to="{ name: 'Introduction' }" class="bio-button -accent _w-256px u-hover-rise"><strong>อ่านวิธีใช้งาน</strong></router-link>
+            <router-link :to="{ name: 'Introduction' }" class="bio-button -accent _w-256px u-rise"><strong>อ่านวิธีใช้งาน</strong></router-link>
           </div>
         </div>
 

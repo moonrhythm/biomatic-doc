@@ -1,7 +1,7 @@
 <template>
   <div class="_pdv-48px">
 
-    <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
+    <div class="_fs-2 _fw-600 _lh-150pct _mgbt-16px">
       <a href="#getting-start" class="bio-link -primary"><strong>#</strong></a> การใช้งาน
     </div>
 
@@ -92,11 +92,11 @@ background-color: primary (เป็นค่าคงที่ของ Biomati
 border-radius: 4px,
 font-size: 4 (เป็นค่าคงที่ของ Biomatic)
 --&gt;
-&lt;div class="_tal-ct _pd-16px _cl-accent _fs-4 _cl-white _bgcl-primary _bdrd-4px"&gt;
+&lt;div class="_tal-ct _pd-16px _fs-4 _cl-white _bgcl-primary _bdrd-4px"&gt;
   Content
 &lt;/div&gt;</code></pre>
     <div class="u-panel _mgbt-64px _pd-8px">
-      <div class="_tal-ct _pd-16px _cl-accent _fs-4 _cl-white _bgcl-primary _bdrd-4px">Content</div>
+      <div class="_tal-ct _pd-16px _fs-4 _cl-white _bgcl-primary _bdrd-4px">Content</div>
     </div>
 
     <p class="_fs-4 _fw-600 _lh-150pct _mgbt-16px">
@@ -367,13 +367,13 @@ background-color: positive (เป็นค่าคงที่ของ Biomat
     </p>
     <p class="_mgbt-16px _fs-5">
       ใช้ Prefix <code class="language-markup _cl-accent">u-</code> แล้วตามด้วย Value เป็นชื่อ Utility ของ Biomatic
-      เช่น <code class="language-markup _cl-accent">u-animation-pulse</code>, <code class="language-markup _cl-accent">u-hover-rise</code>
+      เช่น <code class="language-markup _cl-accent">u-animation-pulse</code>, <code class="language-markup _cl-accent">u-rise</code>
     </p>
     <pre class="example"><code class="language-markup">&lt;div class="bio-button u-animation-pulse"&gt;bio-button u-animation-pulse&lt;/div&gt;
-&lt;div class="bio-button u-hover-rise"&gt;bio-button u-hover-rise&lt;/div&gt;</code></pre>
+&lt;div class="bio-button u-rise"&gt;bio-button u-rise&lt;/div&gt;</code></pre>
     <div class="_mgbt-48px _pd-8px u-panel">
       <div class="bio-button _mgbt-24px u-animation-pulse">bio-button u-animation-pulse</div>
-      <div class="bio-button u-hover-rise">bio-button u-hover-rise</div>
+      <div class="bio-button u-rise">bio-button u-rise</div>
     </div>
 
     <hr class="_opct-30 _mgbt-32px">

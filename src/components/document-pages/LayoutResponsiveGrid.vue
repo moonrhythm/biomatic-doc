@@ -1,7 +1,7 @@
 <template>
     <div class="_pdv-48px">
 
-      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
+      <div class="_fs-2 _fw-600 _lh-150pct _mgbt-16px">
         <a href="#layout-responsive-grid" class="bio-link -primary"><strong>#</strong></a> Responsive Grid
       </div>
 
@@ -331,20 +331,20 @@ Grid 2-10 when Large width
 
       <hr class="_opct-30 _mgbt-32px">
 
-      <!-- <div class="_dp-f _jtfct-spbtw">
+      <div class="_dp-f _jtfct-spbtw">
         <div>
           <h5 class="_mgbt-16px">ก่อนหน้า</h5>
-          <router-link :to="{ name: 'AtomicDisplay' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
-            <i class="fa fa-long-arrow-left _fs-5"></i>&nbsp;&nbsp;Display
+          <router-link :to="{ name: 'LayoutContainer' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
+            <i class="fa fa-long-arrow-left _fs-5"></i>&nbsp;&nbsp;Container
           </router-link>
         </div>
-        <div>
+        <!-- <div>
           <h5 class="_mgbt-16px _tal-r">ต่อไป</h5>
-          <router-link :to="{ name: 'AtomicMargin' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
-            Margin &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
+          <router-link :to="{ name: 'LayoutResponsiveGrid' }" class="bio-link -fancy _pd-8px _bdrd-2px _fs-5">
+            Responsive Grid &nbsp;&nbsp;<i class="fa fa-long-arrow-right _fs-5"></i>
           </router-link>
-        </div>
-      </div> -->
+        </div> -->
+      </div>
 
     </div>
 

@@ -20,6 +20,7 @@ import {
   ComponentProgress,
   ComponentTooltip,
 
+  LayoutContainer,
   LayoutResponsiveGrid,
 
   AtomicAlignment,
@@ -32,9 +33,15 @@ import {
   AtomicDisplay,
   AtomicFloat,
   AtomicMargin,
+  AtomicObjectFit,
   AtomicOpacity,
+  AtomicOverflow,
   AtomicPadding,
-  AtomicTypography
+  AtomicTypography,
+  AtomicZIndex,
+
+  UtilityAnimation,
+  UtilityRise
 } from '@/components/document-pages'
 
 Vue.use(Router)
@@ -118,6 +125,11 @@ export default new Router({
 
         // Layout
         {
+          path: 'layout/container',
+          name: 'LayoutContainer',
+          component: LayoutContainer
+        },
+        {
           path: 'layout/responsive-grid',
           name: 'LayoutResponsiveGrid',
           component: LayoutResponsiveGrid
@@ -175,9 +187,19 @@ export default new Router({
           component: AtomicMargin
         },
         {
+          path: 'atomic/object-fit',
+          name: 'AtomicObjectFit',
+          component: AtomicObjectFit
+        },
+        {
           path: 'atomic/opacity',
           name: 'AtomicOpacity',
           component: AtomicOpacity
+        },
+        {
+          path: 'atomic/overflow',
+          name: 'AtomicOverflow',
+          component: AtomicOverflow
         },
         {
           path: 'atomic/padding',
@@ -188,6 +210,23 @@ export default new Router({
           path: 'atomic/typography',
           name: 'AtomicTypography',
           component: AtomicTypography
+        },
+        {
+          path: 'atomic/z-index',
+          name: 'AtomicZIndex',
+          component: AtomicZIndex
+        },
+
+        // Utility
+        {
+          path: 'utility/animation',
+          name: 'UtilityAnimation',
+          component: UtilityAnimation
+        },
+        {
+          path: 'utility/rise',
+          name: 'UtilityRise',
+          component: UtilityRise
         }
       ]
     }

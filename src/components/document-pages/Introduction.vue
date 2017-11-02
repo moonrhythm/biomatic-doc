@@ -1,7 +1,7 @@
 <template>
   <div class="_pdv-48px">
 
-    <div class="_fs-2 _fw-600 _lh-150pct _mgbt-32px">
+    <div class="_fs-2 _fw-600 _lh-150pct _mgbt-16px">
       <a href="#getting-start" class="bio-link -primary"><strong>#</strong></a> เกี่ยวกับ Biomatic
     </div>
 
@@ -39,17 +39,17 @@
       <strong>Biomatic แบ่งออกได้เป็น 4 ส่วน</strong>
     </p>
     <p class="_mgbt-8px _fs-5">
-      &nbsp;&nbsp;&nbsp;&nbsp;• <a href="#" class="bio-link -fancy">Atomic Class</a> – ใช้กำหนด Style ให้ HTML Element และใช้ร่วมกับ Class อื่นๆ<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;• <strong>Atomic Class</strong> – ใช้กำหนด Style ให้ HTML Element และใช้ร่วมกับ Class อื่นๆ<br>
     </p>
     <p class="_mgbt-8px _fs-5">
-      &nbsp;&nbsp;&nbsp;&nbsp;• <a href="#" class="bio-link -fancy">Component Class</a> – ใช้แสดงผล Components พื้นฐานต่างๆ เช่น <a class="bio-link" href="#">Button</a>, <a class="bio-link" href="#">Breadcrumb</a> หรือ <a class="bio-link" href="#">Card</a><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;• <strong>Component Class</strong> – ใช้แสดงผล Components พื้นฐานต่างๆ เช่น Button, Breadcrumb หรือ Card<br>
     </p>
     <p class="_mgbt-8px _fs-5">
-      &nbsp;&nbsp;&nbsp;&nbsp;• <a href="#" class="bio-link -fancy">Layout Class</a> –
-      ใช้จัดการ <a class="bio-link" href="#">Responsive Grid</a>, และ <a class="bio-link" href="#">Container</a> ต่างๆ
+      &nbsp;&nbsp;&nbsp;&nbsp;• <strong>Layout Class</strong> –
+      ใช้จัดการ Responsive Grid, และ Container ต่างๆ
     </p>
     <p class="_mgbt-64px _fs-5">
-      &nbsp;&nbsp;&nbsp;&nbsp;• <a href="#" class="bio-link -fancy">Utility Class</a> – ใช้เพิ่มพฤติกรรมที่มีความซับซ้อนให้ HTML Element เช่น Animation
+      &nbsp;&nbsp;&nbsp;&nbsp;• <strong>Utility Class</strong> – ใช้เพิ่มพฤติกรรมที่มีความซับซ้อนให้ HTML Element เช่น Animation
     </p>
     <p class="_mgbt-32px _fs-5">
       ปัจจุบัน Biomatic ทำการ Build รวม Class ทั้งหมดไว้เป็น Minified Complied CSS เพียงไฟล์เดียว

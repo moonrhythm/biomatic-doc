@@ -139,7 +139,7 @@ Warning background color on SMALL size or upper,
       <div class="_tal-ct _pdl-16px _mgbt-16px">
         <div class="_dp-f _fdrt-cl _fdrt-r-sm _alit-fst-sm _mgbt-8px">
           <div class="bio-button _mgr-8px _mgbt-24px _mgbt-0px-sm u-animation-pulse">bio-button u-animation-pulse</div>
-          <div class="bio-button u-hover-rise">bio-button u-hover-rise</div>
+          <div class="bio-button u-rise">bio-button u-rise</div>
         </div>
       </div>
 
