@@ -5,7 +5,7 @@
       <a href="#getting-start" class="bio-link -primary"><strong>#</strong></a> เกี่ยวกับ Biomatic
     </div>
 
-    <div class="_fs-3 _fw-600 _lh-150pct _mgbt-16px">
+    <div class="_fs-3 _fw-600 _lh-150pct _mgbt-64px">
       สวัสดี, ยินดีที่ได้รู้จัก &nbsp;🎉
     </div>
 
