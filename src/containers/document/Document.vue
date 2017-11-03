@@ -127,8 +127,6 @@
               :active-class="'-active'">
               Z-Index
             </router-link>
-
-            <!-- <a href="./doc/atomic/image.html" class="bio-link -item">Image[WIP]</a> -->
           </div>
         </div>
 
