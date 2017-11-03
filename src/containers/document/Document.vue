@@ -227,7 +227,9 @@
 
       <!-- Content -->
       <div class="_pdh-16px _pdh-64px-sm _pdv-0px _mgl-0px _mgl-256px-sm _f-1 _ovf-at">
-        <router-view style="max-width: 800px"></router-view>
+        <transition name="slide">
+          <router-view style="max-width: 800px"></router-view>
+        </transition>
       </div>
     </div>
   </div>
@@ -244,5 +246,20 @@
     top: 60px;
     height: calc(100vh - 50px);
   }
+
+  .slide-enter-active, .slide-leave-active {
+    transition-property: all;
+    transition-duration: .25s;
+  }
+
+  .slide-enter-active {
+    transition-delay: .25s;
+  }
+
+  .slide-enter, .slide-leave-active {
+    transform: translateY(5px);
+    opacity: 0
+  }
+
 </style>
 
