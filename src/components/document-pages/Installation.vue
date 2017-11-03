@@ -22,7 +22,7 @@
     <p class="_mgbt-16px _fs-5">
       <strong>วิธีที่ 2</strong> – ดาวโหลด Complied CSS 👌
     </p>
-    <a class="bio-button -accent -outline _mxw-256px _mgbt-64px" href="https://github.com/BioMaRu/biomatic/releases/download/v0.1.1/biomatic.full.min.css.zip">
+    <a class="bio-button -accent -outline _mxw-256px _mgbt-64px" href="https://github.com/BioMaRu/biomatic/releases/download/v0.1.2/biomatic.full.min.css.zip">
       ดาวน์โหลด Biomatic
     </a>
     <p class="_mgbt-8px _fs-5">
