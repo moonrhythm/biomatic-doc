@@ -24,7 +24,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>biomatic-ui</title>
+    <title>Biomatic-UI</title>
     <link rel="icon" type="image/png" sizes="32x32" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-plain.png">
     <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon-plain.png"><![endif]-->
 
@@ -46,12 +46,21 @@
     <meta name="msapplication-TileImage" content="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/msapplication-icon-144x144.png">
     <meta name="msapplication-TileColor" content="#000000">
 
+    <!-- Facebook OG -->
+    <meta property="og:url" content="https://biomatic-ui.com/">
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="Biomatic UI">
+    <meta property="og:description" content="A Flexible Atomic-Focused CSS Framework">
+    <meta property="og:site_name" content="Biomatic UI">
+    <meta property="og:locale" content="th_TH">
+    <meta property="og:image" content="https://biomatic-ui.com/static/img/og-image.png">
+
     <% for (var chunk of webpack.chunks) {
         for (var file of chunk.files) {
           if (file.match(/\.(js|css)$/)) { %>
     <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>"><% }}} %>
 
-    <link href="/static/biomatic.css" rel="stylesheet">
+    <link href="/static/biomatic.full.min.css" rel="stylesheet">
     <link href="/static/prism-github.css" rel="stylesheet">
 
   </head>

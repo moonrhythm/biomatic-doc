@@ -16,7 +16,7 @@
         </router-link>
 
         <div>
-          <small>เวอร์ชั่นล่าสุด 0.0.5 (stable beta)</small>
+          <small>เวอร์ชั่นล่าสุด 0.1.3</small>
         </div>
       </div>
 

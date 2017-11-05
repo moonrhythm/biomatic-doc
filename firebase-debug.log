@@ -1,0 +1,38 @@
+[debug] [2017-11-05T15:54:41.493Z] ----------------------------------------------------------------------
+[debug] [2017-11-05T15:54:41.495Z] Command:       /Users/speedstars/.nvm/versions/node/v7.9.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-11-05T15:54:41.496Z] CLI Version:   3.13.1
+[debug] [2017-11-05T15:54:41.496Z] Platform:      darwin
+[debug] [2017-11-05T15:54:41.496Z] Node Version:  v7.9.0
+[debug] [2017-11-05T15:54:41.496Z] Time:          Sun Nov 05 2017 22:54:41 GMT+0700 (+07)
+[debug] [2017-11-05T15:54:41.497Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-05T15:54:41.515Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-05T15:54:41.515Z] > authorizing via signed-in user
+[debug] [2017-11-05T15:54:41.517Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-05T15:54:41.518Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/XULED7HompCe11DLs9059f8MgTuCgJ-insKh2Gf3Ios',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Nov 05 2017 22:54:41 GMT+0700 (+07)
+[debug] [2017-11-05T15:54:41.893Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-05T15:54:41.901Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/biomatic-doc  
+ Sun Nov 05 2017 22:54:41 GMT+0700 (+07)
+[debug] [2017-11-05T15:54:43.287Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-05T15:54:43.288Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/biomatic-doc/tokens  
+ Sun Nov 05 2017 22:54:43 GMT+0700 (+07)
+[debug] [2017-11-05T15:54:44.502Z] <<< HTTP RESPONSE 200
+[info] 3
+[info] 
+[info] === Deploying to 'biomatic-doc'...
+[info] 
+[info] i  deploying database, functions, hosting
+[info] i  database: checking rules syntax...
+[debug] [2017-11-05T15:54:47.331Z] >>> HTTP REQUEST PUT https://biomatic-doc.firebaseio.com/.settings/rules.json?dryRun=true {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+ 
+ Sun Nov 05 2017 22:54:47 GMT+0700 (+07)
