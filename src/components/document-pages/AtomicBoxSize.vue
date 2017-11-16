@@ -48,7 +48,7 @@
               <p>
                 <code class="_cl-accent">_w-*</code>,
                 <code class="_cl-accent">_h-*</code>,
-                <code class="_cl-accent">_mxh-*</code>
+                <code class="_cl-accent">_mxw-*</code>
               </p>
             </td>
             <td>

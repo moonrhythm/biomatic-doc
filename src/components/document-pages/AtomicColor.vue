@@ -84,7 +84,7 @@
 &lt;p class="_cl-warning"&gt;Hello World&lt;/p&gt;
 &lt;p class="_cl-info"&gt;Hello World&lt;/p&gt;
 
-&lt;!-- Fray Scale Color --&gt;
+&lt;!-- Gray Scale Color --&gt;
 &lt;p class="_cl-white"&gt;Hello World&lt;/p&gt;
 &lt;p class="_cl-gray"&gt;Hello World&lt;/p&gt;
 &lt;p class="_cl-dark"&gt;Hello World&lt;/p&gt;
@@ -105,7 +105,7 @@
       </div>
 
       <p class="_mgbt-8px _fs-5">
-        <strong>ตัวอย่างการใช้งาน Main Color – Primary พร้อม Weigth Modifier</strong>
+        <strong>ตัวอย่างการใช้งาน Main Color – Primary พร้อม Weight Modifier</strong>
       </p>
       <pre class="example"><code class="language-markup">&lt;!-- Primary Color --&gt;
 &lt;p class="_cl-primary-100"&gt;Hello World&lt;/p&gt;
@@ -131,7 +131,7 @@
       </div>
 
       <p class="_mgbt-8px _fs-5">
-        <strong>ตัวอย่างการใช้งาน Main Color – Accent พร้อม Weigth Modifier</strong>
+        <strong>ตัวอย่างการใช้งาน Main Color – Accent พร้อม Weight Modifier</strong>
       </p>
       <pre class="example"><code class="language-markup">&lt;!-- Accent Color --&gt;
 &lt;p class="_cl-accent-100"&gt;Hello World&lt;/p&gt;
@@ -157,7 +157,7 @@
       </div>
 
       <p class="_mgbt-8px _fs-5">
-        <strong>ตัวอย่างการใช้งาน Main Color – Neutral พร้อม Weigth Modifier</strong>
+        <strong>ตัวอย่างการใช้งาน Main Color – Neutral พร้อม Weight Modifier</strong>
       </p>
       <pre class="example"><code class="language-markup">&lt;!-- Neutral Color --&gt;
 &lt;p class="_cl-neutral-100"&gt;Hello World&lt;/p&gt;
