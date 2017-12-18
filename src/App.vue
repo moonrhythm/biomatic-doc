@@ -143,5 +143,6 @@
     border-top-right-radius: 3px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    margin-bottom: 0px;
   }
 </style>
