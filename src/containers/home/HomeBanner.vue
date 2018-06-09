@@ -16,7 +16,7 @@
         </router-link>
 
         <div>
-          <small>เวอร์ชั่นล่าสุด 0.1.3</small>
+          <small>เวอร์ชั่นล่าสุด 0.1.17</small>
         </div>
       </div>
 
